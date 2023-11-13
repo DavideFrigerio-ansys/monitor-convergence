@@ -1,0 +1,2802 @@
+$begin 'AnsoftProject'
+	Created='Thu Mar 02 13:18:51 2017'
+	Product='ElectronicsDesktop'
+	FileOwnedByWorkbench=false
+	$begin 'Desktop'
+		Version(2023, 2)
+		InfrastructureVersion(1, 0)
+		$begin 'FactoryHeader'
+			$begin 'geometry3deditor'
+				KernelVersion(2, 0)
+				ProjectContainsGeometry3D='1'
+			$end 'geometry3deditor'
+		$end 'FactoryHeader'
+	$end 'Desktop'
+	UsesAdvancedFeatures=false
+	NextUniqueID=0
+	MoveBackwards=false
+	$begin 'HFSSEnvironment'
+		Version(1, 0)
+	$end 'HFSSEnvironment'
+	$begin 'PlanarEMEnvironment'
+		Version(1, 0)
+	$end 'PlanarEMEnvironment'
+	$begin 'Q3DEnvironment'
+		Version(1, 0)
+	$end 'Q3DEnvironment'
+	$begin '2DExtractorEnvironment'
+		Version(1, 0)
+	$end '2DExtractorEnvironment'
+	$begin 'NexximEnvironment'
+		Version(1, 0)
+	$end 'NexximEnvironment'
+	$begin 'NexximNetlistEnvironment'
+		Version(1, 0)
+	$end 'NexximNetlistEnvironment'
+	$begin 'EmitEnvironment'
+		Version(1, 0)
+	$end 'EmitEnvironment'
+	$begin 'Maxwell3DEnvironment'
+		Version(1, 0)
+	$end 'Maxwell3DEnvironment'
+	$begin 'Maxwell2DEnvironment'
+		Version(1, 0)
+	$end 'Maxwell2DEnvironment'
+	$begin 'RMxprtEnvironment'
+		Version(1, 0)
+	$end 'RMxprtEnvironment'
+	$begin 'MaxCirEnvironment'
+		Version(1, 0)
+	$end 'MaxCirEnvironment'
+	$begin 'SimplorerEnvironment'
+		Version(1, 0)
+	$end 'SimplorerEnvironment'
+	$begin 'IcepakEnvironment'
+		Version(1, 0)
+	$end 'IcepakEnvironment'
+	$begin 'MechanicalEnvironment'
+		Version(1, 0)
+	$end 'MechanicalEnvironment'
+	$begin 'SchematicEnvironment'
+		Version(1, 0)
+	$end 'SchematicEnvironment'
+	$begin 'geometry3deditor'
+		Version(1, 0)
+	$end 'geometry3deditor'
+	ReadVersion=11
+	$begin 'DesignMgrEnvironment'
+		CompInstCounter=1
+		GPortCounter=0
+		NetCounter=0
+		Alias('Ieee;Simplorer Elements\\Ieee', 'Std;Simplorer Elements\\Std', 'Basic_VHDLAMS;Simplorer Elements\\Basic Elements VHDLAMS\\Basic Elements VHDLAMS', 'Digital_Elements;Simplorer Elements\\Digital Elements\\Digital Elements', 'Transformations;Simplorer Elements\\Tools\\Transformations\\Transformations', 'HEV_VHDLAMS;Simplorer Elements\\HEV VHDLAMS\\HEV VHDLAMS', 'automotive_vda;Simplorer Elements\\VDALibs VHDLAMS\\automotive_vda', 'example_boardnet;Simplorer Elements\\VDALibs VHDLAMS\\example_boardnet', 'example_ecar;Simplorer Elements\\VDALibs VHDLAMS\\example_ecar', 'fundamentals_vda;Simplorer Elements\\VDALibs VHDLAMS\\fundamentals_vda', 'hybrid_emc_vda;Simplorer Elements\\VDALibs VHDLAMS\\hybrid_emc_vda', 'megma;Simplorer Elements\\VDALibs VHDLAMS\\megma', 'modelica_rotational;Simplorer Elements\\VDALibs VHDLAMS\\modelica_rotational', 'modelica_thermal;Simplorer Elements\\VDALibs VHDLAMS\\modelica_thermal', 'modelica_translational;Simplorer Elements\\VDALibs VHDLAMS\\modelica_translational', 'spice2vhd;Simplorer Elements\\VDALibs VHDLAMS\\spice2vhd', 'spice2vhd_devices;Simplorer Elements\\VDALibs VHDLAMS\\spice2vhd_devices', 'aircraft_electrical_vhdlams;Simplorer Elements\\Aircraft Electrical VHDLAMS\\Aircraft Electrical VHDLAMS', 'power_system_vhdlams;Simplorer Elements\\Power System VHDLAMS\\Power System VHDLAMS')
+	$end 'DesignMgrEnvironment'
+	$begin 'ProjectDatasets'
+		NextUniqueID=1
+		MoveBackwards=false
+		DatasetType='ProjectDatasetType'
+		$begin 'DatasetDefinitions'
+			$begin '$Ceramic_material_39'
+				ID=0
+				$begin 'Coordinates'
+					DimUnits[2: '', '']
+					Points[8: -273.15, 0.067032967032967, -196.15, 0.067032967032967, 99.85, 1, 726.85, 1]
+				$end 'Coordinates'
+			$end '$Ceramic_material_39'
+		$end 'DatasetDefinitions'
+	$end 'ProjectDatasets'
+	VariableOrders[0:]
+	$begin 'Definitions'
+		$begin 'Materials'
+			$begin 'Al-Extruded'
+				CoordinateSystemType='Cartesian'
+				BulkOrSurfaceType=1
+				$begin 'PhysicsTypes'
+					set('Thermal')
+				$end 'PhysicsTypes'
+				$begin 'AttachedData'
+					$begin 'MatAppearanceData'
+						property_data='appearance_data'
+						Red=232
+						Green=235
+						Blue=235
+					$end 'MatAppearanceData'
+				$end 'AttachedData'
+				thermal_conductivity='205'
+				mass_density='2800'
+				specific_heat='900'
+				$begin 'thermal_material_type'
+					property_type='ChoiceProperty'
+					Choice='Solid'
+				$end 'thermal_material_type'
+				$begin 'clarity_type'
+					property_type='ChoiceProperty'
+					Choice='Opaque'
+				$end 'clarity_type'
+				ModTime=1592011950
+				Library='Materials'
+				LibLocation='SysLibrary'
+				ModSinceLib=false
+			$end 'Al-Extruded'
+			$begin 'air'
+				CoordinateSystemType='Cartesian'
+				BulkOrSurfaceType=1
+				$begin 'PhysicsTypes'
+					set('Electromagnetic', 'Thermal')
+				$end 'PhysicsTypes'
+				$begin 'AttachedData'
+					$begin 'MatAppearanceData'
+						property_data='appearance_data'
+						Red=230
+						Green=230
+						Blue=230
+						Transparency=0.949999988079071
+					$end 'MatAppearanceData'
+				$end 'AttachedData'
+				permittivity='1.0006'
+				permeability='1.0000004'
+				thermal_conductivity='0.0261'
+				mass_density='1.1614'
+				specific_heat='1005'
+				thermal_expansion_coefficient='0.00333'
+				$begin 'thermal_material_type'
+					property_type='ChoiceProperty'
+					Choice='Fluid'
+				$end 'thermal_material_type'
+				diffusivity='2.88e-05'
+				molecular_mass='0.028966'
+				viscosity='1.84e-05'
+				material_refractive_index='1.000293'
+				$begin 'clarity_type'
+					property_type='ChoiceProperty'
+					Choice='Transparent'
+				$end 'clarity_type'
+				ModTime=1592011950
+				Library='Materials'
+				LibLocation='SysLibrary'
+				ModSinceLib=false
+			$end 'air'
+			$begin 'PCB_Material'
+				CoordinateSystemType='Cartesian'
+				BulkOrSurfaceType=1
+				$begin 'PhysicsTypes'
+					set('Thermal')
+				$end 'PhysicsTypes'
+				$begin 'thermal_conductivity'
+					property_type='AnisoProperty'
+					unit=''
+					component1='20'
+					component2='2'
+					component3='20'
+				$end 'thermal_conductivity'
+				mass_density='1'
+				specific_heat='1'
+				thermal_expansion_coefficient='1'
+				ModTime=1488480428
+				Library=''
+				LibLocation='Project'
+				ModSinceLib=true
+			$end 'PCB_Material'
+			$begin 'Ceramic_material'
+				CoordinateSystemType='Cartesian'
+				BulkOrSurfaceType=1
+				$begin 'PhysicsTypes'
+					set('Thermal')
+				$end 'PhysicsTypes'
+				$begin 'ModifierData'
+					$begin 'ThermalModifierData'
+						modifier_data='thermal_modifier_data'
+						$begin 'all_thermal_modifiers'
+							$begin 'one_thermal_modifier'
+								'Property:'='specific_heat'
+								'Index:'=0
+								prop_modifier='thermal_modifier'
+								use_free_form=true
+								free_form_value='pwl($Ceramic_material_39,Temp)'
+							$end 'one_thermal_modifier'
+						$end 'all_thermal_modifiers'
+					$end 'ThermalModifierData'
+				$end 'ModifierData'
+				thermal_conductivity='15'
+				mass_density='3970'
+				specific_heat='910'
+				$begin 'thermal_material_type'
+					property_type='ChoiceProperty'
+					Choice='Solid'
+				$end 'thermal_material_type'
+				ModTime=1464034846
+				Library='Materials'
+				LibLocation='SysLibrary'
+				ModSinceLib=false
+			$end 'Ceramic_material'
+		$end 'Materials'
+		$begin 'SurfaceMaterials'
+			$begin 'Steel-oxidised-surface'
+				CoordinateSystemType='Cartesian'
+				BulkOrSurfaceType=2
+				$begin 'PhysicsTypes'
+					set('Thermal')
+				$end 'PhysicsTypes'
+				surface_emissivity='0.8'
+				ModTime=1461288057
+				Library='SurfaceMaterials'
+				LibLocation='SysLibrary'
+				ModSinceLib=false
+			$end 'Steel-oxidised-surface'
+		$end 'SurfaceMaterials'
+		$begin 'Scripts'
+		$end 'Scripts'
+		$begin 'Symbols'
+			$begin 'IcepakDesign1'
+				ModTime=1488469606
+				Library=''
+				ModSinceLib=false
+				LibLocation='Project'
+				HighestLevel=1
+				Normalize=true
+				InitialLevels(0, 1)
+				$begin 'Graphics'
+					Rect(0, 0, 0, 0, 0.00254, 0.00254, 0.00508, 0.00508, 0, 0, 0)
+					Rect(0, 1, 0, 0, 0.000423333333333333, 0.00254, 0.000423333333333333, 0.000423333333333334, 0, 0, 0)
+				$end 'Graphics'
+			$end 'IcepakDesign1'
+		$end 'Symbols'
+		$begin 'DefInfo'
+			IcepakDesign1(1002, 0, 0, 0, '', 1488469606, '', 'IcepakDesign1', '', '', '', '', '', 'Design.bmp', '', 'Project', '', '', 1488469606, '', 0, 0)
+		$end 'DefInfo'
+		$begin 'Compdefs'
+			$begin 'IcepakDesign1'
+				Library=''
+				CircuitEnv=0
+				Refbase='U'
+				NumParts=1
+				ModSinceLib=true
+				$begin 'Properties'
+					TextProp('Representation', 'SRD', '', 'IcepakDesign1')
+					TextProp('Owner', 'SRD', '', 'Icepak')
+				$end 'Properties'
+				CompExtID=6
+				$begin 'Parameters'
+					ButtonProp('CosimDefinition', 'D', '', '', 'Edit', 40501, ButtonPropClientData())
+					MenuProp('CoSimulator', 'D', '', 'DefaultNetlist', 0)
+				$end 'Parameters'
+				$begin 'CosimDefinitions'
+					$begin 'CosimDefinition'
+						CosimulatorType=4
+						CosimDefName='DefaultNetlist'
+						IsDefinition=true
+						Connect=true
+						Data()
+						GRef()
+					$end 'CosimDefinition'
+					DefaultCosim='DefaultNetlist'
+				$end 'CosimDefinitions'
+			$end 'IcepakDesign1'
+		$end 'Compdefs'
+	$end 'Definitions'
+	DesignIDServer=2
+	MoveBackwards=false
+	$begin 'IcepakModel'
+		RepRewriteV2=true
+		Name='IcepakDesign1'
+		DesignID=0
+		'Perform Minimal validation'=false
+		'Default Fluid Material'='air'
+		'Default Solid Material'='Al-Extruded'
+		'Default Surface Material'='Steel-Oxidised-surface'
+		AmbientTemperature='20cel'
+		AmbientPressure='0n_per_meter_sq'
+		AmbientRadiationTemperature='20cel'
+		'Gravity Vector CS ID'=1
+		'Gravity Vector Axis'='X'
+		Positive=true
+		ExportOnSimulationComplete=false
+		ExportDirectory=''
+		SherlockExportOnSimulationComplete=false
+		SherlockExportAsFatigue=true
+		SherlockExportDirectory='C:/Program Files/AnsysEM/v232/Win64/Examples/Icepak/Graphics_Card.aedtexport/IcepakDesign1/'
+		AutoLaunchMeshViewer=true
+		MeshCadAsLightWeight=true
+		EnableTransitionTemplate=false
+		TempSecondaryGradientSkewMesh=false
+		EnableMeshByLayerFor2DMLM=false
+		BoundaryBasedMeshRefinement=false
+		EnableAltitudeEffects=false
+		UpdateFanCurve=false
+		Altitude='0meter'
+		$begin 'SolutionTypeOption'
+			SolutionTypeOption='SteadyState'
+			ProblemOption='TemperatureAndFlow'
+		$end 'SolutionTypeOption'
+		$begin 'OutputVariable'
+			NextUniqueID=0
+			MoveBackwards=false
+		$end 'OutputVariable'
+		$begin 'ModelSetup'
+			$begin 'DesignDatasets'
+				NextUniqueID=0
+				MoveBackwards=false
+				DatasetType='DesignDatasetType'
+				$begin 'DatasetDefinitions'
+				$end 'DatasetDefinitions'
+			$end 'DesignDatasets'
+			VariableOrders[0:]
+			$begin 'Editor3D Doc Preferences'
+				'Plane Background'=true
+				BackgroundColor1=16777215
+				BackgroundColor2=0
+				'Need Lights'=true
+				'Ambient Light'=9671571
+				'Num Lights'=4
+				Light0[4: 6710886, 0, -1, -0.150000005960464]
+				Light1[4: 6710886, -0.600000023841858, 0.100000001490116, -0.5]
+				Light2[4: 6710886, 0.5, 0.100000001490116, -0.5]
+				Light3[4: 6710886, 0.200000002980232, 0.400000005960464, 1]
+				Ver=2
+			$end 'Editor3D Doc Preferences'
+			SnapMode=31
+			WorkingCS=1
+			$begin 'GeometryCore'
+				BlockVersionID=3
+				DataVersion=22
+				NativeKernel='PARASOLID'
+				NativeKernelVersionID=23
+				Units='mm'
+				ModelExtents=10000
+				InstanceID=-1
+				$begin 'ValidationOptions'
+					EntityCheckLevel='Strict'
+					IgnoreUnclassifiedObjects=false
+					SkipIntersectionChecks=false
+				$end 'ValidationOptions'
+				ContainsGeomLinkUDM=false
+				$begin 'GeometryOperations'
+					BlockVersionID=2
+					$begin 'AnsoftRangedIDServerManager'
+						$begin 'AnsoftRangedIDServer'
+							IDServerObjectTypeID=0
+							IDServerRangeMin=0
+							IDServerRangeMax=2146483647
+							NextUniqueID=553
+							MoveBackwards=false
+						$end 'AnsoftRangedIDServer'
+						$begin 'AnsoftRangedIDServer'
+							IDServerObjectTypeID=1
+							IDServerRangeMin=2146483648
+							IDServerRangeMax=2146485547
+							NextUniqueID=2146483654
+							MoveBackwards=false
+						$end 'AnsoftRangedIDServer'
+					$end 'AnsoftRangedIDServerManager'
+					StartBackGroundFaceID=2146483648
+					$begin 'CoordinateSystems'
+					$end 'CoordinateSystems'
+					$begin 'OperandCSs'
+					$end 'OperandCSs'
+					$begin 'SubModelDefinitions'
+					$end 'SubModelDefinitions'
+					$begin 'Groups'
+						$begin 'Group'
+							GroupID=477
+							$begin 'Attributes'
+								Name='graphics_card_simple'
+								ParentGroupID=-1
+							$end 'Attributes'
+						$end 'Group'
+					$end 'Groups'
+					$begin 'UserDefinedModels'
+					$end 'UserDefinedModels'
+					$begin 'OperandUserDefinedModels'
+					$end 'OperandUserDefinedModels'
+					$begin 'ToplevelParts'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='Region'
+								Flags='Wireframe#'
+								Color='(255 0 0)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=-1
+								MaterialValue='"air"'
+								SurfaceMaterialValue='""'
+								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
+								ReferenceTemperature='20cel'
+								IsMaterialEditable=true
+								UseMaterialAppearance=false
+								IsLightweight=false
+								IsAlwaysHidden=false
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='Region'
+									ID=5
+									ReferenceCoordSystemID=1
+									$begin 'RegionParameters'
+										KernelVersion=23
+										'+XPaddingType'='Percentage Offset'
+										'+XPadding'='100'
+										'-XPaddingType'='Percentage Offset'
+										'-XPadding'='100'
+										'+YPaddingType'='Percentage Offset'
+										'+YPadding'='100'
+										'-YPaddingType'='Percentage Offset'
+										'-YPadding'='100'
+										'+ZPaddingType'='Percentage Offset'
+										'+ZPadding'='100'
+										'-ZPaddingType'='Percentage Offset'
+										'-ZPadding'='100'
+										$begin 'BoxForVirtualObjects'
+											LowPoint[3: 1, 1, 1]
+											HighPoint[3: -1, -1, -1]
+										$end 'BoxForVirtualObjects'
+									$end 'RegionParameters'
+									ParentPartID=6
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=6
+											NumWires=0
+											NumLoops=6
+											NumCoedges=24
+											NumEdges=12
+											NumVertices=8
+										$end 'Topology'
+										BodyID=6
+										StartFaceID=7
+										StartEdgeID=13
+										StartVertexID=25
+										NumNewFaces=6
+										NumNewEdges=12
+										NumNewVertices=8
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										IsXZ2DModeler=false
+									$end 'OperationIdentity'
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='SERIAL_PORT'
+								Flags=''
+								Color='(192 192 192)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=477
+								MaterialValue='"Ceramic_material"'
+								SurfaceMaterialValue='"Steel-oxidised-surface"'
+								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
+								ReferenceTemperature='20cel'
+								IsMaterialEditable=true
+								UseMaterialAppearance=false
+								IsLightweight=false
+								IsAlwaysHidden=false
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='NativeBody'
+									ID=33
+									ReferenceCoordSystemID=1
+									$begin 'NativeBodyParameters'
+										KernelVersion=9
+										SourceFile='D:\\AnsysEM\\AnsysEM18.1\\Win64\\Examples\\Icepak\\Graphics Card\\graphics_card_simple.stp'
+									$end 'NativeBodyParameters'
+									ParentPartID=34
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=6
+											NumWires=0
+											NumLoops=6
+											NumCoedges=24
+											NumEdges=12
+											NumVertices=8
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=0
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+									BodyType='BRepBody'
+									$begin 'BodyBlock'
+										BodyFileNamesVec[1: '0000034.x_b']
+									$end 'BodyBlock'
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='MEMORY1'
+								Flags=''
+								Color='(0 0 0)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=477
+								MaterialValue='"Ceramic_material"'
+								SurfaceMaterialValue='"Steel-oxidised-surface"'
+								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
+								ReferenceTemperature='20cel'
+								IsMaterialEditable=true
+								UseMaterialAppearance=true
+								IsLightweight=false
+								IsAlwaysHidden=false
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='NativeBody'
+									ID=61
+									ReferenceCoordSystemID=1
+									$begin 'NativeBodyParameters'
+										KernelVersion=9
+										SourceFile='D:\\AnsysEM\\AnsysEM18.1\\Win64\\Examples\\Icepak\\Graphics Card\\graphics_card_simple.stp'
+									$end 'NativeBodyParameters'
+									ParentPartID=62
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=6
+											NumWires=0
+											NumLoops=6
+											NumCoedges=24
+											NumEdges=12
+											NumVertices=8
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=0
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+									BodyType='BRepBody'
+									$begin 'BodyBlock'
+										BodyFileNamesVec[1: '0000062.x_b']
+									$end 'BodyBlock'
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='MEMORY1_1'
+								Flags=''
+								Color='(0 0 0)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=477
+								MaterialValue='"Ceramic_material"'
+								SurfaceMaterialValue='"Steel-oxidised-surface"'
+								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
+								ReferenceTemperature='20cel'
+								IsMaterialEditable=true
+								UseMaterialAppearance=true
+								IsLightweight=false
+								IsAlwaysHidden=false
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='NativeBody'
+									ID=89
+									ReferenceCoordSystemID=1
+									$begin 'NativeBodyParameters'
+										KernelVersion=9
+										SourceFile='D:\\AnsysEM\\AnsysEM18.1\\Win64\\Examples\\Icepak\\Graphics Card\\graphics_card_simple.stp'
+									$end 'NativeBodyParameters'
+									ParentPartID=90
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=6
+											NumWires=0
+											NumLoops=6
+											NumCoedges=24
+											NumEdges=12
+											NumVertices=8
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=0
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+									BodyType='BRepBody'
+									$begin 'BodyBlock'
+										BodyFileNamesVec[1: '0000090.x_b']
+									$end 'BodyBlock'
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='CAPACITOR'
+								Flags=''
+								Color='(0 128 255)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=477
+								MaterialValue='"Ceramic_material"'
+								SurfaceMaterialValue='"Steel-oxidised-surface"'
+								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
+								ReferenceTemperature='20cel'
+								IsMaterialEditable=true
+								UseMaterialAppearance=false
+								IsLightweight=false
+								IsAlwaysHidden=false
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='NativeBody'
+									ID=117
+									ReferenceCoordSystemID=1
+									$begin 'NativeBodyParameters'
+										KernelVersion=9
+										SourceFile='D:\\AnsysEM\\AnsysEM18.1\\Win64\\Examples\\Icepak\\Graphics Card\\graphics_card_simple.stp'
+									$end 'NativeBodyParameters'
+									ParentPartID=118
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=4
+											NumWires=0
+											NumLoops=4
+											NumCoedges=12
+											NumEdges=6
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=0
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+									BodyType='BRepBody'
+									$begin 'BodyBlock'
+										BodyFileNamesVec[1: '0000118.x_b']
+									$end 'BodyBlock'
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='CAPACITOR_1'
+								Flags=''
+								Color='(0 128 255)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=477
+								MaterialValue='"Ceramic_material"'
+								SurfaceMaterialValue='"Steel-oxidised-surface"'
+								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
+								ReferenceTemperature='20cel'
+								IsMaterialEditable=true
+								UseMaterialAppearance=true
+								IsLightweight=false
+								IsAlwaysHidden=false
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='NativeBody'
+									ID=133
+									ReferenceCoordSystemID=1
+									$begin 'NativeBodyParameters'
+										KernelVersion=9
+										SourceFile='D:\\AnsysEM\\AnsysEM18.1\\Win64\\Examples\\Icepak\\Graphics Card\\graphics_card_simple.stp'
+									$end 'NativeBodyParameters'
+									ParentPartID=134
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=4
+											NumWires=0
+											NumLoops=4
+											NumCoedges=12
+											NumEdges=6
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=0
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+									BodyType='BRepBody'
+									$begin 'BodyBlock'
+										BodyFileNamesVec[1: '0000134.x_b']
+									$end 'BodyBlock'
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='KB'
+								Flags=''
+								Color='(192 192 192)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=477
+								MaterialValue='"Ceramic_material"'
+								SurfaceMaterialValue='"Steel-oxidised-surface"'
+								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
+								ReferenceTemperature='20cel'
+								IsMaterialEditable=true
+								UseMaterialAppearance=false
+								IsLightweight=false
+								IsAlwaysHidden=false
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='NativeBody'
+									ID=149
+									ReferenceCoordSystemID=1
+									$begin 'NativeBodyParameters'
+										KernelVersion=9
+										SourceFile='D:\\AnsysEM\\AnsysEM18.1\\Win64\\Examples\\Icepak\\Graphics Card\\graphics_card_simple.stp'
+									$end 'NativeBodyParameters'
+									ParentPartID=150
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=6
+											NumWires=0
+											NumLoops=6
+											NumCoedges=24
+											NumEdges=12
+											NumVertices=8
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=0
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+									BodyType='BRepBody'
+									$begin 'BodyBlock'
+										BodyFileNamesVec[1: '0000150.x_b']
+									$end 'BodyBlock'
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='HEAT_SINK'
+								Flags=''
+								Color='(232 235 235)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=477
+								MaterialValue='"Al-Extruded"'
+								SurfaceMaterialValue='"Steel-oxidised-surface"'
+								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
+								ReferenceTemperature='20cel'
+								IsMaterialEditable=true
+								UseMaterialAppearance=false
+								IsLightweight=false
+								IsAlwaysHidden=false
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='NativeBody'
+									ID=177
+									ReferenceCoordSystemID=1
+									$begin 'NativeBodyParameters'
+										KernelVersion=9
+										SourceFile='D:\\AnsysEM\\AnsysEM18.1\\Win64\\Examples\\Icepak\\Graphics Card\\graphics_card_simple.stp'
+									$end 'NativeBodyParameters'
+									ParentPartID=178
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=42
+											NumWires=0
+											NumLoops=42
+											NumCoedges=240
+											NumEdges=120
+											NumVertices=80
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=0
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+									BodyType='BRepBody'
+									$begin 'BodyBlock'
+										BodyFileNamesVec[1: '0000178.x_b']
+									$end 'BodyBlock'
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='CPU'
+								Flags=''
+								Color='(0 0 0)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=477
+								MaterialValue='"Ceramic_material"'
+								SurfaceMaterialValue='"Steel-oxidised-surface"'
+								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
+								ReferenceTemperature='20cel'
+								IsMaterialEditable=true
+								UseMaterialAppearance=true
+								IsLightweight=false
+								IsAlwaysHidden=false
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='NativeBody'
+									ID=421
+									ReferenceCoordSystemID=1
+									$begin 'NativeBodyParameters'
+										KernelVersion=9
+										SourceFile='D:\\AnsysEM\\AnsysEM18.1\\Win64\\Examples\\Icepak\\Graphics Card\\graphics_card_simple.stp'
+									$end 'NativeBodyParameters'
+									ParentPartID=422
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=6
+											NumWires=0
+											NumLoops=6
+											NumCoedges=24
+											NumEdges=12
+											NumVertices=8
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=0
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+									BodyType='BRepBody'
+									$begin 'BodyBlock'
+										BodyFileNamesVec[1: '0000422.x_b']
+									$end 'BodyBlock'
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='ALPHA_MAIN_PCB'
+								Flags=''
+								Color='(143 175 143)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=477
+								MaterialValue='"PCB_Material"'
+								SurfaceMaterialValue='"Steel-oxidised-surface"'
+								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
+								ReferenceTemperature='20cel'
+								IsMaterialEditable=true
+								UseMaterialAppearance=true
+								IsLightweight=false
+								IsAlwaysHidden=false
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='NativeBody'
+									ID=449
+									ReferenceCoordSystemID=1
+									$begin 'NativeBodyParameters'
+										KernelVersion=9
+										SourceFile='D:\\AnsysEM\\AnsysEM18.1\\Win64\\Examples\\Icepak\\Graphics Card\\graphics_card_simple.stp'
+									$end 'NativeBodyParameters'
+									ParentPartID=450
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=6
+											NumWires=0
+											NumLoops=6
+											NumCoedges=24
+											NumEdges=12
+											NumVertices=8
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=0
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+									BodyType='BRepBody'
+									$begin 'BodyBlock'
+										BodyFileNamesVec[1: '0000450.x_b']
+									$end 'BodyBlock'
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='Box1'
+								Flags='NonModel#Wireframe#'
+								Color='(255 0 0)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=-1
+								MaterialValue='""'
+								SurfaceMaterialValue='""'
+								SolveInside=false
+								ShellElement=false
+								ShellElementThickness='0mm'
+								ReferenceTemperature='20cel'
+								IsMaterialEditable=true
+								UseMaterialAppearance=false
+								IsLightweight=false
+								IsAlwaysHidden=false
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='Box'
+									ID=497
+									ReferenceCoordSystemID=1
+									$begin 'BoxParameters'
+										KernelVersion=9
+										XPosition='-72mm'
+										YPosition='-5mm'
+										ZPosition='-63mm'
+										XSize='67mm'
+										YSize='38mm'
+										ZSize='52mm'
+									$end 'BoxParameters'
+									ParentPartID=498
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=6
+											NumWires=0
+											NumLoops=6
+											NumCoedges=24
+											NumEdges=12
+											NumVertices=8
+										$end 'Topology'
+										BodyID=498
+										StartFaceID=499
+										StartEdgeID=505
+										StartVertexID=517
+										NumNewFaces=6
+										NumNewEdges=12
+										NumNewVertices=8
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+					$end 'ToplevelParts'
+					$begin 'OperandParts'
+					$end 'OperandParts'
+					$begin 'Planes'
+						$begin 'GeometryPlane'
+							$begin 'Attributes'
+								Name='Plane1'
+								Color='(143 175 143)'
+							$end 'Attributes'
+							$begin 'Operation'
+								OperationType='Plane'
+								ID=496
+								ReferenceCoordSystemID=1
+								$begin 'PlaneParameters'
+									KernelVersion=9
+									PlaneBaseX='0mm'
+									PlaneBaseY='1.6mm'
+									PlaneBaseZ='-55mm'
+									PlaneNormalX='0mm'
+									PlaneNormalY='0mm'
+									PlaneNormalZ='5mm'
+								$end 'PlaneParameters'
+								ParentPartID=-1
+								ReferenceUDMID=-1
+							$end 'Operation'
+						$end 'GeometryPlane'
+					$end 'Planes'
+					$begin 'Points'
+						$begin 'GeometryPoint'
+							$begin 'Attributes'
+								Name='CPU_Monitor'
+								Color='(143 175 143)'
+							$end 'Attributes'
+							$begin 'Operation'
+								OperationType='Point'
+								ID=482
+								ReferenceCoordSystemID=1
+								$begin 'PointParameters'
+									KernelVersion=9
+									PointX='-37mm'
+									PointY='3.086mm'
+									PointZ='-43mm'
+								$end 'PointParameters'
+								ParentPartID=-1
+								ReferenceUDMID=-1
+							$end 'Operation'
+						$end 'GeometryPoint'
+						$begin 'GeometryPoint'
+							$begin 'Attributes'
+								Name='Memory_Monitor'
+								Color='(143 175 143)'
+							$end 'Attributes'
+							$begin 'Operation'
+								OperationType='Point'
+								ID=483
+								ReferenceCoordSystemID=1
+								$begin 'PointParameters'
+									KernelVersion=9
+									PointX='-35mm'
+									PointY='3.6mm'
+									PointZ='-86mm'
+								$end 'PointParameters'
+								ParentPartID=-1
+								ReferenceUDMID=-1
+							$end 'Operation'
+						$end 'GeometryPoint'
+						$begin 'GeometryPoint'
+							$begin 'Attributes'
+								Name='Point1'
+								Color='(143 175 143)'
+							$end 'Attributes'
+							$begin 'Operation'
+								OperationType='Point'
+								ID=485
+								ReferenceCoordSystemID=1
+								$begin 'PointParameters'
+									KernelVersion=9
+									PointX='80mm'
+									PointY='14.243mm'
+									PointZ='-55mm'
+								$end 'PointParameters'
+								ParentPartID=-1
+								ReferenceUDMID=-1
+							$end 'Operation'
+						$end 'GeometryPoint'
+					$end 'Points'
+					$begin 'GeometryEntityLists'
+					$end 'GeometryEntityLists'
+					$begin 'RegionIdentity'
+						$begin 'Topology'
+							NumLumps=1
+							NumShells=1
+							NumFaces=6
+							NumWires=0
+							NumLoops=6
+							NumCoedges=24
+							NumEdges=12
+							NumVertices=8
+						$end 'Topology'
+						BodyID=6
+						StartFaceID=7
+						StartEdgeID=13
+						StartVertexID=25
+						NumNewFaces=6
+						NumNewEdges=12
+						NumNewVertices=8
+						FaceNameAndIDMap()
+						EdgeNameAndIDMap()
+						VertexNameAndIDMap()
+						IsXZ2DModeler=false
+					$end 'RegionIdentity'
+					$begin 'CachedNames'
+						$begin 'allobjects'
+							allobjects(-1)
+						$end 'allobjects'
+						$begin 'alpha_main_pcb'
+							alpha_main_pcb(-1)
+						$end 'alpha_main_pcb'
+						$begin 'box'
+							box(1)
+						$end 'box'
+						$begin 'capacitor'
+							capacitor(-1)
+						$end 'capacitor'
+						$begin 'capacitor_'
+							capacitor_(1)
+						$end 'capacitor_'
+						$begin 'cpu'
+							cpu(-1)
+						$end 'cpu'
+						$begin 'cpu_monitor'
+							cpu_monitor(-1)
+						$end 'cpu_monitor'
+						$begin 'global'
+							global(-1)
+						$end 'global'
+						$begin 'graphics_card_simple'
+							graphics_card_simple(-1)
+						$end 'graphics_card_simple'
+						$begin 'heat_sink'
+							heat_sink(-1)
+						$end 'heat_sink'
+						$begin 'kb'
+							kb(-1)
+						$end 'kb'
+						$begin 'memory'
+							memory(1)
+						$end 'memory'
+						$begin 'memory1_'
+							memory1_(1)
+						$end 'memory1_'
+						$begin 'memory_monitor'
+							memory_monitor(-1)
+						$end 'memory_monitor'
+						$begin 'model'
+							model(-1)
+						$end 'model'
+						$begin 'plane'
+							plane(1)
+						$end 'plane'
+						$begin 'point'
+							point(1)
+						$end 'point'
+						$begin 'region'
+							region(-1)
+						$end 'region'
+						$begin 'serial_port'
+							serial_port(-1)
+						$end 'serial_port'
+					$end 'CachedNames'
+				$end 'GeometryOperations'
+				$begin 'GeometryDependencies'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 5)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 33)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 61)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 89)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 117)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 133)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 149)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 177)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 421)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 449)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 497)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryOperation', 496)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryOperation', 482)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryOperation', 483)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryOperation', 485)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+				$end 'GeometryDependencies'
+			$end 'GeometryCore'
+			$begin 'AssignedEntities'
+				AssignedObject[3: 62, 90, 422]
+				$begin 'AssignedFace'
+					kID=7
+					$begin 'FaceData'
+						ParentObjectID=6
+						$begin 'FaceGeomTopol'
+							FaceTopol(1, 4, 4, 4)
+							$begin 'FaceGeometry'
+								Area=41019.84
+								FcUVMid(-80, 14.243, 110)
+								$begin 'FcTolVts'
+									TolVt(160, -28.486, 110, 5e-07)
+									TolVt(160, 56.972, 110, 5e-07)
+									TolVt(-320, 56.972, 110, 5e-07)
+									TolVt(-320, -28.486, 110, 5e-07)
+								$end 'FcTolVts'
+							$end 'FaceGeometry'
+						$end 'FaceGeomTopol'
+					$end 'FaceData'
+				$end 'AssignedFace'
+				$begin 'AssignedFace'
+					kID=8
+					$begin 'FaceData'
+						ParentObjectID=6
+						$begin 'FaceGeomTopol'
+							FaceTopol(1, 4, 4, 4)
+							$begin 'FaceGeometry'
+								Area=41019.84
+								FcUVMid(-80, 14.243, -220)
+								$begin 'FcTolVts'
+									TolVt(160, -28.486, -220, 5e-07)
+									TolVt(-320, -28.486, -220, 5e-07)
+									TolVt(-320, 56.972, -220, 5e-07)
+									TolVt(160, 56.972, -220, 5e-07)
+								$end 'FcTolVts'
+							$end 'FaceGeometry'
+						$end 'FaceGeomTopol'
+					$end 'FaceData'
+				$end 'AssignedFace'
+				$begin 'AssignedFace'
+					kID=9
+					$begin 'FaceData'
+						ParentObjectID=6
+						$begin 'FaceGeomTopol'
+							FaceTopol(1, 4, 4, 4)
+							$begin 'FaceGeometry'
+								Area=158400
+								FcUVMid(-80, -28.486, -55)
+								$begin 'FcTolVts'
+									TolVt(160, -28.486, 110, 5e-07)
+									TolVt(-320, -28.486, 110, 5e-07)
+									TolVt(-320, -28.486, -220, 5e-07)
+									TolVt(160, -28.486, -220, 5e-07)
+								$end 'FcTolVts'
+							$end 'FaceGeometry'
+						$end 'FaceGeomTopol'
+					$end 'FaceData'
+				$end 'AssignedFace'
+				$begin 'AssignedFace'
+					kID=10
+					$begin 'FaceData'
+						ParentObjectID=6
+						$begin 'FaceGeomTopol'
+							FaceTopol(1, 4, 4, 4)
+							$begin 'FaceGeometry'
+								Area=28201.14
+								FcUVMid(-320, 14.243, -55)
+								$begin 'FcTolVts'
+									TolVt(-320, -28.486, 110, 5e-07)
+									TolVt(-320, 56.972, 110, 5e-07)
+									TolVt(-320, 56.972, -220, 5e-07)
+									TolVt(-320, -28.486, -220, 5e-07)
+								$end 'FcTolVts'
+							$end 'FaceGeometry'
+						$end 'FaceGeomTopol'
+					$end 'FaceData'
+				$end 'AssignedFace'
+				$begin 'AssignedFace'
+					kID=11
+					$begin 'FaceData'
+						ParentObjectID=6
+						$begin 'FaceGeomTopol'
+							FaceTopol(1, 4, 4, 4)
+							$begin 'FaceGeometry'
+								Area=158400
+								FcUVMid(-80, 56.972, -55)
+								$begin 'FcTolVts'
+									TolVt(-320, 56.972, 110, 5e-07)
+									TolVt(160, 56.972, 110, 5e-07)
+									TolVt(160, 56.972, -220, 5e-07)
+									TolVt(-320, 56.972, -220, 5e-07)
+								$end 'FcTolVts'
+							$end 'FaceGeometry'
+						$end 'FaceGeomTopol'
+					$end 'FaceData'
+				$end 'AssignedFace'
+				$begin 'AssignedFace'
+					kID=12
+					$begin 'FaceData'
+						ParentObjectID=6
+						$begin 'FaceGeomTopol'
+							FaceTopol(1, 4, 4, 4)
+							$begin 'FaceGeometry'
+								Area=28201.14
+								FcUVMid(160, 14.243, -55)
+								$begin 'FcTolVts'
+									TolVt(160, 56.972, -220, 5e-07)
+									TolVt(160, 56.972, 110, 5e-07)
+									TolVt(160, -28.486, 110, 5e-07)
+									TolVt(160, -28.486, -220, 5e-07)
+								$end 'FcTolVts'
+							$end 'FaceGeometry'
+						$end 'FaceGeomTopol'
+					$end 'FaceData'
+				$end 'AssignedFace'
+			$end 'AssignedEntities'
+			GroupByMaterial=true
+			GroupSheetByMaterial=true
+			GroupCompByDefID=true
+			DoNotOrganizeUnderGroup=true
+			DoNotOrganizeUnderComponent=false
+			OrganizeLightweight=false
+			ShowGroup=true
+			$begin 'LastUserInputs'
+			$end 'LastUserInputs'
+		$end 'ModelSetup'
+		$begin '3DComponent'
+		$end '3DComponent'
+		$begin 'BoundarySetup'
+			$begin 'GlobalBoundData'
+			$end 'GlobalBoundData'
+			$begin 'Boundaries'
+				NextUniqueID=5
+				MoveBackwards=false
+				$begin 'CPU'
+					ID=2
+					BoundType='Block'
+					IsComponent=false
+					Objects(422)
+					ParentBndID=-1
+					'Block Type'='Solid'
+					'Use External Conditions'=false
+					'Use Total Power'=true
+					'Total Power'='25W'
+				$end 'CPU'
+				$begin 'Memory'
+					ID=3
+					BoundType='Block'
+					IsComponent=false
+					Objects(62, 90)
+					ParentBndID=-1
+					'Block Type'='Solid'
+					'Use External Conditions'=false
+					'Use Total Power'=true
+					'Total Power'='5W'
+				$end 'Memory'
+				$begin 'Opening1'
+					ID=4
+					BoundType='Opening'
+					IsComponent=false
+					Faces(10, 7, 11, 8, 9, 12)
+					Temperature='AmbientTemp'
+					'External Rad. Temperature'='AmbientRadTemp'
+					'Inlet Type'='Pressure'
+					'Total Pressure'='AmbientPressure'
+					'No Reverse Flow'=false
+				$end 'Opening1'
+			$end 'Boundaries'
+			$begin 'ProductSpecificData'
+			$end 'ProductSpecificData'
+		$end 'BoundarySetup'
+		$begin 'Monitor'
+			$begin 'IcepakMonitors'
+				NextUniqueID=4
+				MoveBackwards=false
+				$begin 'PointMonitor2'
+					Type=2
+					ID=2
+					Quantities(19)
+					Points(483)
+				$end 'PointMonitor2'
+			$end 'IcepakMonitors'
+		$end 'Monitor'
+		$begin 'MeshRegion'
+			$begin 'MeshSetup'
+				NextUniqueID=2
+				MoveBackwards=false
+				$begin 'MeshRegions'
+					$begin 'Global'
+						ID=0
+						IsComponent=false
+						MeshMethod='MesherHD'
+						UserSpecifiedSettings=false
+						ComputeGap=true
+						MeshRegionResolution=3
+						MinGapX='1mm'
+						MinGapY='1mm'
+						MinGapZ='1mm'
+						Objects(6)
+						StairStepSliderMeshing=false
+						FacetLevel='3'
+						ProximitySizeFunction=true
+						CurvatureSizeFunction=true
+						EnableTransition=false
+						OptimizePCBMesh=true
+						Enable2DCutCell=false
+						EnforceCutCellMeshing=false
+						Enforce2dot5DCutCell=false
+					$end 'Global'
+				$end 'MeshRegions'
+				$begin 'MeshOperations'
+				$end 'MeshOperations'
+			$end 'MeshSetup'
+		$end 'MeshRegion'
+		$begin 'AnalysisSetup'
+			$begin 'DesignMeshLink'
+				ImportMesh=false
+			$end 'DesignMeshLink'
+			$begin 'SolveSetups'
+				NextUniqueID=2
+				MoveBackwards=false
+				$begin 'Setup1'
+					ID=0
+					SetupType='IcepakSteadyState'
+					Enabled=true
+					'Flow Regime'='Turbulent'
+					'Turbulent Model Eqn'='ZeroEquation'
+					'Include Temperature'=true
+					'Include Flow'=true
+					'Include Gravity'=true
+					'Include Solar'=false
+					'Solution Initialization - X Velocity'='0m_per_sec'
+					'Solution Initialization - Y Velocity'='0.000980665m_per_sec'
+					'Solution Initialization - Z Velocity'='0m_per_sec'
+					'Solution Initialization - Temperature'='AmbientTemp'
+					'Solution Initialization - Turbulent Kinetic Energy'='0'
+					'Solution Initialization - Turbulent Dissipation Rate'='0'
+					'Solution Initialization - Specific Dissipation Rate'='0'
+					'Solution Initialization - Use Model Based Flow Initialization'=false
+					'Convergence Criteria - Flow'='0.01'
+					'Convergence Criteria - Energy'='0.01'
+					'Convergence Criteria - Turbulent Kinetic Energy'='1e-07'
+					'Convergence Criteria - Turbulent Dissipation Rate'='1e-07'
+					'Convergence Criteria - Specific Dissipation Rate'='0.001'
+					'Convergence Criteria - Discrete Ordinates'='1e-06'
+					'Convergence Criteria - Joule Heating'='1e-07'
+					IsEnabled=true
+					'Radiation Model'='Off'
+					'Solar Radiation Model'='Solar Radiation Calculator'
+					'Solar Radiation - Scattering Fraction'='0'
+					'Solar Radiation - Day'=1
+					'Solar Radiation - Month'=1
+					'Solar Radiation - Hours'=0
+					'Solar Radiation - Minutes'=0
+					'Solar Radiation - GMT'='0'
+					'Solar Radiation - Latitude'='0'
+					'Solar Radiation - Latitude Direction'='East'
+					'Solar Radiation - Longitude'='0'
+					'Solar Radiation - Longitude Direction'='North'
+					'Solar Radiation - Ground Reflectance'='0'
+					'Solar Radiation - Sunshine Fraction'='0'
+					'Solar Radiation - North X'='0'
+					'Solar Radiation - North Y'='0'
+					'Solar Radiation - North Z'='0'
+					'Under-relaxation - Pressure'='0.7'
+					'Under-relaxation - Momentum'='0.3'
+					'Under-relaxation - Temperature'='1'
+					'Under-relaxation - Turbulent Kinetic Energy'='0.8'
+					'Under-relaxation - Turbulent Dissipation Rate'='0.8'
+					'Under-relaxation - Specific Dissipation Rate'='0.8'
+					'Under-relaxation - Joule Heating'='1'
+					'Discretization Scheme - Pressure'='Standard'
+					'Discretization Scheme - Momentum'='First'
+					'Discretization Scheme - Temperature'='First'
+					'Secondary Gradient'=false
+					'Discretization Scheme - Turbulent Kinetic Energy'='First'
+					'Discretization Scheme - Turbulent Dissipation Rate'='First'
+					'Discretization Scheme - Specific Dissipation Rate'='First'
+					'Discretization Scheme - Discrete Ordinates'='First'
+					'Linear Solver Type - Pressure'='flex'
+					'Linear Solver Type - Momentum'='flex'
+					'Linear Solver Type - Temperature'='flex'
+					'Linear Solver Type - Turbulent Kinetic Energy'='flex'
+					'Linear Solver Type - Turbulent Dissipation Rate'='flex'
+					'Linear Solver Type - Specific Dissipation Rate'='flex'
+					'Linear Solver Type - Joule Heating'='F'
+					'Linear Solver Termination Criterion - Pressure'='0.1'
+					'Linear Solver Termination Criterion - Momentum'='0.1'
+					'Linear Solver Termination Criterion - Temperature'='0.1'
+					'Linear Solver Termination Criterion - Turbulent Kinetic Energy'='0.1'
+					'Linear Solver Termination Criterion - Turbulent Dissipation Rate'='0.1'
+					'Linear Solver Termination Criterion - Specific Dissipation Rate'='0.1'
+					'Linear Solver Termination Criterion - Joule Heating'='1e-09'
+					'Linear Solver Residual Reduction Tolerance - Pressure'='0.1'
+					'Linear Solver Residual Reduction Tolerance - Momentum'='0.1'
+					'Linear Solver Residual Reduction Tolerance - Temperature'='0.1'
+					'Linear Solver Residual Reduction Tolerance - Turbulent Kinetic Energy'='0.1'
+					'Linear Solver Residual Reduction Tolerance - Turbulent Dissipation Rate'='0.1'
+					'Linear Solver Residual Reduction Tolerance - Specific Dissipation Rate'='0.1'
+					'Linear Solver Residual Reduction Tolerance - Joule Heating'='1e-09'
+					'Maximum Cycles'='30'
+					'Linear Solver Stabilization - Pressure'='None'
+					'Linear Solver Stabilization - Temperature'='None'
+					'Linear Solver Stabilization - Joule Heating'='None'
+					'Coupled pressure-velocity formulation'=false
+					'2D Profile Interpolation Method'='Inverse Distance Weighted'
+					'Frozen Flow Simulation'=false
+					'Sequential Solve of Flow and Energy Equations'=false
+					'Convergence Criteria - Max Iterations'=1000
+				$end 'Setup1'
+			$end 'SolveSetups'
+		$end 'AnalysisSetup'
+		$begin 'Optimetrics'
+			$begin 'OptimetricsSetups'
+				NextUniqueID=0
+				MoveBackwards=false
+			$end 'OptimetricsSetups'
+		$end 'Optimetrics'
+		$begin 'Solutions'
+			$begin 'FieldsSummarySetting'
+			$end 'FieldsSummarySetting'
+		$end 'Solutions'
+		$begin 'FieldsReporter'
+			$begin 'FieldsCalculator'
+				Line_Discretization=1000
+			$end 'FieldsCalculator'
+			$begin 'PlotDefaults'
+				Default_SolutionId=15
+				Default_PlotFolder='Automatic'
+			$end 'PlotDefaults'
+			$begin 'FieldsPlotManagerID'
+				NextUniqueID=6
+				MoveBackwards=false
+				NumQuantityType=1
+				$begin 'QuantityFolder_1'
+					PlotFolder='Temperature'
+					PlotFolderInstance=1
+					FolderSettingsType=11
+					'Real time mode'=true
+					$begin 'ColorMapSettings'
+						ColorMapType='Spectrum'
+						SpectrumType='Rainbow'
+						UniformColor(127, 255, 255)
+						RampColor(255, 127, 127)
+					$end 'ColorMapSettings'
+					$begin 'Scale3DSettings'
+						unit=80
+						m_nLevels=20
+						minvalue=56.8298278808594
+						maxvalue=122.553735351563
+						log=false
+						IntrinsicMin=56.8298278808594
+						IntrinsicMax=122.553735351563
+						LimitFieldValuePrecision=false
+						FieldValuePrecisionDigits=4
+						dB=false
+						ScaleType=0
+						UserSpecifyValues(21, 37.5130004882812, 40.6589012145996, 43.804801940918, 46.9506988525391, 50.0965995788574, 53.2425003051758, 56.3884010314941, 59.5343017578125, 62.6801986694336, 65.8261032104492, 68.9720001220703, 72.1179046630859, 75.263801574707, 78.4096984863281, 81.5556030273438, 84.7014999389648, 87.8473968505859, 90.9933013916016, 94.1392059326172, 97.2850952148438, 100.430999755859)
+						ValueNumberFormatTypeAuto=0
+						ValueNumberFormatTypeScientific=false
+						ValueNumberFormatWidth=7
+						ValueNumberFormatPrecision=3
+					$end 'Scale3DSettings'
+					$begin 'Marker3DSettings'
+						MarkerType=9
+						MarkerMapSize=false
+						MarkerMapColor=false
+						MarkerSize=0.25
+					$end 'Marker3DSettings'
+					$begin 'Arrow3DSettings'
+						ArrowType=1
+						ArrowMapSize=false
+						ArrowMapColor=true
+						ShowArrowTail=true
+						ArrowSize=0.108999997377396
+						ArrowMinMagnitude=37.0133
+						ArrowMaxMagnitude=100.931
+						ArrowMagnitudeThreshold=37.0133
+						ArrowMagnitudeFilteringFlag=false
+						ArrowMinIntrinsicMagnitude=56.3298278808594
+						ArrowMaxIntrinsicMagnitude=123.053735351563
+					$end 'Arrow3DSettings'
+				$end 'QuantityFolder_1'
+				NumPlots=1
+				$begin 'PlotDefinition_1'
+					PlotDefinitionType='Mesh_field_type'
+					PlotName='Temperature1'
+					PlotDefinitionId=5
+					VersionID=3890
+					SolutionId=15
+					UserSpecifyName=0
+					UserSpecifyFolder=0
+					QuantityId=1
+					PlotFolder='Temperature'
+					StreamlinePlot=false
+					AdjacentSidePlot=false
+					FullModelPlot=false
+					IntrinsicVar=''
+					FieldPlotGeometry(1, 128, 2, 9, 34, 62, 90, 118, 134, 150, 178, 422, 450)
+					FilterIds(0)
+					$begin 'PlotOnSurfaceSettings'
+						Filled=false
+						IsoValType='Fringe'
+						AddGrid=false
+						MapTransparency=true
+						Refinement=0
+						Transparency=0
+						SmoothingLevel=0
+						ShadingType=0
+						$begin 'Arrow3DSpacingSettings'
+							ArrowUniform=true
+							ArrowSpacing=6.30526399612427
+							MinArrowSpacing=0.63052898645401
+							MaxArrowSpacing=11.9799995422363
+						$end 'Arrow3DSpacingSettings'
+						GridColor(255, 255, 255)
+					$end 'PlotOnSurfaceSettings'
+					EnableGaussianSmoothing=false
+					SurfaceOnly=true
+				$end 'PlotDefinition_1'
+			$end 'FieldsPlotManagerID'
+			$begin 'Report3dInGeomWnd'
+				Report3dNum=0
+			$end 'Report3dInGeomWnd'
+			$begin 'Report2dInGeomWnd'
+				Report2dNum=0
+			$end 'Report2dInGeomWnd'
+			$begin 'AntennaParametersInGeomWnd'
+				AntennaParametersNum=0
+			$end 'AntennaParametersInGeomWnd'
+			AntennaParametersPlotTablesOrder()
+		$end 'FieldsReporter'
+		$begin 'SolutionManager'
+			$begin 'SimSetup'
+				TypeName='BaseSetup'
+				ID=14
+				Name='Setup1'
+				$begin 'Solution'
+					ID=15
+					Name='SteadyState'
+					$begin 'SimDataExtractor'
+						$begin 'QuantityIDs'
+							NextUniqueID=0
+							MoveBackwards=false
+							IDMap()
+						$end 'QuantityIDs'
+						SimValue('Temperature', 1, 80, false, SimValueID=386, 3, 0, 2, 0, false, false, 34, 1, 0, 1, 1, '', 0, 0)
+						$begin 'Sweeps'
+							$begin 'Sweep'
+								Variable='X'
+								Column='0'
+								Units=''
+							$end 'Sweep'
+							$begin 'PostprocessSweep'
+								Variable='NormalizedDistance'
+								RegularSweep=1
+								Units=''
+								Minimum=0
+								Maximum=1
+								Increment=0.01
+								CreateIndexedSubsweepFlag=false
+							$end 'PostprocessSweep'
+							$begin 'PostprocessSweep'
+								Variable='Phi'
+								RegularSweep=1
+								Units='deg'
+								Minimum=0
+								Maximum=6.28318530717959
+								Increment=0.0872664625997165
+								CreateIndexedSubsweepFlag=false
+							$end 'PostprocessSweep'
+							$begin 'PostprocessSweep'
+								Variable='Theta'
+								RegularSweep=1
+								Units='deg'
+								Minimum=0
+								Maximum=6.28318530717959
+								Increment=0.0872664625997165
+								CreateIndexedSubsweepFlag=false
+							$end 'PostprocessSweep'
+							$begin 'PostprocessSweep'
+								Variable='Phase'
+								RegularSweep=1
+								Units='deg'
+								Minimum=0
+								Maximum=6.28318530717959
+								Increment=0.0872664625997165
+								CreateIndexedSubsweepFlag=false
+							$end 'PostprocessSweep'
+						$end 'Sweeps'
+					$end 'SimDataExtractor'
+				$end 'Solution'
+			$end 'SimSetup'
+			$begin 'Version ID Map'
+				V=355
+				$begin 'Setup'
+					N='Setup1'
+					V=316
+					Soln(N='SteadyState', V=412)
+				$end 'Setup'
+			$end 'Version ID Map'
+			$begin 'ID Map'
+				$begin 'Setup'
+					N='Setup1'
+					I=14
+					Soln(N='SteadyState', I=15)
+				$end 'Setup'
+			$end 'ID Map'
+			ValidationCacheHeader='HDR18F0205928160286062711.tmp'
+		$end 'SolutionManager'
+		$begin 'UserDefinedSolutionMgr'
+			NextUniqueID=1000000
+			MoveBackwards=false
+		$end 'UserDefinedSolutionMgr'
+		$begin 'DatasetSolutionMgr'
+			NextUniqueID=2000000
+			MoveBackwards=false
+		$end 'DatasetSolutionMgr'
+		Notes=$begin_cdata$ $end_cdata$
+		$begin 'AnimationSetups'
+		$end 'AnimationSetups'
+		CacheHeaderFile='HDR50A61351616945088114.tmp'
+	$end 'IcepakModel'
+	$begin 'DataInstances'
+		DesignEditor='TopLevel'
+		Refdes('0', 'U1')
+		$begin 'CompInstances'
+			$begin 'Compinst'
+				ID='0'
+				Status='Status'
+				CompName='IcepakDesign1'
+				GatesInUse()
+				$begin 'Properties'
+					TextProp('ID', 'SRID', '', '0')
+				$end 'Properties'
+				$begin 'Parameters'
+					MenuProp('CoSimulator', 'OHD', '', 'DefaultNetlist', 0)
+					ButtonProp('CosimDefinition', 'OHD', '', '', 'Edit', 40501, ButtonPropClientData())
+				$end 'Parameters'
+			$end 'Compinst'
+		$end 'CompInstances'
+		$begin 'Instance'
+			DesignEditor='IcepakDesign1'
+			ID='0'
+			$begin 'IcepakDesignInstance'
+				DesignInstanceID=1
+				$begin 'WindowPosition'
+					$begin 'EditorWindow'
+						Circuit(Editor3d(View('View Orientation Gadget'=1, WindowPos(3, -1, -1, -8, -31, 200, 200, 992, 435), OrientationMatrix(-0.0213377065956593, -0.00686812447384, 0.00936854537576437, 0, -0.000300349463941529, 0.01991325058043, 0.0139144230633974, 0, -0.011612668633461, 0.0121049815788865, -0.0175742525607347, 0, -1.63715744018555, 0.0637588500976562, -3.82680988311768, 1, 0, -2.14186120033264, 4.98162031173706, -1.84725546836853, 2.06388783454895, -8.50771808624268, 15.330771446228), Drawings[9: 'SERIAL_PORT', 'MEMORY1', 'MEMORY1_1', 'CAPACITOR', 'CAPACITOR_1', 'KB', 'HEAT_SINK', 'CPU', 'ALPHA_MAIN_PCB'], 'View Data'('Render Mode'=1, 'Show Ruler'=1, 'Coordinate Systems View Mode'=0, 'CS Triad View Mode'=0, 'Render Facets'=1, GridVisible=2, GridAutoAdjust=1, GridAutoExtents=1, GridType='Rect', GridStyle='Line', NumPixels=30, dXForGrid=20, dYForGrid=20, dZForGrid=20, dRForGrid=20, dThetaForGrid=10), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
+					$end 'EditorWindow'
+				$end 'WindowPosition'
+				$begin 'ReportSetup'
+					$begin 'ReportManager'
+						$begin 'Reports'
+						$end 'Reports'
+						NextUniqueID=0
+						MoveBackwards=false
+						$begin 'NextVersID'
+							NextUniqueID=0
+							MoveBackwards=false
+						$end 'NextVersID'
+					$end 'ReportManager'
+					$begin 'Reports'
+					$end 'Reports'
+					$begin 'ReportsWindowInfoList'
+					$end 'ReportsWindowInfoList'
+				$end 'ReportSetup'
+				$begin 'Properties'
+				$end 'Properties'
+				$begin 'UserDefinedDocument'
+					$begin 'Data'
+					$end 'Data'
+				$end 'UserDefinedDocument'
+			$end 'IcepakDesignInstance'
+		$end 'Instance'
+		$begin 'SODInfo'
+			$begin 'IcepakDesign1'
+				$begin 'CosimDefinition'
+					CosimDefName='DefaultNetlist'
+					$begin 'SODInstanceMap'
+					$end 'SODInstanceMap'
+					SODComponentList()
+				$end 'CosimDefinition'
+			$end 'IcepakDesign1'
+		$end 'SODInfo'
+	$end 'DataInstances'
+	$begin 'WBSystemIDToDesignInstanceIDMap'
+	$end 'WBSystemIDToDesignInstanceIDMap'
+	$begin 'WBSysIDSysDetails'
+	$end 'WBSysIDSysDetails'
+	$begin 'WBConnIDConnDetails'
+	$end 'WBConnIDConnDetails'
+	$begin 'WBMaterialGuidDetails'
+		WBMaterialGuidMap()
+	$end 'WBMaterialGuidDetails'
+	$begin 'MinervaProjectSettingsBlk'
+		MinervaRemoteFilePath=''
+		FolderContainerString=''
+	$end 'MinervaProjectSettingsBlk'
+$end 'AnsoftProject'
+$begin 'AllReferencedFilesForProject'
+$begin 'Design_0.setup/NativeGeometryFiles'
+NumFiles= 9
+$begin 'x_b'
+Design_0.setup/NativeGeometryFiles/0000034.x_b
+BIN000000008392
+**ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz**************************
+**PARASOLID !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~0123456789**************************
+**PART1;
+MC=unknown;
+MC_MODEL=unknown;
+MC_ID=unknown;
+OS=unknown;
+OS_RELEASE=unknown;
+FRU=sdl_parasolid_customer_support;
+APPL=Electronics Desktop;
+SITE=unknown;
+USER=unknown;
+FORMAT=binary;
+GUISE=transmit;
+KEY=D:/temp/Gra69E77084169962831510.setup/Design_0.setup/NativeGeometryFiles/0000034.x_b;
+FILE=D:/temp/Gra69E77084169962831510.setup/Design_0.setup/NativeGeometryFiles/0000034.x_b;
+DATE=unknown;
+**PART2;
+SCH=SCH_3401241_34101;
+USFLD_SIZE=0;
+**PART3;
+**END_OF_HEADER*****************************************************************
+B3   : TRANSMIT FILE created by modeller version 3401241   SCH_3401241_34101_13006ç     ° PART_XMT_BLOCK	Part list	n_entries   dindex_map_offset   d	index_mapR  schema_embedding_mapR  mesh_offset_dataÎ  entriesí                  $CCCIlatticeŞ  CCCImeshî Ipolylineğ CCCCCCCDIowner CCCIboundary_latticeŞ  CCCIboundary_meshî Iboundary_polylineğ CCCAindex_map_offset   dA	index_mapR  Anode_id_index_mapR  Aschema_embedding_mapR  Achild  Alowest_node_id   dAmesh_offset_dataÎ  Z                 @@:Œ0âyE>      	 
+                                      @@:Œ0âyE>                           Q ÿ               F CI	list_type   uI
+notransmit   lCCCDCCDIfinger_index   dIfinger_blockô CZ                    ÿ             ÿ                                 	CCCCCCIframeæ  CAowner  Z          V  ÿ           n™’¼Â J CIindex_map_offset   dCCZ                                Q                Q                P CCCCCDIlegal_owners   lCZ       D                        S ÿ         @@O ÿ     SDL/TYSA_DENSITYP     ! " (#                     T ÿ    UNIT=mmO    " AEDT_EntityName_V1P     # $ (#                     S     {®Gáz„?O    $ AEDT_ExtentScale_V1Q        %  &     ' F                  ( (   $      )   *  2 ÿ	 *    + ,   +{®Gázö¿ü©ñÒMb?£E¶óıÔØ¿                      ğ¿              ğ¿         ÿ
+ >    - .   +{®Gázö¿»I+‡Æ?{®Gáz´¿                      ğ¿  2    / 0  š™™™™™ù¿»I+‡Æ?{®Gáz´¿       *  1  V  ÿ     2   n™’¼Â3  4 5         6 3  / 7   n™’¼Â Q    6 ƒ   8    9 :  ;  ÿ3  < = >  ?   @ + /    : A  B    n™’¼Â  7 .     C D š™™™™™ù¿ü©ñÒMb?{®Gáz´¿ C -    E F 7 {®Gázö¿ü©ñÒMb?{®Gáz´¿ D /    G 7 H {®Gázö¿»I+‡Æ?{®Gáz´¿ G    I J K L D   n™’¼Â  H 0    B D 0 š™™™™™ù¿»I+‡Æ?£E¶óıÔØ¿ B    M N / K H   n™’¼Â  0 1    L H  {®Gázö¿»I+‡Æ?£E¶óıÔØ¿ L 	   O P G E 0   n™’¼Â Q    O ˆ   8 L   I Q  R  P  S T U L V W  X + E    Q Y L Z C   n™’¼Â Q    Q ‰   8 E   O [  \  Y  ] ^ _ E @ `  a + Z    [ b E  c   n™’¼Â Q    [ Š   8 Z   Q   d  b  e f ? Z g h  T + c +    Z  F {®Gázö¿ü©ñÒMb?£E¶óıÔØ¿ F ,    K c C š™™™™™ù¿ü©ñÒMb?£E¶óıÔØ¿ K    i ? B G F   n™’¼Â Q    i †   8 K   M I  j  ?  e b @ K 3   > - ÿe     @ k   @  e ? f  Y `  _ - >  < 3 N K U l  g + < "    N )   N  < > = B A 4  V + U  S P g B > l   - l    m   n™’¼Â> W h n     g  S U T K b h   - S     g +   T  S g P Z o p  q + h    r   n™’¼Âb l s t    Q    r ~   8 h u  m v  w  s    v   n™’¼Â^ h - x     t :    h y z  +š™™™™™ù¿ü©ñÒMb?£E¶óıÔØ¿      ğ?                 y 9    W x t  +š™™™™™ù¿»I+‡Æ?£E¶óıÔØ¿      ğ?                 z ;    { t |  +š™™™™™ù¿ü©ñÒMb?{®Gáz´¿              ğ?         {    }   n™’¼Â= ` ~ z     | <    ~ z .  +š™™™™™ù¿»I+‡Æ?{®Gáz´¿      ğ?                 ~       n™’¼ÂJ { W |     . =    4 | 
+  +š™™™™™ù¿»I+‡Æ?{®Gáz´¿                      ğ¿ 4    €   n™’¼ÂN  ` .    Q    € x   8 4   2 ‚  ƒ  `    ‚   n™’¼ÂY 4 { „    Q    ‚ y   8 ` …  € }  †  „ 7    ` ‡ x  +š™™™™™ù¿ü©ñÒMb?{®Gáz´¿      ğ?                 ‡ 6    p 5 „  +{®Gázö¿»I+‡Æ?£E¶óıÔØ¿              ğ¿         x 8    s „ y  +{®Gázö¿ü©ñÒMb?{®Gáz´¿              ğ?         p    ˆ   n™’¼ÂT - ‰ ‡     5 5     n ‡  +š™™™™™ù¿ü©ñÒMb?£E¶óıÔØ¿                      ğ? n 4    l Š 5  +š™™™™™ù¿»I+‡Æ?£E¶óıÔØ¿              ğ¿         Š 3    ‰  n  +{®Gázö¿ü©ñÒMb?£E¶óıÔØ¿                      ğ? ‰    9   n™’¼Âf p  Š    Q    9 ‚   8 ‰ ‹  ˆ 6  Œ  f  e @ b E q ‰   + q   o a Z f ‰   -      q    o    q L T p   - a   q  E ^ s  f -    a o G X -   - ^  ]  Y G a s   + ]      ‘     ] _ ^ / J ~   - _  ] Y   = {   - J  ’ X A G  ~  ^ + ’     V “   X  ’ V J L  -  o + A  ’ J V / N 4  = - V  ’ A X B P W  U - =  < N 3 / _ {   + W    ”   n™’¼ÂP ~ l y    Q    ” |   8 W •   m  – P    8 — ˜ (#                     Q    • e   ™ W  ” š › œ Q     {   8 ~ š  } ”   Q    m }   8 l ›  ” r   R ÿ   – /   Q    › f   ™ l  m • u Ÿ R     .   P    ™    A                       Q    u g   ™ h  r › ¡ ¢ S    Ÿ òñññññá?öõõõõõå?òñññññá?Q    ¡ h   ™ s  v u £ ¤ S    ¢ òñññññá?öõõõõõå?òñññññá?Q    v    8 s ¡  r ¥  ¦ Q    £ i   ™ -  ¥ ¡ § ¨ S    ¤ òñññññá?öõõõõõå?òñññññá? - 
+   ¥   n™’¼ÂX s p 
+    Q    ¥ €   8 - £  v ˆ  © Q    § j   ™ p  ˆ £ ‹ ª S    ¨ òñññññá?öõõõõõå?òñññññá?Q    ˆ    8 p §  ¥ 9  « Q    ‹ k   ™ ‰  9 §  ¬ S    ª òñññññá?öõõõõõå?òñññññá?S    ¬ òñññññá?öõõõõõå?òñññññá?R    « *   R    © +   R    ¦ ,   O      SDL/TYSA_COLOURQ    š d   ™ ~   ­ • ® Q    } z   8 { ­  ‚   ¯ R     0   Q    ­ c   ™ {  } … š ° R    ¯ 1   Q    … b   ™ `  ‚  ­ ± S    ° òñññññá?öõõõõõå?òñññññá?Q     a   ™ 4  € ² … ³ S    ± òñññññá?öõõõõõå?òñññññá?Q    ² `   ™   2 ´  µ S    ³ òñññññá?öõõõõõå?òñññññá?Q    2 w   8  ²  ¶ €  · Q    ´ _   ™   ¶ ¸ ² ¹ S    µ òñññññá?öõõõõõå?òñññññá? ÿ    ¶   n™’¼Â +   º +   + 1 Q    ¶ v   8  ´  » 2  ¼ Q    ¸ ^   ™ +  » ½ ´ ¾ S    ¹ òñññññá?öõõõõõå?òñññññá? +    »   n™’¼Â ‘ S  	 +   ‘ 1 Q    » u   8 + ¸  ¿ ¶  À Q    ½ ]   ™ ‘  ¿ Á ¸ Â S    ¾ òñññññá?öõõõõõå?òñññññá? ‘    ¿   n™’¼Â+ “ ]  Ã +  + “ 1 Q    ¿ t   8 ‘ ½  Ä »  Å Q    Á \   ™ “  Ä Æ ½ Ç S    Â òñññññá?öõõõõõå?òñññññá? “    Ä   n™’¼Â‘ k ’  È +  ‘ k 1 Q    Ä s   8 “ Á  É ¿  Ê Q    Æ [   ™ k  É Ë Á Ì S    Ç òñññññá?öõõõõõå?òñññññá? k    É   n™’¼Â“ ) e  Í +  “ ) 1 Q    É r   8 k Æ  Î Ä  Ï Q    Ë Z   ™ )  Î  Æ Ğ S    Ì òñññññá?öõõõõõå?òñññññá? ) !   Î   n™’¼Âk  <  , -  k  1 Q    Î q   8 ) Ë  Ñ É  Ò S    Ğ òñññññá?öõõõõõå?òñññññá?Q    Ñ p   8  Ó Ô  Î  Õ R    Ò (   Q    Ó n   Ö  × Ñ   Ø Q    Ô ‹   —  Ñ &    Ù R    Õ "   P    —  Ú (#                     Q    & Œ     Ô     Û R    Ù     ÿÿÿÿÀÀÀ€   T    Û SERIAL_PORTO    Ú AEDT_BODYFlagGroupColor_V1P    Ö Ü İ Q             Q    × m   Ş  ß Ó   à T    Ø SERIAL_PORTP    Ş  á (#            Q    ß Y   â   ×   ã R    à     P    â ™ ä h                      S    ã è?è?è?O    ä SDL/TYSA_COLOUR_2O    á AttGS_PS_LayerO    İ SDL/TYSA_NAME2 , )    ) Í 	  +š™™™™™ù¿œÄ °rhÁ?ÁÊ¡E¶óÍ¿      ğ?                              ğ?         1           ) 2 Í (    k È ,  +{®Gázö¿ü©ñÒMb?{®Gáz´¿              ğ¿                              ğ¿2 È '    “ Ã Í  +{®Gázö¿»I+‡Æ?£E¶óıÔØ¿       €      ğ?              ğ?                2 Ã &    ‘ º È  +{®Gázö¿»I+‡Æ?{®Gáz´¿                      ğ?      ğ?                2 º %      Ã  +{®Gázö¿œÄ °rhÁ?ÁÊ¡E¶óÍ¿      ğ?                              ğ?        R    Ï '   R    Ê &   R    Å %   R    À $   R    ¼ #   R    · 4   S    ® òñññññá?öõõõõõå?òñññññá?S    œ òñññññá?öõõõõõå?òñññññá?O    ˜ AEDT_EntityID_V1R    Œ )   R    † 2   R    ƒ 3   R    w -   Q    M …   8 B   : i  å Q    I ‡   8 G   i O  æ R    j 9   R    æ 8   Q    : „   8 /   6 M  ç R    å :   R    ç ;   R    d 6   R    \ 5   R    R 7   R    ; <    * #         S J    (         ß ‹ × Ó [ Ô &              P    % 8 è (#                        T    ' Ceramic_materialO    è AEDT_MaterialName_V1  $end 'x_b'
+$begin 'x_b'
+Design_0.setup/NativeGeometryFiles/0000062.x_b
+BIN000000008384
+**ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz**************************
+**PARASOLID !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~0123456789**************************
+**PART1;
+MC=unknown;
+MC_MODEL=unknown;
+MC_ID=unknown;
+OS=unknown;
+OS_RELEASE=unknown;
+FRU=sdl_parasolid_customer_support;
+APPL=Electronics Desktop;
+SITE=unknown;
+USER=unknown;
+FORMAT=binary;
+GUISE=transmit;
+KEY=D:/temp/Gra69E77084169962831510.setup/Design_0.setup/NativeGeometryFiles/0000062.x_b;
+FILE=D:/temp/Gra69E77084169962831510.setup/Design_0.setup/NativeGeometryFiles/0000062.x_b;
+DATE=unknown;
+**PART2;
+SCH=SCH_3401241_34101;
+USFLD_SIZE=0;
+**PART3;
+**END_OF_HEADER*****************************************************************
+B3   : TRANSMIT FILE created by modeller version 3401241   SCH_3401241_34101_13006ç     ° PART_XMT_BLOCK	Part list	n_entries   dindex_map_offset   d	index_mapR  schema_embedding_mapR  mesh_offset_dataÎ  entriesí                  $CCCIlatticeŞ  CCCImeshî Ipolylineğ CCCCCCCDIowner CCCIboundary_latticeŞ  CCCIboundary_meshî Iboundary_polylineğ CCCAindex_map_offset   dA	index_mapR  Anode_id_index_mapR  Aschema_embedding_mapR  Achild  Alowest_node_id   dAmesh_offset_dataÎ  Z                 @@:Œ0âyE>    	  
+                                       @@:Œ0âyE>                           Q ÿ               F CI	list_type   uI
+notransmit   lCCCDCCDIfinger_index   dIfinger_blockô CZ                    ÿ             ÿ                                 	CCCCCCIframeæ  CAowner  Z          V  ÿ           n™’¼Â J CIindex_map_offset   dCCZ                                Q                Q                P CCCCCDIlegal_owners   lCZ      ! D                        S ÿ         @@O ÿ   ! SDL/TYSA_DENSITYP     " # (#                     T ÿ    UNIT=mmO    # AEDT_EntityName_V1P     $ % (#                     S     {®Gáz„?O    % AEDT_ExtentScale_V1Q        &  '     ( F                  ) )  	 $      *   +  2 ÿ
+ *    * ,   +      Ğ¿ü©ñÒMb?…ëQ¸å¿      ğ?                              ğ?         ÿ >    - .   +      Ğ¿ü©ñÒMb?…ëQ¸å¿                      ğ¿  2    / 0        Ğ¿ü©ñÒMb?ö(\Âõğ¿       +  1  V  ÿ     2   n™’¼Â3  4 5         6 3  7 8   n™’¼Â Q    6 ƒ   9    : ;  <  ÿ3  = > ?  @   A + 7    ; >  B 0   n™’¼Â  8 ,     C D       Ğ¿<ßO—n¢?ö(\Âõğ¿ C +    E  8 ÍÌÌÌÌÌÜ¿ü©ñÒMb?…ëQ¸å¿ D -    F 8 G ÍÌÌÌÌÌÜ¿ü©ñÒMb?ö(\Âõğ¿ F    H I J / D   n™’¼Â  G .    B D K ÍÌÌÌÌÌÜ¿<ßO—n¢?ö(\Âõğ¿ B    L M 7 N G   n™’¼Â  K /    J G O       Ğ¿ü©ñÒMb?…ëQ¸å¿ J 	   P Q E F K   n™’¼Â  O 0    N K 0 ÍÌÌÌÌÌÜ¿<ßO—n¢?…ëQ¸å¿ N    R S B E O   n™’¼Â  0 1    7 O        Ğ¿<ßO—n¢?…ëQ¸å¿Q    R †   9 N   L T  U  S  V W X N Y Z  [ - E    T W N J C   n™’¼Â Q    T ‡   9 E   R P  \  W  V ] S E ^ _  ` - ÿV     X a   ]  V X W J b c  d + ^  e f ` N W _   + _    g   n™’¼Â^ h i j     `  e ^ I E k i  b + e     ^ l   I  e ` f F m n  k - k  o p b F ` i  q - i    r   n™’¼Â` _ c s     b  o k d E ] c   - o     p t   d  o b p J ? -   - c 
+   u   n™’¼Â] i - v    Q    u €   9 c w  r x  y  -    x   n™’¼Â? c z      v 6    c j {  +ÍÌÌÌÌÌÜ¿ü©ñÒMb?…ëQ¸å¿      ğ?                 j 5    _ s v  +ÍÌÌÌÌÌÜ¿ü©ñÒMb?…ëQ¸å¿              ğ?         { 7    | v }  +      Ğ¿ü©ñÒMb?…ëQ¸å¿              ğ?         |    ~   n™’¼ÂX Z n {     } 8    z {   +      Ğ¿ü©ñÒMb?ö(\Âõğ¿      ğ¿                 z    :   n™’¼Âq -  }      9    4 } €  +      Ğ¿<ßO—n¢?ö(\Âõğ¿      ğ¿                 4       n™’¼ÂM  ‚      € :    n  ƒ  +ÍÌÌÌÌÌÜ¿ü©ñÒMb?ö(\Âõğ¿              ğ?         n    „   n™’¼Âm | h €     ƒ ;    ‚ € 5  +      Ğ¿<ßO—n¢?…ëQ¸å¿                      ğ¿ ‚    …   n™’¼Â† 4 Z ƒ     5 <     ƒ .  +      Ğ¿ü©ñÒMb?ö(\Âõğ¿              ğ?         . =    Z 5   +ÍÌÌÌÌÌÜ¿<ßO—n¢?…ëQ¸å¿      ğ?                 Z    ‡   n™’¼ÂY ‚ | .    Q    ‡ z   9 Z ˆ  … ~  ‰  Y  Š † [ 7 S Z  X + Š     Y ‹   †  Š M Y  > ‚   + [  Š Y M N f h  ^ + X  V S ] 7 Q |   + Q  = ? > J X |  ] - = "    3 *   ?  = 3 Q / d -  p + >  = Q 3 7 † ‚  Y - /    Œ @ F     n™’¼Â  p  o d k / q z   - q   m @ F p z   +      m    m   A q B I n  f + @   q A / 3   ? - A   @ m  M 4  † - M  Š [ † B A 4  m + f  e I ^ B [ h   - h       n™’¼Â[ n _     Q     }   9 h ‘  „ g  ’   3    h  s  +ÍÌÌÌÌÌÜ¿<ßO—n¢?ö(\Âõğ¿                      ğ? s 4    i  j  +ÍÌÌÌÌÌÜ¿ü©ñÒMb?ö(\Âõğ¿                      ğ?P    9 “ ” (#                     Q    ‘ f   • h   – — ˜ Q    „ |   9 n –  ~   ™ Q    g ~   9 _ —   r  š R ÿ   ’ J   Q    — g   • _  g ‘ › œ Q    r    9 i ›  g u   R    š I   Q    › h   • i  r — w  R     H   P    •  Ÿ A                       Q    w i   • c  u ›   ¡ S     òñññññá?öõõõõõå?òñññññá?Q      j   • -  x w ¢ £ S    ¡ òñññññá?öõõõõõå?òñññññá?Q    x    9 -    u :  ¤ Q    ¢ k   • z  :    ¥ S    £ òñññññá?öõõõõõå?òñññññá?Q    : ‚   9 z ¢  x 6  ¦ S    ¥ òñññññá?öõõõõõå?òñññññá?R    ¦ E   R    ¤ F   O    Ÿ SDL/TYSA_COLOURS    œ òñññññá?öõõõõõå?òñññññá?Q    – e   • n  „ § ‘ ¨ Q    ~ {   9 | §  ‡ „  © R    ™ K   Q    § d   • |  ~ ˆ – ª R    © L   Q    ˆ c   • Z  ‡ « § ¬ S    ª òñññññá?öõõõõõå?òñññññá?Q    « b   • ‚  … ­ ˆ ® S    ¬ òñññññá?öõõõõõå?òñññññá?Q    … y   9 ‚ «   ‡  ¯ Q    ­ a   • 4   ° « ± S    ® òñññññá?öõõõõõå?òñññññá?Q     x   9 4 ­  2 …  ² Q    ° `   •   2 ³ ­ ´ S    ± òñññññá?öõõõõõå?òñññññá?Q    2 w   9  °  µ   ¶ Q    ³ _   • t  µ · ° ¸ S    ´ òñññññá?öõõõõõå?òñññññá? ÿt    µ   n™’¼Â l o 	 ¹ -   l 1 Q    µ v   9 t ³  º 2  » Q    · ^   • l  º ¼ ³ ½ S    ¸ òñññññá?öõõõõõå?òñññññá? l    º   n™’¼Ât a e 	 ¾ +  t a 1 Q    º u   9 l ·  ¿ µ  À Q    ¼ ]   • a  ¿ Á · Â S    ½ òñññññá?öõõõõõå?òñññññá? a    ¿   n™’¼Âl ‹ V 	 , +  l ‹ 1 Q    ¿ t   9 a ¼  Ã º  Ä Q    Á \   • ‹  Ã Å ¼ Æ S    Â òñññññá?öõõõõõå?òñññññá? ‹    Ã   n™’¼Âa  Š 	 Ç +  a  1 Q    Ã s   9 ‹ Á  È ¿  É Q    Å [   •   È Ê Á Ë S    Æ òñññññá?öõõõõõå?òñññññá?     È   n™’¼Â‹ *  	 Ì +  ‹ * 1 Q    È r   9  Å  Í Ã  Î Q    Ê Z   • *  Í  Å Ï S    Ë òñññññá?öõõõõõå?òñññññá? * !   Í   n™’¼Â  = 	 
+ +    1 Q    Í q   9 * Ê  Ğ È  Ñ S    Ï òñññññá?öõõõõõå?òñññññá?Q    Ğ p   9  Ò Ó  Í  Ô R    Ñ D   Q    Ò n   Õ  Ö Ğ   × Q    Ó ‹   “  Ğ '    Ø R    Ô >   P    “  Ù (#                     Q    ' Œ     Ó     Ú R    Ø     ÿÿÿÿ   €   T    Ú MEMORY1O    Ù AEDT_BODYFlagGroupColor_V1P    Õ Û Ü Q             Q    Ö m   İ  Ş Ò   ß T    × MEMORY1P    İ  à (#            Q    Ş Y   á   Ö   â R    ß     P    á • ã h                      S    â                         O    ã SDL/TYSA_COLOUR_2O    à AttGS_PS_LayerO    Ü SDL/TYSA_NAME 1           * R    Î C   2 Ì '     ¾ Ç  +      Ğ¿ü©ñÒMb?ö(\Âõğ¿                      ğ¿              ğ¿        2 ¾ &    l ¹ Ì  +ÍÌÌÌÌÌÜ¿ü©ñÒMb?ö(\Âõğ¿      ğ¿                                      ğ?2 Ç (    ‹ Ì ,  +gfffffÖ¿<ßO—n¢?…ëQ¸…ë¿       €      ğ?              ğ?                2 , )    a Ç 
+  +ÍÌÌÌÌÌÜ¿ü©ñÒMb?…ëQ¸å¿                      ğ?      ğ?                2 ¹ %    t  ¾  +gfffffÖ¿ü©ñÒMb?…ëQ¸…ë¿       €      ğ?              ğ?                R    É B   R    Ä A   R    À @   R    » ?   R    ¶ P   R    ² O   R    ¯ N   S    ¨ òñññññá?öõõõõõå?òñññññá?S    ˜ òñññññá?öõõõõõå?òñññññá?O    ” AEDT_EntityID_V1Q    Œ Š   9 /   H   ä Q    H ‰   9 F   P Œ  å R    ä R   Q    P ˆ   9 J   T H  æ R    å Q   R    æ S   R    ‰ M   R    y G   R    \ T   Q    L …   9 B   ; R  ç R    U U   Q    ; „   9 7   6 L  è R    ç V   R    è W   R    < X    + #       	  S J    )         Ş ¢ Ö Ò Œ Ó '              P    & 9 é (#                        T    ( Ceramic_materialO    é AEDT_MaterialName_V1  $end 'x_b'
+$begin 'x_b'
+Design_0.setup/NativeGeometryFiles/0000090.x_b
+BIN000000008388
+**ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz**************************
+**PARASOLID !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~0123456789**************************
+**PART1;
+MC=unknown;
+MC_MODEL=unknown;
+MC_ID=unknown;
+OS=unknown;
+OS_RELEASE=unknown;
+FRU=sdl_parasolid_customer_support;
+APPL=Electronics Desktop;
+SITE=unknown;
+USER=unknown;
+FORMAT=binary;
+GUISE=transmit;
+KEY=D:/temp/Gra69E77084169962831510.setup/Design_0.setup/NativeGeometryFiles/0000090.x_b;
+FILE=D:/temp/Gra69E77084169962831510.setup/Design_0.setup/NativeGeometryFiles/0000090.x_b;
+DATE=unknown;
+**PART2;
+SCH=SCH_3401241_34101;
+USFLD_SIZE=0;
+**PART3;
+**END_OF_HEADER*****************************************************************
+B3   : TRANSMIT FILE created by modeller version 3401241   SCH_3401241_34101_13006ç     ° PART_XMT_BLOCK	Part list	n_entries   dindex_map_offset   d	index_mapR  schema_embedding_mapR  mesh_offset_dataÎ  entriesí                  $CCCIlatticeŞ  CCCImeshî Ipolylineğ CCCCCCCDIowner CCCIboundary_latticeŞ  CCCIboundary_meshî Iboundary_polylineğ CCCAindex_map_offset   dA	index_mapR  Anode_id_index_mapR  Aschema_embedding_mapR  Achild  Alowest_node_id   dAmesh_offset_dataÎ  Z                 @@:Œ0âyE>    	  
+                                       @@:Œ0âyE>                           Q ÿ               F CI	list_type   uI
+notransmit   lCCCDCCDIfinger_index   dIfinger_blockô CZ                    ÿ             ÿ                                 	CCCCCCIframeæ  CAowner  Z          V  ÿ           n™’¼Â J CIindex_map_offset   dCCZ                                Q                Q                P CCCCCDIlegal_owners   lCZ      ! D                        S ÿ         @@O ÿ   ! SDL/TYSA_DENSITYP     " # (#                     T ÿ    UNIT=mmO    # AEDT_EntityName_V1P     $ % (#                     S     {®Gáz„?O    % AEDT_ExtentScale_V1Q        &  '     ( F                  ) )  	 $      *   +  2 ÿ
+ *    , -   +      è¿ü©ñÒMb?ö(\Âõğ¿      ğ¿                                      ğ? ÿ >    . /   +      è¿ü©ñÒMb?ö(\Âõğ¿              ğ?          2    0 1  š™™™™™á¿<ßO—n¢?…ëQ¸å¿       +  2  V  ÿ     3   n™’¼Â4  5 6         7 4  0 8   n™’¼Â Q    7 ƒ   9    : ;  <  ÿ4  = > ?  @   A + 0    ; @  B    n™’¼Â  8 +      C š™™™™™á¿<ßO—n¢?ö(\Âõğ¿ C ,    D 8 E š™™™™™á¿ü©ñÒMb?ö(\Âõğ¿ D    F G H  C   n™’¼Â  E -    I C J       è¿<ßO—n¢?…ëQ¸å¿ I    K L B M E   n™’¼Â  J .    N E O š™™™™™á¿ü©ñÒMb?…ëQ¸å¿ N 	   P Q M H J   n™’¼Â  O /    H J R       è¿ü©ñÒMb?ö(\Âõğ¿ H    S T N D O   n™’¼Â  R 0    M O 1       è¿ü©ñÒMb?…ëQ¸å¿ M    U V I N R   n™’¼Â  1 1    B R        è¿<ßO—n¢?ö(\Âõğ¿ B    W > 0 I 1   n™’¼Â Q    W …   9 B   ; K  X  >  = Y 4 B Z [  \ + ÿ= "    ? *   Y  = ? > I ] ^  _ + Z  ` G \  > [   - [    a   n™’¼Â> 5 b c     \  ` Z d B T .  ] + `     \ e   d  ` \ G H f g   + T  h i ] H \ .  j - .    k   n™’¼Â\ l ^      ]  h T _ B Y ^   - h     _ ,   _  h ] i I V m   + ^    n   n™’¼ÂY . m o    Q    n }   9 ^ p  k q  r  m    q   n™’¼Â_ ^ s t     o 9    ^ u v  +      è¿<ßO—n¢?ö(\Âõğ¿                      ğ? u 8    s w o  +      è¿ü©ñÒMb?ö(\Âõğ¿                      ğ? v :    x o y  +š™™™™™á¿ü©ñÒMb?…ëQ¸å¿                      ğ¿ x    z   n™’¼Â{ | g v     y ;    b v c  +      è¿<ßO—n¢?…ëQ¸å¿      ğ?                 b    }   n™’¼Â? [ l y     c <    [ y /  +š™™™™™á¿<ßO—n¢?ö(\Âõğ¿      ğ¿                 / =    | c   +      è¿ü©ñÒMb?…ëQ¸å¿      ğ?                 | 
+   ~   n™’¼Â s x /    Q    ~ €   9 | €   z  ‚    ƒ „ V N … |  † + s       n™’¼Âi m | u    Q        9 s ‡  q ~  ˆ  i  h _ T M j s  … + j  ‰ f … H i s  d - …  ‰ j † M  |   - ‰     f Š   †  ‰ … f N { x   - f  ‰ † j D d g   - {  ‹ A Q D † x  f + ‹     A Œ   A  ‹ @ {  G 5  Z + Q  ‹ { @ N „ l   - @  ‹ Q A 0 4   ? - „  ƒ L  0 Q l   + l       n™’¼Â„ b . w    Q     {   9 l   } k    w 7    l t u  +š™™™™™á¿ü©ñÒMb?…ëQ¸å¿              ğ?         t 6    m  w  +      è¿ü©ñÒMb?…ëQ¸å¿              ğ?          5    g ‘ t  +š™™™™™á¿ü©ñÒMb?ö(\Âõğ¿      ğ¿                 g    :   n™’¼Âd x       ‘ 4    5 6   +š™™™™™á¿ü©ñÒMb?ö(\Âõğ¿              ğ?         5    ’   n™’¼ÂA  [ ‘     6 3      ‘  +š™™™™™á¿<ßO—n¢?…ëQ¸å¿                      ğ¿Q    ’ x   9 5 “  3 a  ” P    9 • – (#                     Q    “ a   — 5  ’ ˜ ™ š Q    3 w   9  ˜  › ’  œ Q    a y   9 [ ™  ’ }   R ÿ   ” k   Q    ™ b   — [  a “  Ÿ Q    } z   9 b   a     R     j   Q     c   — b  } ™  ¡ R      i   P    —  ¢ A                       Q     d   — l    £ ¤ S    ¡ òñññññá?öõõõõõå?òñññññá?Q    £ e   — .  k  p ¥ S    ¤ òñññññá?öõõõõõå?òñññññá?Q    k |   9 . £   n  ¦ Q    p f   — ^  n £ § ¨ S    ¥ òñññññá?öõõõõõå?òñññññá?Q    § g   — m  q p ‡ © S    ¨ òñññññá?öõõõõõå?òñññññá?Q    q ~   9 m §  n   ª Q    ‡ h   — s   § € « S    © òñññññá?öõõõõõå?òñññññá?Q    € i   — |  ~ ‡ ¬ ­ S    « òñññññá?öõõõõõå?òñññññá?Q    ¬ j   — x  z € ® ¯ S    ­ òñññññá?öõõõõõå?òñññññá?Q    z    9 x ¬  ~ :  ° Q    ® k   — g  : ¬  ± S    ¯ òñññññá?öõõõõõå?òñññññá?Q    : ‚   9 g ®  z 7  ² S    ± òñññññá?öõõõõõå?òñññññá?R    ² a   R    ° b   R    ª e   R    ¦ g   O    ¢ SDL/TYSA_COLOURS    Ÿ òñññññá?öõõõõõå?òñññññá?Q    ˜ `   —   3 ³ “ ´ Q    › v   9 Š ³  µ 3  ¶ R    œ l    ÿŠ    ›   n™’¼Â , ‰ 	 · -   , 2 Q    ³ _   — Š  › ¸ ˜ ¹ Q    µ u   9 , ¸  º ›  » R    ¶ [    ,    µ   n™’¼ÂŠ ¼ h 	 
+ +  Š ¼ 2 Q    ¸ ^   — ,  µ ½ ³ ¾ Q    º t   9 ¼ ½  ¿ µ  À R    » \    ¼    º   n™’¼Â, e ƒ 	 Á +  , e 2 Q    ½ ]   — ¼  º Â ¸ Ã Q    ¿ s   9 e Â  Ä º  Å R    À ]    e    ¿   n™’¼Â¼ Œ ` 	 Æ +  ¼ Œ 2 Q    Â \   — e  ¿ Ç ½ È Q    Ä r   9 Œ Ç  É ¿  Ê R    Å ^    Œ    Ä   n™’¼Âe * ‹ 	 Ë +  e * 2 Q    Ç [   — Œ  Ä Ì Â Í Q    É q   9 * Ì  Î Ä  Ï R    Ê _    * !   É   n™’¼ÂŒ  = 	 - +  Œ  2 Q    Ì Z   — *  É  Ç Ğ Q    Î p   9  Ñ Ò  É  Ó R    Ï `   Q    Ñ n   Ô  Õ Î   Ö Q    Ò ‹   •  Î '    × R    Ó Z   P    •  Ø (#                     Q    ' Œ     Ò     Ù R    ×     ÿÿÿÿ   €   T 	   Ù MEMORY1_1O    Ø AEDT_BODYFlagGroupColor_V1P    Ô Ú Û Q             Q    Õ m   Ü  İ Ñ   Ş T 	   Ö MEMORY1_1P    Ü  ß (#            Q    İ Y   à   Õ   á R    Ş     P    à — â h                      S    á                         O    â SDL/TYSA_COLOUR_2O    ß AttGS_PS_LayerO    Û SDL/TYSA_NAMES    Ğ òñññññá?öõõõõõå?òñññññá?2 - )    * Ë 
+  +ÍÌÌÌÌÌä¿<ßO—n¢?…ëQ¸…ë¿       €      ğ?              ğ?                 2           * 2 Ë (    Œ Æ -  +š™™™™™á¿ü©ñÒMb?…ëQ¸å¿      ğ?                              ğ?        2 Æ '    e · Ë  +š™™™™™á¿ü©ñÒMb?ö(\Âõğ¿                      ğ¿              ğ¿        2 · &    Š Á Æ  +ÍÌÌÌÌÌä¿ü©ñÒMb?…ëQ¸…ë¿       €      ğ?              ğ?                2 Á %    ¼  ·  +      è¿ü©ñÒMb?…ëQ¸å¿                      ğ?      ğ?                S    Í òñññññá?öõõõõõå?òñññññá?S    È òñññññá?öõõõõõå?òñññññá?S    Ã òñññññá?öõõõõõå?òñññññá? ƒ     „ ¼  S    ¾ òñññññá?öõõõõõå?òñññññá?S    ¹ òñññññá?öõõõõõå?òñññññá?S    ´ òñññññá?öõõõõõå?òñññññá?S    š òñññññá?öõõõõõå?òñññññá?O    – AEDT_EntityID_V1R     h    L  ƒ V „ I ? b  Y - V  ƒ  L M _ m  i - ?  = 4 Y 0 L b  „ + G  ` d Z D A 5  { -R    ˆ d   R    ‚ c   R    r f   Q    ; „   9 0   7 W  ã Q    K †   9 I   W U  ä R    X r   Q    U ‡   9 M   K P  å R    ä q   Q    P ˆ   9 N   U S  æ R    å p   Q    S ‰   9 H   P F  ç R    æ o   Q    F Š   9 D   S   è R    ç m   R    è n   R    ã s   R    < t    + #       	  S J    )         İ ® Õ Ñ F Ò '              P    & 9 é (#                        T    ( Ceramic_materialO    é AEDT_MaterialName_V1  $end 'x_b'
+$begin 'x_b'
+Design_0.setup/NativeGeometryFiles/0000118.x_b
+BIN000000006156
+**ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz**************************
+**PARASOLID !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~0123456789**************************
+**PART1;
+MC=unknown;
+MC_MODEL=unknown;
+MC_ID=unknown;
+OS=unknown;
+OS_RELEASE=unknown;
+FRU=sdl_parasolid_customer_support;
+APPL=Electronics Desktop;
+SITE=unknown;
+USER=unknown;
+FORMAT=binary;
+GUISE=transmit;
+KEY=D:/temp/Gra69E77084169962831510.setup/Design_0.setup/NativeGeometryFiles/0000118.x_b;
+FILE=D:/temp/Gra69E77084169962831510.setup/Design_0.setup/NativeGeometryFiles/0000118.x_b;
+DATE=unknown;
+**PART2;
+SCH=SCH_3401241_34101;
+USFLD_SIZE=0;
+**PART3;
+**END_OF_HEADER*****************************************************************
+B3   : TRANSMIT FILE created by modeller version 3401241   SCH_3401241_34101_13006ç     ° PART_XMT_BLOCK	Part list	n_entries   dindex_map_offset   d	index_mapR  schema_embedding_mapR  mesh_offset_dataÎ  entriesí                  $CCCIlatticeŞ  CCCImeshî Ipolylineğ CCCCCCCDIowner CCCIboundary_latticeŞ  CCCIboundary_meshî Iboundary_polylineğ CCCAindex_map_offset   dA	index_mapR  Anode_id_index_mapR  Aschema_embedding_mapR  Achild  Alowest_node_id   dAmesh_offset_dataÎ  Z S                @@:Œ0âyE>    	  
+                                       @@:Œ0âyE>                           Q ÿ               F CI	list_type   uI
+notransmit   lCCCDCCDIfinger_index   dIfinger_blockô CZ                    ÿ             ÿ                                 	CCCCCCIframeæ  CAowner  Z          V  ÿ           n™’¼Â J CIindex_map_offset   dCCZ                                Q                Q                P CCCCCDIlegal_owners   lCZ      ! D                        S ÿ         @@O ÿ   ! SDL/TYSA_DENSITYP     " # (#                     T ÿ    UNIT=mmO    # AEDT_EntityName_V1P     $ % (#                     S     {®Gáz„?O    % AEDT_ExtentScale_V1Q     S   &  '     ( F                  ) )  	       *   +  3 ÿ
+     , -   +…ëQ¸…ë¿ü©ñÒMbĞ?      ğ¿       €      ğ¿       €š™™™™™©?      ğ¿                 ÿ $    . /   +…ëQ¸…ë¿ü©ñÒMb?      ğ¿              ğ¿              ğ?                š™™™™™©?      0 1  ìQ¸…ëé¿ü©ñÒMbĞ?      ğ¿       +  2  V  ÿ    3   n™’¼Â4  5 6         7 4  8 9   n™’¼Â Q    7 M   :    ; <  =  ÿ4  > ? ?  @   A + 8    < @  B C   n™’¼Â  9      C 1 ìQ¸…ëé¿ü©ñÒMb?      ğ¿ C     8  9 …ëQ¸í¿ü©ñÒMb?      ğ¿ 1     B 9  …ëQ¸í¿ü©ñÒMbĞ?      ğ¿ B    D E 8 0 1   n™’¼Â Q    D O   : B   < F  G  E  H I @ B J K  L - 0    F M B     n™’¼Â Q    F P   : 0   D   N  M  O P Q 0 A 5  I - ÿO 
+    J ,   P  O J M B R S   + Q  O M J  ? .   - A  H @ I  M 5  Q + 5    T   n™’¼ÂA  . U     I  H A E 0 L V  R + H     A W   L  X R R B I V  P - V    Y   n™’¼ÂI K S Z     R  X L L 0 P S   - X     R [   S    ;   n™’¼ÂP V  \    Q    ; L   : S ]  Y 7  ^  \ !    S 6 Z  +…ëQ¸…ë¿ü©ñÒMbĞ?      ğ¿              ğ¿              ğ?                š™™™™™©? 6       U \  +…ëQ¸…ë¿ü©ñÒMb?      ğ¿              ğ¿              ğ¿                š™™™™™©? Z "    V \ /  +…ëQ¸…ë¿ü©ñÒMbĞ?      ğ¿              ğ¿              ğ¿                š™™™™™©? ÿ/ #    K Z   +…ëQ¸í¿ü©ñÒMbĞ?      ğ¿              ğ¿         K    _   n™’¼ÂJ . V /    Q    _ J   : K `  a Y  b  J  O Q P 8 E K   + .    a   n™’¼Â? 5 K     Q    a I   : . c  T _  d  ?  > 4 4 8 Q .  J + >     ? *   ÿ*    e   n™’¼ÂW  > 	 f +  W  2 Q    e C   : * g  h i  j  W    i   n™’¼Â, * H 	 - +  , * 2 2 ÿf     * k -  +…ëQ¸…ë¿ü©ñÒMb?      ğ¿              ğ¿                              ğ¿ 2           * 2 k     [  f  +…ëQ¸…ë¿ü©ñÒMbĞ?      ğ¿              ğ¿                              ğ¿3 -     W f 
+  +…ëQ¸…ë¿ü©ñÒMbĞ?      ğ¿       €      ğ¿       €š™™™™™©?      ğ¿                 [    l   n™’¼Â , X 	 k -   , 2 Q    l F   : [ m  n 3  o  , 	   n   n™’¼Â[ W O 	 
+ +  [ W 2 Q    n E   : , p  i l  q P    : r s (#                     Q    p 6   t ,  n u m v Q    i D   : W u  e n  w R ÿ   q x   Q    u 5   t W  i g p x R    w y   P    t  y A                       Q    g 4   t *  e  u z S    x òñññññá?öõõõõõå?òñññññá?S    z òñññññá?öõõõõõå?òñññññá?O    y SDL/TYSA_COLOURQ    m 7   t [  l p { | S    v òñññññá?öõõõõõå?òñññññá?Q    { 8   t   3 m } ~ S    | òñññññá?öõõõõõå?òñññññá?Q    3 G   :  {  l T   Q    } 9   t 5  T { c € S    ~ òñññññá?öõõõõõå?òñññññá?Q    T H   : 5 }  3 a   Q    c :   t .  a } ` ‚ S    € òñññññá?öõõõõõå?òñññññá?Q    ` ;   t K  _ c ƒ „ S    ‚ òñññññá?öõõõõõå?òñññññá?Q    ƒ <   t V  Y ` ] … S    „ òñññññá?öõõõõõå?òñññññá?Q    Y K   : V ƒ  _ ;  † Q    ] =   t S  ; ƒ  ‡ S    … òñññññá?öõõõõõå?òñññññá?S    ‡ òñññññá?öõõõõõå?òñññññá?R    † |   R        R     €   O    s AEDT_EntityID_V1R    o w   Q    h B   :  ˆ ‰  e  Š R    j z   Q    ˆ @   ‹  Œ h    Q    ‰ Q   r  h '     R    Š v   P    r   (#                     Q    ' R     ‰      R         ÿÿÿÿÿ€ €   T 	    CAPACITORO     AEDT_BODYFlagGroupColor_V1P    ‹ ‘ ’ Q             Q    Œ ?   “  ” ˆ   • T 	    CAPACITORP    “  – (#            Q    ” 3   —   Œ   ˜ R    •     P    — t ™ h                      S    ˜         à?      ğ?O    ™ SDL/TYSA_COLOUR_2O    – AttGS_PS_LayerO    ’ SDL/TYSA_NAMER    d ~   R    b }    U     5  6  +ìQ¸…ëé¿ü©ñÒMbĞ?      ğ¿              ğ¿        R    ^ {    @  H E A 8 4   ? -R    N    Q    < N   : 8   7 D  š R    G ‚   R    š ƒ   R    = „    +        	  S J    )         ” ] Œ ˆ F ‰ '              P    & : › (#                        T    ( Ceramic_materialO    › AEDT_MaterialName_V1  $end 'x_b'
+$begin 'x_b'
+Design_0.setup/NativeGeometryFiles/0000134.x_b
+BIN000000006160
+**ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz**************************
+**PARASOLID !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~0123456789**************************
+**PART1;
+MC=unknown;
+MC_MODEL=unknown;
+MC_ID=unknown;
+OS=unknown;
+OS_RELEASE=unknown;
+FRU=sdl_parasolid_customer_support;
+APPL=Electronics Desktop;
+SITE=unknown;
+USER=unknown;
+FORMAT=binary;
+GUISE=transmit;
+KEY=D:/temp/Gra69E77084169962831510.setup/Design_0.setup/NativeGeometryFiles/0000134.x_b;
+FILE=D:/temp/Gra69E77084169962831510.setup/Design_0.setup/NativeGeometryFiles/0000134.x_b;
+DATE=unknown;
+**PART2;
+SCH=SCH_3401241_34101;
+USFLD_SIZE=0;
+**PART3;
+**END_OF_HEADER*****************************************************************
+B3   : TRANSMIT FILE created by modeller version 3401241   SCH_3401241_34101_13006ç     ° PART_XMT_BLOCK	Part list	n_entries   dindex_map_offset   d	index_mapR  schema_embedding_mapR  mesh_offset_dataÎ  entriesí                  $CCCIlatticeŞ  CCCImeshî Ipolylineğ CCCCCCCDIowner CCCIboundary_latticeŞ  CCCIboundary_meshî Iboundary_polylineğ CCCAindex_map_offset   dA	index_mapR  Anode_id_index_mapR  Aschema_embedding_mapR  Achild  Alowest_node_id   dAmesh_offset_dataÎ  Z S                @@:Œ0âyE>    	  
+                                       @@:Œ0âyE>                           Q ÿ               F CI	list_type   uI
+notransmit   lCCCDCCDIfinger_index   dIfinger_blockô CZ                    ÿ             ÿ                                 	CCCCCCIframeæ  CAowner  Z          V  ÿ           n™’¼Â J CIindex_map_offset   dCCZ                                Q                Q                P CCCCCDIlegal_owners   lCZ      ! D                        S ÿ         @@O ÿ   ! SDL/TYSA_DENSITYP     " # (#                     T ÿ    UNIT=mmO    # AEDT_EntityName_V1P     $ % (#                     S     {®Gáz„?O    % AEDT_ExtentScale_V1Q     S   &  '     ( F                  ) )  	       *   +  2 ÿ
+     , -   +      ğ¿ü©ñÒMbĞ?      ğ¿              ğ¿                              ğ¿ ÿ $    . /   +      ğ¿ü©ñÒMbĞ?      ğ¿              ğ¿              ğ?                š™™™™™©?      0 1  gfffffî¿ü©ñÒMbĞ?      ğ¿       +  2  V  ÿ    3   n™’¼Â4  5 6         7 4  8 9   n™’¼Â Q    7 M   :    ; <  =  ÿ4  > ? ?  @   A + 8    < @  B 1   n™’¼Â  9      C 1 gfffffî¿ü©ñÒMb?      ğ¿ C     B  9 ÍÌÌÌÌÌğ¿ü©ñÒMbĞ?      ğ¿ 1     8 9  ÍÌÌÌÌÌğ¿ü©ñÒMb?      ğ¿ B    D E 8 0 C   n™’¼Â Q    D O   : B   < F  G  E  H I @ B J K  L - 0    F M B     n™’¼Â Q    F P   : 0   D   N  M  O P Q 0 A 5  I - ÿO 
+    J R   P  O J M B S .   + Q  O M J  ? T   - A  H @ I  M 5  Q + 5    U   n™’¼ÂA  T V     I  H A E 0 L W  S + H     A *   L  X S S B I W  P - W    Y   n™’¼ÂI K . Z     S  X L L 0 P .   - X     S ,   .    ;   n™’¼ÂP W      Q    ; L   : . [  Y 7  \ P    : ] ^ (#                     Q    [ =   _ .  ; `  a Q    Y K   : W `  b ;  c R ÿ   \ ‹   Q    ` <   _ W  Y d [ e Q    b J   : K d  f Y  g R    c Œ    K    b   n™’¼ÂJ T W h    Q    d ;   _ K  b i ` j Q    f I   : T i  U b  k R    g     T    f   n™’¼Â? 5 K /    Q    i :   _ T  f l d m Q    U H   : 5 l  3 f  n R    k    Q    l 9   _ 5  U o i p Q    3 G   :  o  q U  r R    n    Q    o 8   _   3 s l t Q    q F   : , s  u 3  v R    r     ÿ,    q   n™’¼Â R X 	 
+ -   R 2 Q    s 7   _ ,  q w o x Q    u E   : R w  y q  z R    v ‡    R 	   u   n™’¼Â, { O 	 | +  , { 2 Q    w 6   _ R  u } s ~ Q    y D   : { }   u  € R    z ˆ    {    y   n™’¼ÂR * > 	 - +  R * 2 Q    } 5   _ {  y  w ‚ Q     C   : *   ƒ y  „ R    € ‰    *       n™’¼Â{  H 	 … +  {  2 Q     4   _ *    } † Q    ƒ B   :  ‡ ˆ    ‰ R    „ Š   Q    ‡ @   Š  ‹ ƒ   Œ Q    ˆ Q   ]  ƒ '     R    ‰ †   P    ]   (#                     Q    ' R     ˆ      R         ÿÿÿÿÿ€ €   T     CAPACITOR_1O     AEDT_BODYFlagGroupColor_V1P    Š  ‘ Q             Q    ‹ ?   ’  “ ‡   ” T    Œ CAPACITOR_1P    ’  • (#            Q    “ 3   –   ‹   — R    ”     P    – _ ˜ h                      S    —         à?      ğ?O    ˜ SDL/TYSA_COLOUR_2O    • AttGS_PS_LayerO    ‘ SDL/TYSA_NAMEP    _  ™ A                       S    † òñññññá?öõõõõõå?òñññññá?O    ™ SDL/TYSA_COLOUR3 ÿ…     * | -  +      ğ¿ü©ñÒMbĞ?      ğ¿       €      ğ¿       €š™™™™™©?      ğ¿                 2           * 3 |     R  …  +      ğ¿ü©ñÒMbĞ?      ğ¿       €      ğ¿       €š™™™™™©?      ğ¿                2 -     { … 
+  +      ğ¿ü©ñÒMb?      ğ¿              ğ¿                              ğ¿S    ‚ òñññññá?öõõõõõå?òñññññá? >     ? {   ?  > 4 4 8 Q T  J + J  O Q P 8 E K   +S    ~ òñññññá?öõõõõõå?òñññññá?S    x òñññññá?öõõõõõå?òñññññá?S    t òñññññá?öõõõõõå?òñññññá?S    p òñññññá?öõõõõõå?òñññññá?S    m òñññññá?öõõõõõå?òñññññá? / #    T 6   +      ğ¿ü©ñÒMb?      ğ¿              ğ¿              ğ?                š™™™™™©? 6 "     V /  +      ğ¿ü©ñÒMb?      ğ¿              ğ¿              ğ¿                š™™™™™©? ÿV !    5 Z 6  +gfffffî¿ü©ñÒMbĞ?      ğ¿              ğ¿         Z      W h V  +      ğ¿ü©ñÒMbĞ?      ğ¿              ğ¿              ğ¿                š™™™™™©? h     K  Z  +ÍÌÌÌÌÌğ¿ü©ñÒMbĞ?      ğ¿              ğ¿        S    j òñññññá?öõõõõõå?òñññññá?S    e òñññññá?öõõõõõå?òñññññá?S    a òñññññá?öõõõõõå?òñññññá?O    ^ AEDT_EntityID_V1 @  H E A 8 4   ? -R    N ‘   Q    < N   : 8   7 D  š R    G ’   R    š “   R    = ”    +        	  S J    )         “ [ ‹ ‡ F ˆ '              P    & : › (#                        T    ( Ceramic_materialO    › AEDT_MaterialName_V1  $end 'x_b'
+$begin 'x_b'
+Design_0.setup/NativeGeometryFiles/0000150.x_b
+BIN000000008374
+**ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz**************************
+**PARASOLID !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~0123456789**************************
+**PART1;
+MC=unknown;
+MC_MODEL=unknown;
+MC_ID=unknown;
+OS=unknown;
+OS_RELEASE=unknown;
+FRU=sdl_parasolid_customer_support;
+APPL=Electronics Desktop;
+SITE=unknown;
+USER=unknown;
+FORMAT=binary;
+GUISE=transmit;
+KEY=D:/temp/Gra69E77084169962831510.setup/Design_0.setup/NativeGeometryFiles/0000150.x_b;
+FILE=D:/temp/Gra69E77084169962831510.setup/Design_0.setup/NativeGeometryFiles/0000150.x_b;
+DATE=unknown;
+**PART2;
+SCH=SCH_3401241_34101;
+USFLD_SIZE=0;
+**PART3;
+**END_OF_HEADER*****************************************************************
+B3   : TRANSMIT FILE created by modeller version 3401241   SCH_3401241_34101_13006ç     ° PART_XMT_BLOCK	Part list	n_entries   dindex_map_offset   d	index_mapR  schema_embedding_mapR  mesh_offset_dataÎ  entriesí                  $CCCIlatticeŞ  CCCImeshî Ipolylineğ CCCCCCCDIowner CCCIboundary_latticeŞ  CCCIboundary_meshî Iboundary_polylineğ CCCAindex_map_offset   dA	index_mapR  Anode_id_index_mapR  Aschema_embedding_mapR  Achild  Alowest_node_id   dAmesh_offset_dataÎ  Z                 @@:Œ0âyE>    	  
+                                       @@:Œ0âyE>                           Q ÿ               F CI	list_type   uI
+notransmit   lCCCDCCDIfinger_index   dIfinger_blockô CZ                    ÿ             ÿ                                 	CCCCCCIframeæ  CAowner  Z          V  ÿ           n™’¼Â J CIindex_map_offset   dCCZ                                Q                Q                P CCCCCDIlegal_owners   lCZ      ! D                        S ÿ         @@O ÿ   ! SDL/TYSA_DENSITYP     " # (#                     T ÿ    UNIT=mmO    # AEDT_EntityName_V1P     $ % (#                     S     {®Gáz„?O    % AEDT_ExtentScale_V1Q        &  '     ( F                  ) )  	 $      *   +  2 ÿ
+ *    , -   +š™™™™™ù¿ü©ñÒMb?gfffffî¿                      ğ?      ğ?                 ÿ >    . /   +š™™™™™ù¿ã¥›Ä °Â?q=
+×£pñ¿      ğ?                  2    0 1  Zd;ßO÷¿ã¥›Ä °Â?q=
+×£pñ¿       +  2  V  ÿ     3   n™’¼Â4  . /         5 4  0 6   n™’¼Â Q    5 ƒ   7    8 9  :  ÿ4  ; < =  >   ? + 0    9 @  A    n™’¼Â  6 /     B C Zd;ßO÷¿ü©ñÒMb?q=
+×£pñ¿ B .    D E 6 š™™™™™ù¿ã¥›Ä °Â?q=
+×£pñ¿ C 0    F 6 1 Zd;ßO÷¿ü©ñÒMb?gfffffî¿ F    G < A D C   n™’¼Â  1 1    A C  Zd;ßO÷¿ã¥›Ä °Â?gfffffî¿ A    H I 0 F 1   n™’¼Â Q    H …   7 A   9 G  J  I  K L M A N O  P - ÿK     I Q   L  K R I F S T  U - M  K I R 0 ? V  N - N  W X P 0 I O   + O    Y   n™’¼ÂN Z [ \     P  W N ] A ^ [  S + W     P _   ]  W P X ` a b  c - ^  d e S ` P [  ] - [    f   n™’¼ÂP O T g     S  d ^ U A L T   + d     U ,   U  d S e F h i   + T    j   n™’¼ÂS [ i k    Q    j }   7 T l  f m  n  i    m   n™’¼ÂU T o p     k ;    T q g  +Zd;ßO÷¿ü©ñÒMb?gfffffî¿              ğ?         q :    r p k  +š™™™™™ù¿ü©ñÒMb?gfffffî¿              ğ?         g <    [ k /  +š™™™™™ù¿ã¥›Ä °Â?gfffffî¿      ğ?                 / =     g   +š™™™™™ù¿ü©ñÒMb?q=
+×£pñ¿      ğ?                 r    s   n™’¼Âc b t q     p 9    i u q  +š™™™™™ù¿ü©ñÒMb?gfffffî¿      ğ?                 u 8    b v p  +š™™™™™ù¿ã¥›Ä °Â?gfffffî¿                      ğ¿ b 
+   w   n™’¼Âa o r u     v 7    V \ u  +Zd;ßO÷¿ã¥›Ä °Â?q=
+×£pñ¿              ğ¿         V    x   n™’¼Â? . Z v     \ 6    O y v  +Zd;ßO÷¿ã¥›Ä °Â?gfffffî¿                      ğ¿ y 5    o z \  +š™™™™™ù¿ã¥›Ä °Â?q=
+×£pñ¿              ğ¿         o    {   n™’¼Â| i b y     z 4    t } y  +š™™™™™ù¿ü©ñÒMb?q=
+×£pñ¿                      ğ? t    8   n™’¼Â~ r  z     } 3    Z  z  +Zd;ßO÷¿ü©ñÒMb?q=
+×£pñ¿                      ğ? Z       n™’¼Â< V O }    Q     z   7 Z €  x Y    <  ; h 4 F R Z  L + ;     4 ‚   h  ; = < ƒ U i  e - R  K M L  < Z   - =  ; 4 h „ ~ t   - ƒ    … h ` „ †   n™’¼Â  e  d U ^ ƒ c r  ~ - c  ‡ a ~ ` e r   + ~  ‡ c | ƒ = t   + ‡     ~ ˆ   |  ‡ ~ a „ ‰ o  = + a  ‡ | c D ] b   + „    Š > ƒ  E   n™’¼Â  ‰  ‹ @ > D | o  a - ‹ "    @ *   @  ‹ ? ‰ 0 X .  M + >  ‹ ‰ ? „ 4   | - D    Œ X F ` B   n™’¼Â Q    Œ ‡   7 D   G     X  W ] N D @ .  ‰ - ` 	    ^ D ƒ    n™’¼Â Q     ˆ   7 `   Œ …     +    `  † š™™™™™ù¿ã¥›Ä °Â?gfffffî¿ † ,    ƒ  E š™™™™™ù¿ü©ñÒMb?gfffffî¿ E -    „ † B š™™™™™ù¿ü©ñÒMb?q=
+×£pñ¿P    7 ‘ ’ (#                     Q    … ‰   7 ƒ    Š  “ R ÿ    «   Q    Š Š   7 „   …   ” R    “ ª   R    ” ©   O    ’ AEDT_EntityID_V1 .    •   n™’¼Â@  V     Q    • x   7 . –  3 x  — Q    – a   ˜ .  • ™ š › Q    3 w   7  ™  œ •   Q    x y   7 V š  •    R    — §   Q    š b   ˜ V  x – € Ÿ R     ¦   P    ˜    A                       Q    € c   ˜ Z   š ¡ ¢ S    Ÿ òñññññá?öõõõõõå?òñññññá?Q    ¡ d   ˜ O  Y € £ ¤ S    ¢ òñññññá?öõõõõõå?òñññññá?Q    Y {   7 O ¡   f  ¥ Q    £ e   ˜ [  f ¡ l ¦ S    ¤ òñññññá?öõõõõõå?òñññññá?Q    f |   7 [ £  Y j  § Q    l f   ˜ T  j £ ¨ © S    ¦ òñññññá?öõõõõõå?òñññññá?Q    ¨ g   ˜ i  m l ª « S    © òñññññá?öõõõõõå?òñññññá?Q    m ~   7 i ¨  j {  ¬ Q    ª h   ˜ o  { ¨ ­ ® S    « òñññññá?öõõõõõå?òñññññá?Q    {    7 o ª  m w  ¯ Q    ­ i   ˜ b  w ª ° ± S    ® òñññññá?öõõõõõå?òñññññá?Q    w €   7 b ­  { s  ² Q    ° j   ˜ r  s ­ ³ ´ S    ± òñññññá?öõõõõõå?òñññññá?Q    s    7 r °  w 8  µ Q    ³ k   ˜ t  8 °  ¶ S    ´ òñññññá?öõõõõõå?òñññññá?Q    8 ‚   7 t ³  s 5  · S    ¶ òñññññá?öõõõõõå?òñññññá?R    ·    R    µ    R    ² Ÿ   R    ¯     R    ¬ ¡   R    § £   R    ¥ ¤   O      SDL/TYSA_COLOURQ    ™ `   ˜   3 ¸ – ¹ Q    œ v   7 ˆ ¸  º 3  » R     ¨    ÿˆ    œ   n™’¼Â , ‡ 	 ¼ +   , 2 Q    ¸ _   ˜ ˆ  œ ½ ™ ¾ Q    º u   7 , ½  ¿ œ  À R    » —    ,    º   n™’¼Âˆ Q d 	 
+ +  ˆ Q 2 Q    ½ ^   ˜ ,  º Á ¸ Â Q    ¿ t   7 Q Á  Ã º  Ä R    À ˜    Q    ¿   n™’¼Â, _ K 	 - -  , _ 2 Q    Á ]   ˜ Q  ¿ Å ½ Æ Q    Ã s   7 _ Å  Ç ¿  È R    Ä ™    _    Ã   n™’¼ÂQ ‚ W 	 É +  Q ‚ 2 Q    Å \   ˜ _  Ã Ê Á Ë Q    Ç r   7 ‚ Ê  Ì Ã  Í R    È š    ‚    Ç   n™’¼Â_ * ; 	 Î +  _ * 2 Q    Ê [   ˜ ‚  Ç Ï Å Ğ Q    Ì q   7 * Ï  Ñ Ç  Ò R    Í ›    * !   Ì   n™’¼Â‚  ‹ 	 Ó +  ‚  2 Q    Ï Z   ˜ *  Ì  Ê Ô Q    Ñ p   7  Õ Ö  Ì  × R    Ò œ   Q    Õ n   Ø  Ù Ñ   Ú Q    Ö ‹   ‘  Ñ '    Û R    × –   P    ‘  Ü (#                     Q    ' Œ     Ö     İ R    Û     ÿÿÿÿÀÀÀ€   T    İ KBO    Ü AEDT_BODYFlagGroupColor_V1P    Ø Ş ß Q             Q    Ù m   à  á Õ   â T    Ú KBP    à  ã (#            Q    á Y   ä   Ù   å R    â     P    ä ˜ æ h                      S    å è?è?è?O    æ SDL/TYSA_COLOUR_2O    ã AttGS_PS_LayerO    ß SDL/TYSA_NAMES    Ô òñññññá?öõõõõõå?òñññññá?2 Ó '    * É ¼  +š™™™™™ù¿ã¥›Ä °Â?q=
+×£pñ¿                      ğ¿              ğ¿         2           * 2 É &    _ Î Ó  +š™™™™™ù¿ã¥›Ä °Â?gfffffî¿       €      ğ?              ğ?                2 ¼ (    ˆ Ó -  +š™™™™™ù¿#Ûù~j¼´?R¸…ëQğ¿      ğ¿                                      ğ?2 - )    Q ¼ 
+  +Zd;ßO÷¿#Ûù~j¼´?R¸…ëQğ¿      ğ¿                                      ğ?2 Î %    ‚  É  +š™™™™™ù¿ü©ñÒMb?q=
+×£pñ¿              ğ¿                              ğ¿S    Ğ òñññññá?öõõõõõå?òñññññá?S    Ë òñññññá?öõõõõõå?òñññññá?S    Æ òñññññá?öõõõõõå?òñññññá?S    Â òñññññá?öõõõõõå?òñññññá?S    ¾ òñññññá?öõõõõõå?òñññññá?S    ¹ òñññññá?öõõõõõå?òñññññá?S    › òñññññá?öõõõõõå?òñññññá?Q    G †   7 F   H Œ  ç R     ¬   R    ç ­    ?  ‹ > @  M V  R +R     ¥   R    n ¢   Q    9 „   7 0   5 H  è R    J ®   R    è ¯   R    : °    + #       	  S J    )         á ³ Ù Õ Š Ö '              P    & 7 é (#                        T    ( Ceramic_materialO    é AEDT_MaterialName_V1  $end 'x_b'
+$begin 'x_b'
+Design_0.setup/NativeGeometryFiles/0000178.x_b
+BIN000000051187
+**ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz**************************
+**PARASOLID !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~0123456789**************************
+**PART1;
+MC=unknown;
+MC_MODEL=unknown;
+MC_ID=unknown;
+OS=unknown;
+OS_RELEASE=unknown;
+FRU=sdl_parasolid_customer_support;
+APPL=Electronics Desktop;
+SITE=unknown;
+USER=unknown;
+FORMAT=binary;
+GUISE=transmit;
+KEY=D:/temp/Gra69E77084169962831510.setup/Design_0.setup/NativeGeometryFiles/0000178.x_b;
+FILE=D:/temp/Gra69E77084169962831510.setup/Design_0.setup/NativeGeometryFiles/0000178.x_b;
+DATE=unknown;
+**PART2;
+SCH=SCH_3401241_34101;
+USFLD_SIZE=0;
+**PART3;
+**END_OF_HEADER*****************************************************************
+B3   : TRANSMIT FILE created by modeller version 3401241   SCH_3401241_34101_13006ç     ° PART_XMT_BLOCK	Part list	n_entries   dindex_map_offset   d	index_mapR  schema_embedding_mapR  mesh_offset_dataÎ  entriesí                  $CCCIlatticeŞ  CCCImeshî Ipolylineğ CCCCCCCDIowner CCCIboundary_latticeŞ  CCCIboundary_meshî Iboundary_polylineğ CCCAindex_map_offset   dA	index_mapR  Anode_id_index_mapR  Aschema_embedding_mapR  Achild  Alowest_node_id   dAmesh_offset_dataÎ  Z ¡               @@:Œ0âyE>    	  
+                                       @@:Œ0âyE>                           Q ÿ               F CI	list_type   uI
+notransmit   lCCCDCCDIfinger_index   dIfinger_blockô CZ                    ÿ             ÿ                                 	CCCCCCIframeæ  CAowner  Z          V  ÿ           n™’¼Â J CIindex_map_offset   dCCZ                                Q                Q                P CCCCCDIlegal_owners   lCZ      ! D                        S ÿ         @@O ÿ   ! SDL/TYSA_DENSITYP     " # (#                     T ÿ    UNIT=mmO    # AEDT_EntityName_V1P     $ % (#                     S     {®Gáz„?O    % AEDT_ExtentScale_V1Q     ¡  &  '     ( F                  ) )  	       *   +  2 ÿ
+ J   , -   +·Ö	m9·¿^üo%;Ò?Õxé&1Ô¿                      ğ¿              ğ¿         ÿ    . /   +·Ö	m9·¿^üo%;Ò?mçû©ñÒİ¿                      ğ¿  š   0 1  ·Ö	m9·¿^üo%;Ò?6^ºIË¿       +  2  V  ÿ   3   n™’¼Â4  5 6      ¾   7 8  9 :   n™’¼Â Q    7 O  ;    < =  >  ÿ8  ? @ A  B C  D - 9 ¼   = E  F G   n™’¼Â  : ‚    H I ·Ö	m9·¿&Ñ:ªš°?+‡ÙÎã¿ H    J K : ·Ö	m9·¿^üo%;Ò?#Ûù~j¼Ô¿ I ƒ   L : M Ãõ(\Âå¿^üo%;Ò?”V-â¿ L d   N O P Q I   n™’¼Â  M „   R I S Ãõ(\Âå¿&Ñ:ªš°?+‡ÙÎã¿ R %   T B U V M   n™’¼Â  S …   Q M W Ãõ(\Âå¿&Ñ:ªš°?”V-â¿ Q b   X Y L Z S   n™’¼Â  W †   [ S \ ·Ö	m9·¿^üo%;Ò?F¶óıÔxÑ¿ [ ª   ] ^ _ ` W   n™’¼Â  \ ‡   a W b Ãõ(\Âå¿&Ñ:ªš°?%•C‹à¿ a    c d e f \   n™’¼Â  b ˆ   g \ h ·Ö	m9·¿&Ñ:ªš°?øSã¥›ÄĞ¿ g    i j k l b   n™’¼Â  h ‰   m b n Ãõ(\Âå¿^üo%;Ò?mçû©ñÒİ¿ m W   o p q r h   n™’¼Â  n Š   s h t Ãõ(\Âå¿^üo%;Ò?F¶óıÔxÑ¿ s 9   u v w x n   n™’¼Â  t ‹   y n z ·Ö	m9·¿^üo%;Ò?L7‰A`åà¿ y Œ   { | } ~ t   n™’¼Â  z Œ    t € Ãõ(\Âå¿&Ñ:ªš°?Âõ(\Ú¿  M    ‚ ƒ „ z   n™’¼Â  €    … z † Ãõ(\Âå¿^üo%;Ò?333333Ã¿ … *   ‡ ˆ ‰ U €   n™’¼Â  †    V € Š Ãõ(\Âå¿^üo%;Ò?+‡ÙÎã¿ V $   ‹ Œ R k †   n™’¼Â  Š    k †  ·Ö	m9·¿^üo%;Ò?øSã¥›ÄĞ¿ k      V g Š   n™’¼Â       Š ‘ Ãõ(\Âå¿^üo%;Ò?6^ºIË¿  2   ’ “ ” •    n™’¼Â  ‘ ‘   –  — ·Ö	m9·¿&Ñ:ªš°?      Ø¿ –    ˜ ™ š › ‘   n™’¼Â  — ’   U ‘ G Ãõ(\Âå¿^üo%;Ò?)\Âõ(ä¿ U '   œ  … R —   n™’¼Â  G “   9 —  ·Ö	m9·¿^üo%;Ò?+‡ÙÎã¿  ”   ƒ G Ÿ Ãõ(\Âå¿^üo%;Ò?Âõ(\Ú¿ ƒ O     ¡ ¢     n™’¼Â  Ÿ •   £  ¤ ·Ö	m9·¿a«‹Ã™Ÿ?333333Ã¿ £ 	   ¥ ¦ § ¨ Ÿ   n™’¼Â  ¤ –   Z Ÿ © Ãõ(\Âå¿&Ñ:ªš°?L7‰A`åà¿ Z `   ª « Q ¬ ¤   n™’¼Â  © —   ­ ¤ ® ·Ö	m9·¿a«‹Ã™Ÿ?)\Âõ(ä¿ ­    ¯ ° ¨  ©   n™’¼Â  ® ˜   ± © 1 ·Ö	m9·¿^üo%;Ò?      Ø¿ ± ~   ² ³ ´ µ ®   n™’¼Â  1 ™   ¶ ®  ·Ö	m9·¿^üo%;Ò?Õxé&1Ô¿ ¶ ¤   · ¸ ¹ J 1   n™’¼Â Q    · [  ; ¶   º »  ¼  ¸  ½ ¾ ¿ ¶ À Á  Â - ¹ ¦   º Ã ` ¶ Ä   n™’¼Â  J ¢   » Å ¶ š H   n™’¼Â Q    » \  ; J   · Æ  Ç  Å  È É Ê J Ë Ì  ¾ - š     Æ Í J – Î   n™’¼Â Q    Æ ]  ; š   » ˜  Ï  Í  Ğ Ñ Ò š Ó Ô  É + Î y   š Õ Ö ·Ö	m9·¿&Ñ:ªš°?#Ûù~j¼Ô¿ Õ x   f × Î Ãõ(\Âå¿^üo%;Ò?%•C‹à¿ Ö z   x Î Ø Ãõ(\Âå¿&Ñ:ªš°?Ñ"Ûù~jÌ¿ x 6   Ù Ú s ” Ö   n™’¼Â  Ø {   ¢ Ö Ä Ãõ(\Âå¿^üo%;Ò?Ş$•CÛ¿ ¢ Q   Û Ü İ ƒ Ø   n™’¼Â  Ä |   ¹ Ø Ş ·Ö	m9·¿&Ñ:ªš°?Õxé&1Ô¿ Ş }   „ Ä ß Ãõ(\Âå¿&Ñ:ªš°?      Ø¿ „ K   à á  â Ş   n™’¼Â  ß ~   ´ Ş ã ·Ö	m9·¿^üo%;Ò?ºI+‡â¿ ´ ƒ   ä å æ ± ß   n™’¼Â  ã    ¨ ß K Ãõ(\Âå¿a«‹Ã™Ÿ?)\Âõ(ä¿ ¨    ç è £ ­ ã   n™’¼Â  K €   l ã H Ãõ(\Âå¿&Ñ:ªš°?øSã¥›ÄĞ¿ l    é ê g ë K   n™’¼Â Q    é •  ; l   i ì  í  ê  î ï ğ l ñ ò  ó + ë    ì ô l õ ö   n™’¼Â Q    ì –  ; ë   é ÷  ø  ô  ù ú v ë û ü  ı + õ    ÷ ş ë e ÿ   n™’¼Â  ö R   ë  Ãõ(\Âå¿^üo%;Ò?øSã¥›ÄĞ¿  Q   ö ·Ö	m9·¿&Ñ:ªš°?mçû©ñÒİ¿ S   ` ö ·Ö	m9·¿&Ñ:ªš°?F¶óıÔxÑ¿ ` ¨   [ ¹   n™’¼Â  T   Ãõ(\Âå¿^üo%;Ò?Õxé&1Ô¿ ?   	À 
+  n™’¼Â  U   æ ·Ö	m9·¿&Ñ:ªš°?ºI+‡â¿ æ „   ´   n™’¼Â  V   Ãõ(\Âå¿&Ñ:ªš°?ºI+‡â¿ h   P   n™’¼Â  W   e ·Ö	m9·¿&Ñ:ªš°?%•C‹à¿ e    õ a   n™’¼Â  X   Ãõ(\Âå¿&Ñ:ªš°?ÙÎ÷SãÅ¿ .   • ‰   n™’¼Â  Y   ·Ö	m9·¿&Ñ:ªš°?ÙÎ÷SãÅ¿ ³   4    n™’¼Â  Z   } !·Ö	m9·¿^üo%;Ò?»I+‡Ş¿ }    "#$y   n™’¼Â  ![   %Ãõ(\Âå¿&Ñ:ªš°?Õxé&1Ô¿ =   &'w !  n™’¼Â  %\   (!)·Ö	m9·¿^üo%;Ò?Âõ(\Ú¿ (™   *+› ,%  n™’¼Â  )]   › %-·Ö	m9·¿&Ñ:ªš°?Âõ(\Ú¿ › ›   ./– ()  n™’¼Â  -^   • )0Ãõ(\Âå¿&Ñ:ªš°?6^ºIË¿ • 0   12 -  n™’¼Â  0_   3-4·Ö	m9·¿&Ñ:ªš°?²ï§ÆK×¿ 3w   5Ñ µ 60  n™’¼Â  4`   F 0ÿ ·Ö	m9·¿^üo%;Ò?)\Âõ(ä¿ F º   789 94  n™’¼Â  ÿ a   õ 4:·Ö	m9·¿^üo%;Ò?%•C‹à¿ :b   § ÿ ;Ãõ(\Âå¿a«‹Ã™Ÿ?333333Ã¿ §    <=f £ :  n™’¼Â  ;c   
+:>Ãõ(\Âå¿^üo%;Ò?#Ûù~j¼Ô¿ 
+A   ?Ë @;  n™’¼Â  >d   r ;AÃõ(\Âå¿&Ñ:ªš°?mçû©ñÒİ¿ r U   BCm İ >  n™’¼Â  Ae   ¬ >DÃõ(\Âå¿^üo%;Ò?L7‰A`åà¿ ¬ ^   EFZ GA  n™’¼Â  Df   HAI·Ö	m9·¿&Ñ:ªš°?Ş$•CÛ¿ H•   JK,D  n™’¼Â  Ig   GDLÃõ(\Âå¿&Ñ:ªš°?»I+‡Ş¿ G[   MN¬ q I  n™’¼Â  Lh   _ IO·Ö	m9·¿^üo%;Ò?Ñ"Ûù~jÌ¿ _ ­   PQ0 [ L  n™’¼Â  Oi   ‰ LRÃõ(\Âå¿^üo%;Ò?ÙÎ÷SãÅ¿ ‰ ,   ST… O  n™’¼Â  Rj   µ OU·Ö	m9·¿^üo%;Ò?²ï§ÆK×¿ µ y   VW± 3R  n™’¼Â  Uk   RX·Ö	m9·¿&Ñ:ªš°?Ñ"Ûù~jÌ¿ m   YZ6U  n™’¼Â  Xl   q U[Ãõ(\Âå¿^üo%;Ò?»I+‡Ş¿ q Y   \]Gm X  n™’¼Â  [m   w X^Ãõ(\Âå¿&Ñ:ªš°?F¶óıÔxÑ¿ w ;   _`s [  n™’¼Â  ^n   ” [aÃõ(\Âå¿^üo%;Ò?Ñ"Ûù~jÌ¿ ” 4   bcx  ^  n™’¼Â  ao    ^d·Ö	m9·¿&Ñ:ªš°?6^ºIË¿  ±   ef0 a  n™’¼Â  dp   â agÃõ(\Âå¿^üo%;Ò?      Ø¿ â I   hi„ jd  n™’¼Â  gq   $dk·Ö	m9·¿^üo%;Ò?mçû©ñÒİ¿ $‘   lm} g  n™’¼Â  kr   ,gn·Ö	m9·¿^üo%;Ò?Ş$•CÛ¿ ,—   op(Hk  n™’¼Â  ns   qkrÃõ(\Âå¿&Ñ:ªš°?²ï§ÆK×¿ qE   stj@n  n™’¼Â  rt   6nu·Ö	m9·¿&Ñ:ªš°?»I+‡Ş¿ 6r   vw3r  n™’¼Â  uu   9rx·Ö	m9·¿^üo%;Ò?333333Ã¿ 9·   yzF u  n™’¼Â  xv   İ u× Ãõ(\Âå¿&Ñ:ªš°?Ş$•CÛ¿ İ S   {|r ¢ x  n™’¼Â  × w   jxÕ Ãõ(\Âå¿^üo%;Ò?²ï§ÆK×¿ jG   }~â q×   n™’¼Â Q    }  ; j  hs  ~ €‚jƒ„ …+ ÿ€u    †   €‡~qˆ‰ Š+ ‚ €~‡µ ‹Œ  - ƒ …µ ~„ ‚- „z     n™’¼Â~Œ‘    … ƒij’“ ˆ+ |    …”  i …â •– —+ ’ î ˜ˆâ …“  - “H   ™  n™’¼Â…š‰›    ˆ î ’Šj‰  - î "    œ  Š î ˆqÒ Ÿ  + ‰F      n™’¼Â“Ÿ¡   Q     0  ; ‰¢ ™£ ¤ ŸD   £  n™’¼ÂŠ‰¥¦    ¡¹   ‰§6  +Ãõ(\Âå¿^üo%;Ò?²ï§ÆK×¿              ğ¿         §¸   ¨©¡ +Ãõ(\Âå¿&Ñ:ªš°?F¶óıÔxÑ¿      ğ?                 6 º    ¡ª +Ãõ(\Âå¿&Ñ:ªš°?ÙÎ÷SãÅ¿      ğ?                 ª»   «6 ¬ +·Ö	m9·¿^üo%;Ò?F¶óıÔxÑ¿              ğ¿         «©   ­  n™’¼Â®¯°ª    ¬¼   ±ª² +·Ö	m9·¿a«‹Ã™Ÿ?)\Âõ(ä¿              ğ?         ±¹   ³  n™’¼Â´µ¶¬    ²½   ·¬¸ +·Ö	m9·¿^üo%;Ò?#Ûù~j¼Ô¿              ğ¿         ·¡   ¹  n™’¼ÂÉ º»²    ¸¾   ¼²½ +·Ö	m9·¿^üo%;Ò?»I+‡Ş¿      ğ¿                 ¼Ş   ¾  n™’¼Â]¿À¸    ½¿   ü ¸Á +Ãõ(\Âå¿^üo%;Ò?F¶óıÔxÑ¿                      ğ? ü 8   Â  n™’¼Âô Ãò ½    ÁÀ   Ä½Å +Ãõ(\Âå¿^üo%;Ò?L7‰A`åà¿              ğ¿         Ä_   Æ  n™’¼ÂÇÈÉÁ    ÅÁ   ÈÁÊ +Ãõ(\Âå¿&Ñ:ªš°?L7‰A`åà¿                      ğ¿ Èa   Ë  n™’¼ÂÌÍÄÅ    ÊÂ   ÎÅÏ +Ãõ(\Âå¿&Ñ:ªš°?ÙÎ÷SãÅ¿                      ğ¿ Î/   Ğ  n™’¼ÂÑÒÓÊ    ÏÃ   ÉÊÔ +Ãõ(\Âå¿^üo%;Ò?L7‰A`åà¿                      ğ? É]   Õ  n™’¼ÂÖÄ×Ï    ÔÄ   ò ÏØ +Ãõ(\Âå¿&Ñ:ªš°?Ñ"Ûù~jÌ¿                      ğ¿ ò 7   Ù  n™’¼Âê ü ÚÔ    ØÅ   ÛÔÜ +·Ö	m9·¿^üo%;Ò?+‡ÙÎã¿      ğ¿                 ÛÕ   İ  n™’¼ÂŒ ŞC Ø    ÜÆ   ŒØß +·Ö	m9·¿^üo%;Ò?²ï§ÆK×¿              ğ¿         Œx   à  n™’¼Â‹„áÜ    ßÇ   áÜâ +·Ö	m9·¿&Ñ:ªš°?²ï§ÆK×¿      ğ¿                 áv   ã  n™’¼ÂtŒäß    âÈ   Ãßå +Ãõ(\Âå¿^üo%;Ò?F¶óıÔxÑ¿              ğ¿         Ã:   æ  n™’¼Âçèü â    åÉ   µâé +·Ö	m9·¿^üo%;Ò?+‡ÙÎã¿                      ğ¿ µ»   ê  n™’¼Âëì±å    éÊ   íåî +·Ö	m9·¿&Ñ:ªš°?ºI+‡â¿                      ğ¿ í¿   ï  n™’¼ÂD ğìé    îË   ñéò +·Ö	m9·¿^üo%;Ò?»I+‡Ş¿              ğ¿         ñ   ó  n™’¼Âw. ôî    òÌ   õîö +·Ö	m9·¿^üo%;Ò?Âõ(\Ú¿                      ğ¿ õ˜   ÷  n™’¼Âøùúò    öÍ   òû +·Ö	m9·¿^üo%;Ò?²ï§ÆK×¿                      ğ¿ }   ü  n™’¼Â–„ö    ûÎ   –öı +·Ö	m9·¿^üo%;Ò?      Ø¿      ğ¿                 –   ş  n™’¼Âiÿû    ıÏ   Úû  +Ãõ(\Âå¿^üo%;Ò?Ñ"Ûù~jÌ¿              ğ¿         Ú5     n™’¼Âğ ò ı     Ğ   ı +·Ö	m9·¿^üo%;Ò?%•C‹à¿      ğ¿                      n™’¼Â     Ñ   Ş 	 +Ãõ(\Âå¿&Ñ:ªš°?L7‰A`åà¿      ğ?                 ŞØ   
+  n™’¼ÂÀÛ    	Ò   ù +·Ö	m9·¿^üo%;Ò?Âõ(\Ú¿              ğ¿         ùš     n™’¼Âõ	    Ó   »	 +·Ö	m9·¿&Ñ:ªš°?#Ûù~j¼Ô¿                      ğ¿ »Ÿ     n™’¼ÂÑ ·    Ô    +Ãõ(\Âå¿^üo%;Ò?)\Âõ(ä¿                      ğ? &     n™’¼Â    Õ   ì +·Ö	m9·¿^üo%;Ò?+‡ÙÎã¿              ğ¿         ì½     n™’¼Âíµ    Ö   Ì › +·Ö	m9·¿^üo%;Ò?#Ûù~j¼Ô¿      ğ¿                 Ì å     n™’¼ÂË Ô Á     ›×   “ +Ãõ(\Âå¿^üo%;Ò?      Ø¿                      ğ? Ø   › +·Ö	m9·¿^üo%;Ò?mçû©ñÒİ¿      ğ¿                 î      n™’¼Âp !"    Ù   #$ +Ãõ(\Âå¿&Ñ:ªš°?ºI+‡â¿      ğ?                 #Ñ   %  n™’¼ÂC &    $Ú   ' +Ãõ(\Âå¿^üo%;Ò?Ñ"Ûù~jÌ¿                      ğ? 3   (  n™’¼Â)ÚÒ$    'Û   Ô $* +Ãõ(\Âå¿&Ñ:ªš°?#Ûù~j¼Ô¿      ğ?                 Ô è   +  n™’¼ÂÍ "Ì '    *Ü   ,'- +·Ö	m9·¿^üo%;Ò?6^ºIË¿      ğ¿                 ,ô   .  n™’¼Â“ /!*    -İ   0*1 +·Ö	m9·¿^üo%;Ò?ÙÎ÷SãÅ¿              ğ¿         0´   2  n™’¼Â345-    1Ş   -6 +·Ö	m9·¿^üo%;Ò?%•C‹à¿              ğ¿            7  n™’¼Â891    6ß   ğ1: +Ãõ(\Âå¿&Ñ:ªš°?      Ø¿      ğ?                 ğÂ   ;  n™’¼Â™ <í6    :à   =6> +·Ö	m9·¿&Ñ:ªš°?øSã¥›ÄĞ¿      ğ¿                 =   ?  n™’¼Âó @:    >á   A:B +·Ö	m9·¿^üo%;Ò?ºI+‡â¿      ğ¿                 A  C  n™’¼ÂDEF>    Bâ   G>H +Ãõ(\Âå¿^üo%;Ò?ÙÎ÷SãÅ¿                      ğ? G+   I  n™’¼ÂJÓKB    Hã   ¥BL +Ãõ(\Âå¿^üo%;Ò?#Ûù~j¼Ô¿              ğ¿         ¥B   M  n™’¼ÂŸNH    Lä   H‘ +Ãõ(\Âå¿a«‹Ã™Ÿ?)\Âõ(ä¿              ğ?         (   O  n™’¼ÂPKL    ‘å   „LQ +·Ö	m9·¿^üo%;Ò?²ï§ÆK×¿      ğ¿                 Qæ   ¶‘R +·Ö	m9·¿a«‹Ã™Ÿ?333333Ã¿              ğ?         ¶¸   S  n™’¼ÂT±4Q    Rç   Á QU +·Ö	m9·¿^üo%;Ò?Õxé&1Ô¿      ğ¿                 Á ä   V  n™’¼ÂÀ Ì ¿R    Uè   <RW +·Ö	m9·¿&Ñ:ªš°?Âõ(\Ú¿      ğ¿                 <Å   X  n™’¼Â‚ YğU    Wé   UZ +Ãõ(\Âå¿^üo%;Ò?+‡ÙÎã¿              ğ¿         #   [  n™’¼ÂA \W    Zê   ]W^ +Ãõ(\Âå¿&Ñ:ªš°?Ş$•CÛ¿                      ğ¿ ]T   _  n™’¼Â`abZ    ^ë   cZd +·Ö	m9·¿&Ñ:ªš°?Ş$•CÛ¿                      ğ¿ c”   e  n™’¼Âfúg^    dì   è^h +Ãõ(\Âå¿&Ñ:ªš°?F¶óıÔxÑ¿                      ğ¿ è<   i  n™’¼ÂjkÃd    hí   ldm +·Ö	m9·¿^üo%;Ò?”V-â¿              ğ¿         l‡   n  n™’¼Âopqh    mî   hr +Ãõ(\Âå¿^üo%;Ò?øSã¥›ÄĞ¿              ğ¿            s  n™’¼Ât=m    rï   umv +·Ö	m9·¿^üo%;Ò?Ş$•CÛ¿      ğ¿                 uË   w  n™’¼ÂÜ &Yr    vğ   xry +·Ö	m9·¿^üo%;Ò?ÙÎ÷SãÅ¿      ğ¿                 xù   z  n™’¼ÂT{|v    yñ   C v} +·Ö	m9·¿&Ñ:ªš°?+‡ÙÎã¿      ğ¿                 C Ò   ~  n™’¼ÂB Û#y    }ò   y€ +·Ö	m9·¿^üo%;Ò?6^ºIË¿                      ğ¿ ®     n™’¼Â‚ƒ„}    €ó   F}… +·Ö	m9·¿^üo%;Ò?)\Âõ(ä¿      ğ¿                 Fÿ   †  n™’¼Â A{€    …ô   |€‡ +Ãõ(\Âå¿^üo%;Ò?333333Ã¿      ğ?                 |ø   ˆ  n™’¼Âzx/…    ‡õ   ä…‰ +·Ö	m9·¿&Ñ:ªš°?»I+‡Ş¿                      ğ¿ äs   Š  n™’¼Âá‹‡    ‰ö   Œ‡ +Ãõ(\Âå¿^üo%;Ò?Ş$•CÛ¿                      ğ? ŒP     n™’¼Âb‰    ÷   ‹‰‘ +Ãõ(\Âå¿&Ñ:ªš°?»I+‡Ş¿      ğ?                 ‹q   ’  n™’¼Â“ä”    ‘ø   ÿ• +·Ö	m9·¿^üo%;Ò?ºI+‡â¿              ğ¿         ÿ‚   –  n™’¼Â—q–‘    •ù   š‘˜ +Ãõ(\Âå¿^üo%;Ò?      Ø¿              ğ¿         šJ   ™  n™’¼Â˜š“•    ˜ú   /•› +·Ö	m9·¿^üo%;Ò?Ñ"Ûù~jÌ¿      ğ¿                 /õ   œ  n™’¼Âc|,˜    ›û   4˜ +·Ö	m9·¿^üo%;Ò?333333Ã¿                      ğ¿ 4¶     n™’¼ÂŸ¶0›    ü   ×›  +Ãõ(\Âå¿&Ñ:ªš°?»I+‡Ş¿                      ğ¿ ×\   ¡  n™’¼Âd É¢     ı   ƒ£ +·Ö	m9·¿^üo%;Ò?6^ºIË¿              ğ¿         ƒ°   ¤  n™’¼Â¥5     £ş    ¦ +Ãõ(\Âå¿^üo%;Ò?Âõ(\Ú¿              ğ¿         N   §  n™’¼Â¨Œš£    ¦ÿ   Y£© +·Ö	m9·¿^üo%;Ò?Âõ(\Ú¿      ğ¿                 YÈ   ª  n™’¼Â¡ u<¦    ©    ô¦« +·Ö	m9·¿^üo%;Ò?%•C‹à¿                      ğ¿ ô   ¬  n™’¼Â­ñ®©    «   ©¯ +·Ö	m9·¿&Ñ:ªš°?      Ø¿                      ğ¿ œ   °  n™’¼Â±ù«    ¯   º«² +·Ö	m9·¿^üo%;Ò?Õxé&1Ô¿                      ğ¿ º£   ³  n™’¼Â¾ ´·¯    ²   ”¯µ +·Ö	m9·¿&Ñ:ªš°?Ñ"Ûù~jÌ¿                      ğ¿ ”n   ¶  n™’¼Âj ‹·²    µ   !²¸ +·Ö	m9·¿^üo%;Ò?F¶óıÔxÑ¿      ğ¿                 !ñ   ¹  n™’¼Âv ,µ    ¸   ºµ» +Ãõ(\Âå¿a«‹Ã™Ÿ?333333Ã¿      ğ?                 º
+   ¼  n™’¼Â½¾¿¸    »   ú¸À +·Ö	m9·¿^üo%;Ò?Ş$•CÛ¿              ğ¿         ú–   Á  n™’¼ÂÂõc»    À   5»Ã +·Ö	m9·¿&Ñ:ªš°?ÙÎ÷SãÅ¿                      ğ¿ 5²   Ä  n™’¼ÂÅ0ƒÀ    Ã   qÀÆ +·Ö	m9·¿^üo%;Ò?”V-â¿                      ğ¿ q…   Ç  n™’¼ÂÈlÿÃ    Æ	   ¢ÃÉ +Ãõ(\Âå¿^üo%;Ò?»I+‡Ş¿              ğ¿         ¢Z   Ê  n™’¼ÂË×ÌÆ    É
+   ®ÆÍ +·Ö	m9·¿^üo%;Ò?L7‰A`åà¿              ğ¿         ®‹   Î  n™’¼ÂÏôpÉ    Í   KÉĞ +Ãõ(\Âå¿a«‹Ã™Ÿ?333333Ã¿              ğ?         K)   Ñ  n™’¼ÂÒGÍ    Ğ   ÓÍÔ +Ãõ(\Âå¿&Ñ:ªš°?ºI+‡â¿                      ğ¿ Ói   Õ  n™’¼ÂÖ·×Ğ    Ô   ·ĞØ +Ãõ(\Âå¿&Ñ:ªš°?Ñ"Ûù~jÌ¿      ğ?                 ·l   Ù  n™’¼ÂÚ”ÓÔ    Ø   °ÔÛ +·Ö	m9·¿&Ñ:ªš°?F¶óıÔxÑ¿                      ğ¿ °§   Ü  n™’¼Âİ«´Ø    Û   ÌØŞ +Ãõ(\Âå¿^üo%;Ò?»I+‡Ş¿                      ğ? ÌX   ß  n™’¼Âà¢aÛ    Ş   áÛ/  +Ãõ(\Âå¿^üo%;Ò?%•C‹à¿              ğ¿         á   â  n™’¼Âã9¾Ş    /    "Ş  +·Ö	m9·¿^üo%;Ò?”V-â¿      ğ¿                 "ë   ä  n™’¼ÂO Ô /    Q    ää  ; "å  + æ O  çèéL ê" ë+ çê    èì  è çíO Q îÍ Ì+ é çO íol ï- ê ğÈëO " é- ë ğêDL ñò î+ ğ   ëó  D ğëÈP å A ô+ ñ î õîP ëò  - òe   ö  n™’¼Âë×Í÷    î î ñÌL èÍ  - Ì î îÇQ øÈ  + Íc   ù  n™’¼ÂèòÈú   Q    ù!  ; Íû öË ü ú¶   Íı© +Ãõ(\Âå¿^üo%;Ò?”V-â¿              ğ¿         ıµ   \şú +·Ö	m9·¿^üo%;Ò?øSã¥›ÄĞ¿      ğ¿                 ©·   ×ú§ +Ãõ(\Âå¿^üo%;Ò?ºI+‡â¿              ğ¿         ×g   ÿ  n™’¼ÂõÓò©   Q    ÿ  ; ×  Õö  õ î Öñô×  + Ö î œõR Ó A + ô å P õ× ñ-    —  å  —ô´ DA È-  ô—# - P f   DL   n™’¼Â Q    r  ; P   N   L   P 	Ãõ(\Âå¿^üo%;Ò?ºI+‡â¿ K   @ Ãõ(\Âå¿&Ñ:ªš°?#Ûù~j¼Ô¿ 	M   
+·Ö	m9·¿^üo%;Ò?”V-â¿ †   êæ 	  n™’¼Â  
+N   	·Ö	m9·¿&Ñ:ªš°?”V-â¿ ˆ   í~ 
+  n™’¼Â  O   
+·Ö	m9·¿^üo%;Ò?ÙÎ÷SãÅ¿ µ   9  n™’¼Â  P   ~  ·Ö	m9·¿&Ñ:ªš°?L7‰A`åà¿ ~ Š   y   n™’¼Â Q    g  ; ~   {    ø~ « Ş Ï+ à       Y p o+ ø Y Z ÌÈ Ç- «  ÏZ Ş ø- Ï « | ~ ® + ×    Ï  |  Ïy FÀ ­-  ş y Ï®  -  o~ p  -       o ïél  + p‰     n™’¼Â®l   Q      ; p  În ! Ÿ   p"# +·Ö	m9·¿&Ñ:ªš°?L7‰A`åà¿                      ğ¿ "   &$ +Ãõ(\Âå¿&Ñ:ªš°?Ş$•CÛ¿      ğ?                 #    a% +Ãõ(\Âå¿^üo%;Ò?mçû©ñÒİ¿              ğ¿         aV   &  n™’¼Â'Ì]#    %¡   (#) +·Ö	m9·¿a«‹Ã™Ÿ?)\Âõ(ä¿      ğ¿                 (   <   n™’¼Â*¿ %    )¢   b%+ +Ãõ(\Âå¿^üo%;Ò?Ş$•CÛ¿              ğ¿         bR   ,  n™’¼Â-]Œ)    +£   5 ). +·Ö	m9·¿&Ñ:ªš°?Õxé&1Ô¿      ğ¿                 5 	  /  n™’¼Â' ¨+    .¤   ¿+÷ +·Ö	m9·¿&Ñ:ªš°?”V-â¿      ğ¿                 ¿á   0  n™’¼ÂY Á ¼.    ÷¥   ò.1 +Ãõ(\Âå¿^üo%;Ò?ºI+‡â¿                      ğ? 1¦   {÷2 +·Ö	m9·¿&Ñ:ªš°?6^ºIË¿      ğ¿                 {ü   3  n™’¼Â2Fx1    2§   k14 +Ãõ(\Âå¿^üo%;Ò?Õxé&1Ô¿              ğ¿         k>   5  n™’¼Â6Nè2    4¨   ¾27 +Ãõ(\Âå¿a«‹Ã™Ÿ?)\Âõ(ä¿                      ğ? ¾   8  n™’¼Â9áº4    7©   š4: +Ãõ(\Âå¿&Ñ:ªš°?      Ø¿                      ğ¿ šL   ;  n™’¼Â<š7    :ª   7= +·Ö	m9·¿^üo%;Ò?      Ø¿              ğ¿            >  n™’¼Â?»:    =«   À:@ +·Ö	m9·¿^üo%;Ò?L7‰A`åà¿      ğ¿                 ÀÙ   A  n™’¼ÂF¼Ş=    @¬   E=B +·Ö	m9·¿&Ñ:ªš°?mçû©ñÒİ¿      ğ¿                 E  C  n™’¼ÂC¨A@    B­   „@D +·Ö	m9·¿^üo%;Ò?Ñ"Ûù~jÌ¿              ğ¿         „¬   E  n™’¼ÂZ¯B    D®   ¯BF +·Ö	m9·¿^üo%;Ò?øSã¥›ÄĞ¿                      ğ¿ ¯«   G  n™’¼ÂH„«D    F¯   NDI +Ãõ(\Âå¿^üo%;Ò?#Ûù~j¼Ô¿                      ğ? N@   J  n™’¼Â¿ ¥kF    I°   ÒF¦ +Ãõ(\Âå¿^üo%;Ò?6^ºIË¿              ğ¿         Ò1   K  n™’¼ÂLÎI    ¦±   ŸIM +Ãõ(\Âå¿&Ñ:ªš°?#Ûù~j¼Ô¿                      ğ¿ M²   @¦N +·Ö	m9·¿^üo%;Ò?øSã¥›ÄĞ¿              ğ¿         @   O  n™’¼ÂP\=M    N³   ÓMş +Ãõ(\Âå¿^üo%;Ò?ÙÎ÷SãÅ¿              ğ¿         Ó-   Q  n™’¼ÂRÎGN    ş´   ¿Nı +·Ö	m9·¿a«‹Ã™Ÿ?333333Ã¿                      ğ¿ ¿   S  n™’¼ÂTº(ş   Q    SM  ; ¿U ¼<  V T ´¦ ­ W¿ X+ ´ YTF ° ±  + ¦  TZ£ T¶ ½- W [\X£ T¿  - X [W]­ *(  - [    X^  ] [X\¨ 9¾ *- * _P° ¨ X(  + _ş    P`  P _8*U è  a+ °  _*8­ ´± T- 8 _° PF  F ë-   bëU 8F P+ ë b E F Yµ ´+ b   ëc  E  bë9 Œ Û @ - Y ´9 ëµ  -  dY @ ì  + d æ D í —- @  ? Œ 8 9 ì Y- ? Ô    A e  Œ  ? A @ V E Û + A  ? 8 Œ R œ  +  bE  V a œ+ a î è œU   - œ î aÖV A   - è  î 9a¨ P ]- 9 î Òè § ]¾ \+ Ò î f9… =K  + \ []W§ ½º  - ½ gT=£ \º W+ g   Th  T gˆ ½9¦ ¶ Z+ = g½ˆ § ÒK 9- ˆ  g=T… z| J- z iŸJ9ˆ | T+ J izT… fG Ò+ i÷    Jj  T iJŸ‰ x k+ f î RÒ‰ JG  - R î ÑfkÓ  + Ñ î lR• mÎ  + k n‰ RÓ f- n   3o   n3kTx Ÿ-  nk34   m- 3 np0 q+ 4  rÅm  3+ m r4 2ÑÎ R- r   4 s  2 rmÅ• f{ L+ Å r24  q5 ¥+ f tuL 2{ Å- L tf“ • lÒ Ñ+ tû    Lv  “  tLu w, )+ l î xÑ LÒ  - x î ğ l” )  - ğ  î ê xx yÚ  + ) zwc x l+ zó    ){  w z‚)0 “ , u- c z)‚” Q/ y+ ‚ zcw_ | }+ Q ~Zy_ c/ ‚- y ~QÚ ” ğ Ú x- ~   Z*   Ú  ~yZx Ú· ñ - Z ~Ú Q}„ + Ú €j ñ Ú ·  + ñ  €Úó x ê ò  ğ - €k    Ú  ó  €ñ j l ‚= t+ j  €ó Úg ” P+ ‚ ƒ„tg ó =  - t ƒ‚ı l ï   + ƒ    t…  ı  ƒt„ë ú \ ï + ï  î û ê ë t  - û  î çï s ô ü   - ç î jû w †Ã  + j î ‡çˆè  + † ‰^ `s çÃ û - ‰   ®Š  ^  ‰®†[ v ! H- ` ‰†®w ¨ ˆ- ® ‰`^ ` ‹« Œ+  İˆ` `¨ ®+ ¨    n™’¼Â5 E§    ˆ 'w jè ç-      ' ˆİÃ 5  6+ İ '¹ Œ° + Ã  ‘Â 6¹ '5  İ- 6 ‘Ã À ‡k j+ ‘   6,   À  ‘6Â ¸ Á  ¿ + ‡ î ’j6k  - ’ î ‡
+¿ N  -  î Š’@Ê ¥  + ¿  ½ ¸ Ë ’N ‡+ ½ ã    ¿ “  Ë  ½ ¿ ¾ 
+Å Ì  Ê + ¾  ½ Ë ¸ J ”º •+ Ê  È Å Ó 
+¥ ’- È    É –  Ó  È Ê É @Í Ô  Ò - É  È Ó Å š •· —+ @C   ˜Ó q
+  n™’¼Â  Ò  Ğ Í t@ŠŸ - Ğ ç    Í ™  t Ğ Ò Ñ q‡á + Ñ  Ğ tÍ 3—» ‹+ ‡ €‚3tá  - — •‹š Ñ »  - ‹ —W3‚Œ ‡+ W ‹³ µ  ƒ- ³  Wš± ? •-  iƒ± W  + š ³ – ±  - ? ›á •– ³  š+ • ›?—± i– - ›Á    ?œ  — ›•á â ˜š ’- á  ›—?„ ™ ğ - ˜ î <’„ —š  + < î ˜ š  +  î Ÿ<ƒ ¨  -   ™ ‚ „ <š ˜-  Ä    ™ ¡  ™   ±– á ğ ?+ ‚   ± /< ¨+ ±  ‚ ™ › š + / ¢£¨› ‚ < ±- ¨ ¢/¡   <+ ¢Ç    ¨¤  ¡  ¢¨£ƒ +Y + £ ¢¡ /(ù ¥- + ¦ø(¡ Y £-  ¦+Ü ƒ ŸŒ + ¦Ê    §  Ü  ¦ø¢ pu ¨+ Ÿ î -¢ Œ  - - î `Ÿİ ¨b  + ` î ©-r ª]  + ¨ «p|¢ -b Ÿ- «Í    Â¬  p «Â¨,Ü u ø- | «¨Âİ K& ª- Â «|pH­ú ®+ K ¯fªH|& Â+ &Î   °  n™’¼ÂK#u"    ª ¯KCİ `] -- ¯   K±  C ¯ªfr ²E '+ f ¯CK®c ³+ ² ´µ'CE f- ' ´²p r ©a `+ ´   '¶  p  ´'µm m à+ © î ·`m 'a  - · î Ë©q àÌ  - Ë î d ·G¸¢  + à ¹m]m ·Ì ©+ ¹í    àº  m ¹»à$p  µ- ] ¹à»q #¼ ¸+ » ¹]m} ¼.  ½+ # ¾w¸} ]¼ »- ¸ ¾#Nq Ë¢ ·- ¾İ    w¿  N ¾¸wG“‹ À- w ¾N#6½ñ Á+ “ ÂÀ6N‹  + À Â“ÃGd × Ë- Âp    “Ä  Ã ÂÀa Å9 ã+ d  î ÆËa À× Ã+ Æ î Çd f ãá  - Ç î ÇÆ¬ ÖÉ  - f    ÈÖa § Õ   n™’¼Â  ã ÉÅa Æá  + É    ãÊ  Å ÉËãe Ã9  -  ÉãËf Ì Æ+ Ë ÉÅõ 8  - Ì Í­Öõ  Ë- ÍÛ    ÖÎ  ­ ÍFÌy ş ô + Ö ÍÌFf ÇÉ + F ÍÖ­¬ | À +  | « ¬ ÇÄ Ç- Ç î ÌÇZ Ä  + ş  8õ ­ô Ì- 8 Áş e Ë Å+ Á ½86ä “- ½ ¼Á} wñ  -  ÂÃ“e Áä 8+ ¼ ³½$».   - ³ ®¼µg  + .    Ï  n™’¼Â»gñ    Q    Ï  ; . Ğ Ñó Ò g’   Ñ  n™’¼Â³c. Ó   Q    Ñ  ; gÔ eÏ Õ Ó›   g Ö +·Ö	m9·¿^üo%;Ò?mçû©ñÒİ¿              ğ¿         Öœ   9Ó$ +·Ö	m9·¿&Ñ:ªš°?%•C‹à¿      ğ¿                 9   ×  n™’¼ÂÃáÖ    $   ´Ö" +·Ö	m9·¿^üo%;Ò?Õxé&1Ô¿              ğ¿         ´¥   Ø  n™’¼Â°º$   Q    Ø  ; ´Ù Ü³ Ú  Œ”¹ Â ´  + Œ ‹` İ°  - ” •¶ ¾ º  - Â  ‘À Ã ¶ ´ ”- • ”—J É ·  - ‹  Œ[ ®«  -   P‹k H¯ ú - P  g „@ ‚+ H ù v ú [  ¯ ‹+ ú  ù Hô k ı \ „- ù ğ    ô Û  \    Ü  n™’¼Âı @ı    „ ƒı ‚k P@  -Q    ÜC  ; \İ [O ŞP    ; ßà(#                     Q    İœ  á\ ÜâãäQ    [B  ; â Ü åQ    OD  ; @ã Ü? æR ÿ   Şè   Q    ã  á@ OİçèQ    ?E  ; =ç Os éR    æç   Q    ç  á= ?ãêëQ    sF  ; ê ? ìR    éæ   Q    êŸ  á sçíîQ    G  ; í s7 ïR    ìå   Q    í   á êğñQ    7H  ; ğ × òR    ïä   Q    ğ¡  á 7íóôQ    ×I  ; 9ó 7â õR    òã   Q    ó¢  á9 ×ğö÷Q    âJ  ; áö ×8 øR    õâ   Q    ö£  áá âóùúQ    8K  ; ¾ù â¼ ûR    øá   Q    ù¤  á¾ 8öüıQ    ¼L  ; ºü 8S şR    ûà   Q    ü¥  áº ¼ùUÿR    şß   P    á  A                       Q    U¦  á¿ SüS    ÿòñññññá?öõõõõõå?òñññññá?Q    §  á( < U S    òñññññá?öõõõõõå?òñññññá?Q    < N  ; ( S7  S    òñññññá?öõõõõõå?òñññññá?R    İ   O     SDL/TYSA_COLOURS    ıòñññññá?öõõõõõå?òñññññá?S    úòñññññá?öõõõõõå?òñññññá?S    ÷òñññññá?öõõõõõå?òñññññá?S    ôòñññññá?öõõõõõå?òñññññá?S    ñòñññññá?öõõõõõå?òñññññá?S    îòñññññá?öõõõõõå?òñññññá?S    ëòñññññá?öõõõõõå?òñññññá?S    èòñññññá?öõõõõõå?òñññññá?Q    â›  á [İQ    A  ;  O[ R    åé   Q    š  á â	Q    O@  ;  Ñ 
+R    ê   Q    ™  á OQ    Ñ?  ; K IO R    
+ë   Q    ˜  áK ÑQ    I>  ; G QÑ R    ì   Q    —  áG IQ    Q=  ; Ó ĞI R    í   Q    –  áÓ QQ    Ğ<  ; Î KQ R    î   Q    •  áÎ ĞQ    K;  ; Ò (Ğ R    ï   Q    ”  áÒ KQ    (:  ;  K R    ğ   Q    “  á (Q    9  ; Ú Ù( R    ñ   Q    ’  áÚ  !Q    Ù8  ; ò   Â "R    ò   Q     ‘  áò  Ù#$Q    Â7  ; ü # æÙ %R    "ó   Q    #  áü  Â& 'Q    æ6  ; Ã& iÂ (R    %ô   Q    &  áÃ æ)#*Q    i5  ; è) 5æ +R    (õ   Q    )  áè i,&-Q    54  ; k, Ji .R    +ö   Q    ,  ák 5/)0Q    J3  ; N/ M5 1R    .÷   Q    /Œ  áN J2,3Q    M2  ; ¥2 £J 4R    1ø   Q    2‹  á¥ M5/6Q    £1  ; Ÿ5  M 7R    4ù   Q    5Š  áŸ £¢28R    7ú   Q    ¢‰  á‰  95:S    8òñññññá?öõõõõõå?òñññññá?Q    9ˆ  á“ ™;¢<S    :òñññññá?öõõõõõå?òñññññá?Q    ™/  ; “9 ™  =Q    ;‡  áš ™>9?S    <òñññññá?öõõõõõå?òñññññá?Q    ™.  ; š; ;™ @Q    >†  áš ;A;BS    ?òñññññá?öõõõõõå?òñññññá?Q    ;-  ; š> §™ CQ    A…  á §D>ES    Bòñññññá?öõõõõõå?òñññññá?Q    §,  ; A ; FQ    D„  áŒ GAHS    Eòñññññá?öõõõõõå?òñññññá?Q    +  ; ŒD ,§ IQ    Gƒ  áb ,JDKS    Hòñññññá?öõõõõõå?òñññññá?Q    ,*  ; bG _ LQ    J‚  á] _MGNS    Kòñññññá?öõõõõõå?òñññññá?Q    _)  ; ]J &, OQ    M  áa &PJQS    Nòñññññá?öõõõõõå?òñññññá?Q    &(  ; aM ß_ RQ    P€  áÌ ßSMTS    Qòñññññá?öõõõõõå?òñññññá?Q    ß'  ; ÌP Ê& UQ    S  á¢ ÊVPWS    Tòñññññá?öõõõõõå?òñññññá?Q    Ê&  ; ¢S ¡ß XQ    V~  á× ¡YSZS    Wòñññññá?öõõõõõå?òñññññá?Q    ¡%  ; ×V ÕÊ [Q    Y}  áÉ Õ\V]S    Zòñññññá?öõõõõõå?òñññññá?Q    Õ$  ; ÉY Æ¡ ^Q    \|  áÄ Æ_Y`S    ]òñññññá?öõõõõõå?òñññññá?Q    Æ#  ; Ä\ ËÕ aQ    _{  áÈ Ëû\bS    `òñññññá?öõõõõõå?òñññññá?Q    Ë"  ; È_ ùÆ cQ    ûz  áÍ ùd_eS    bòñññññá?öõõõõõå?òñññññá?Q    dy  áò ö ûfS    eòñññññá?öõõõõõå?òñññññá?Q    ö   ; òd ÿù gQ     x  á× ÿhdiS    fòñññññá?öõõõõõå?òñññññá?Q    hw  áÓ Õj kS    iòñññññá?öõõõõõå?òñññññá?Q    Õ  ; Óh Ùÿ lQ    jv  á· ÙmhnS    kòñññññá?öõõõõõå?òñññññá?Q    Ù  ; ·j ¶Õ oQ    mu  á” ¶pjqS    nòñññññá?öõõõõõå?òñññññá?Q    ¶  ; ”m ’Ù rQ    pt  á‹ ’smtS    qòñññññá?öõõõõõå?òñññññá?Q    ’  ; ‹p Š¶ uQ    ss  áä ŠvpwS    tòñññññá?öõõõõõå?òñññññá?Q    Š  ; äs ã’ xQ    vr  áá ãyszS    wòñññññá?öõõõõõå?òñññññá?Q    ã  ; áv àŠ {Q    yq  áŒ à|v}S    zòñññññá?öõõõõõå?òñññññá?Q    à  ; Œy ã ~Q    |p  á„ y€S    }òñññññá?öõõõõõå?òñññññá?Q      ; „| üà Q    o  á ü‚|ƒS    €òñññññá?öõõõõõå?òñññññá?Q    ü  ;  ş „Q    ‚n  á– ş…†S    ƒòñññññá?öõõõõõå?òñññññá?Q    ş  ; –‚ –ü ‡Q    …m  áÿ –ˆ‚‰S    †òñññññá?öõõõõõå?òñññññá?Q    –  ; ÿ… Çş ŠQ    ˆl  áq Ç‹…ŒS    ‰òñññññá?öõõõõõå?òñññññá?Q    Ç  ; qˆ n– Q    ‹k  ál n ˆS    Œòñññññá?öõõõõõå?òñññññá?Q    n  ; l‹ Ç Q     j  áp ‹‘S    òñññññá?öõõõõõå?òñññññá?Q    i  á® Î’ “S    ‘òñññññá?öõõõõõå?òñññññá?Q    Î  ; ® ¬ ”Q    ’h  áô ¬•–S    “òñññññá?öõõõõõå?òñññññá?Q    ¬  ; ô’ óÎ —Q    •g  áñ óĞ’˜S    –òñññññá?öõõõõõå?òñññññá?Q    ó  ; ñ• Ï¬ ™Q    Ğf  á.  ÏÔ•šS    ˜òñññññá?öõõõõõå?òñññññá?Q    Ôe  ág Ñ›ĞœS    šòñññññá?öõõõõõå?òñññññá?Q    ›d  ác eÔS    œòñññññá?öõõõõõå?òñññññá?Q    e  ; c› ÁÑ ŸQ    c  áú Á ›¡S    òñññññá?öõõõõõå?òñññññá?Q    Á
+  ; ú ÷e ¢Q     b  áõ ÷£¤S    ¡òñññññá?öõõõõõå?òñññññá?Q    ÷	  ; õ  Á ¥Q    £a  áù ¦ §S    ¤òñññññá?öõõõõõå?òñññññá?Q      ; ù£ °÷ ¨Q    ¦`  á °©£ªS    §òñññññá?öõõõõõå?òñññññá?Q    °  ; ¦ > «Q    ©_  á >¬¦­S    ªòñññññá?öõõõõõå?òñññññá?Q    >  ; © ° ®Q    ¬^  á» ¯©°S    ­òñññññá?öõõõõõå?òñññññá?Q      ; »¬ ¹> ±Q    ¯]  á· ¹²¬³S    °òñññññá?öõõõõõå?òñññññá?Q    ¹  ; ·¯ ³ ´Q    ²\  áº ³Ù¯µS    ³òñññññá?öõõõõõå?òñññññá?Q    ³  ; º² Ø¹ ¶Q    Ù[  á´ Ø·²¸S    µòñññññá?öõõõõõå?òñññññá?Q    ·Z  á° Ü¹ÙºS    ¸òñññññá?öõõõõõå?òñññññá?Q    Ü  ; °· ­Ø »Q    ¹Y  á« ­¼·½S    ºòñññññá?öõõõõõå?òñññññá?Q    ­   ; «¹ GÜ ¾Q    ¼X  á¯ G¿¹ÀS    ½òñññññá?öõõõõõå?òñññññá?Q    Gÿ  ; ¯¼ E­ ÁQ    ¿W  á„ EÂ¼ÃS    Àòñññññá?öõõõõõå?òñññññá?Q    Eş  ; „¿ G ÄQ    ÂV  á Å¿ÆS    Ãòñññññá?öõõõõõå?òñññññá?Q    ı  ; Â ¤E ÇQ    ÅU  áƒ ¤ÈÂÉS    Æòñññññá?öõõõõõå?òñññññá?Q    ¤ü  ; ƒÅ Ä ÊQ    ÈT  á5 ÄËÅÌS    Éòñññññá?öõõõõõå?òñññññá?Q    Äû  ; 5È 2¤ ÍQ    ËS  á0 2ÎÈÏS    Ìòñññññá?öõõõõõå?òñññññá?Q    2ú  ; 0Ë Ä ĞQ    ÎR  á4 ÑËÒS    Ïòñññññá?öõõõõõå?òñññññá?Q    ù  ; 4Î S2 ÓQ    ÑQ  á¶ SÔÎÕS    Òòñññññá?öõõõõõå?òñññññá?Q    Sø  ; ¶Ñ ³ ÖQ    ÔP  á± ³×ÑØS    Õòñññññá?öõõõõõå?òñññññá?Q    ³÷  ; ±Ô êS ÙQ    ×O  áµ êÚÔÛS    Øòñññññá?öõõõõõå?òñññññá?Q    êö  ; µ× ³ ÜQ    ÚN  áì İ×ŞS    Ûòñññññá?öõõõõõå?òñññññá?Q    õ  ; ìÚ ïê ßQ    İM  áí ïàÚáS    Şòñññññá?öõõõõõå?òñññññá?Q    ïô  ; íİ ; âQ    àL  áğ ;ãİäS    áòñññññá?öõõõõõå?òñññññá?Q    ;ó  ; ğà Xï åQ    ãK  á< XæàçS    äòñññññá?öõõõõõå?òñññññá?Q    Xò  ; <ã ª; èQ    æJ  áY ªéãêS    çòñññññá?öõõõõõå?òñññññá?Q    ªñ  ; Yæ wX ëQ    éI  áu wìæíS    êòñññññá?öõõõõõå?òñññññá?Q    wğ  ; ué °ª îQ    ìH  á& °ïéğS    íòñññññá?öõõõõõå?òñññññá?Q    °ï  ; &ì %w ñQ    ïG  á# %òìóS    ğòñññññá?öõõõõõå?òñññññá?Q    %î  ; #ï ~° ôQ    òF  áC  ~õïöS    óòñññññá?öõõõõõå?òñññññá?Q    ~í  ; C ò İ% ÷Q    õE  áÛ İøòùS    öòñññññá?öõõõõõå?òñññññá?Q    İì  ; Ûõ 
+~ úQ    øD  áŞ 
+ûõüS    ùòñññññá?öõõõõõå?òñññññá?Q    
+ë  ; Şø Aİ ıQ    ûC  áÀ AşøÿS    üòñññññá?öõõõõõå?òñññññá?Q    Aê  ; Àû ¾
+  Q    şB  á¼ ¾ûS    ÿòñññññá?öõõõõõå?òñññññá?Q    ¾é  ; ¼ş 0A Q    A  á¿ 0şS    òñññññá?öõõõõõå?òñññññá?Q    0è  ; ¿ V¾ Q    @  áÁ  VS    òñññññá?öõõõõõå?òñññññá?Q    Vç  ; Á  0 	Q    ?  áÌ  
+S    òñññññá?öõõõõõå?òñññññá?Q    æ  ; Ì  +V Q    
+>  áÔ  +åS    òñññññá?öõõõõõå?òñññññá?Q    +å  ; Ô 
+ ä Q    å=  á" ä
+S    òñññññá?öõõõõõå?òñññññá?Q    <  á  åS    òñññññá?öõõõõõå?òñññññá?Q     ã  ;  ¹ä Q    ;  á! ¹S    òñññññá?öõõõõõå?òñññññá?Q    ¹â  ; ! .  Q    :  á, .S    òñññññá?öõõõõõå?òñññññá?Q    .á  ; , œ¹ Q    9  á/ œS    òñññññá?öõõõõõå?òñññññá?Q    œà  ; / ˆ. Q    8  á| ˆS    òñññññá?öõõõõõå?òñññññá?Q    ˆß  ; | zœ Q    7  áx z !S    òñññññá?öõõõõõå?òñññññá?Q    zŞ  ; x 3ˆ "Q     6  á{ 3#$S    !òñññññá?öõõõõõå?òñññññá?Q    3İ  ; {  †z %Q    #5  áF †& 'S    $òñññññá?öõõõõõå?òñññññá?Q    †Ü  ; F# C3 (Q    &4  áA C)#*S    'òñññññá?öõõõõõå?òñññññá?Q    CÛ  ; A& C† +Q    )3  áE C,&-S    *òñññññá?öõõõõõå?òñññññá?Q    CÚ  ; E) C .Q    ,2  á¨ /)0S    -òñññññá?öõõõõõå?òñññññá?Q    Ù  ; ¨, /C 1Q    /1  á5  /2,3S    0òñññññá?öõõõõõå?òñññññá?Q    /Ø  ; 5 / 3  4Q    20  á  3 5/6S    3òñññññá?öõõõõõå?òñññññá?Q    3 ×  ;  2 7/ 8Q    5/  á^ 792:S    6òñññññá?öõõõõõå?òñññññá? ÿ^   7  n™’¼Â Ê[	 ;-   Ê2 Q    7Ö  ; ^5 <3  =Q    9.  áÊ <>5?S    :òñññññá?öõõõõõå?òñññññá? Ê   <  n™’¼Â^…É	 @-  ^…2 Q    <Õ  ; Ê9 A7 BQ    >-  á… AC9DS    ?òñññññá?öõõõõõå?òñññññá? …   A  n™’¼ÂÊƒ	 E-  Ê2 Q    AÔ  ; …> F< GQ    C,  á FH>IS    Dòñññññá?öõõõõõå?òñññññá? !   F  n™’¼Â…î 	 J+  …2 Q    FÓ  ; C KA LQ    H+  á KMCNS    Iòñññññá?öõõõõõå?òñññññá? j   K  n™’¼ÂÄ€	 O+  Ä2 Q    KÒ  ; H PF QQ    M*  áÄ PRHSS    Nòñññññá?öõõõõõå?òñññññá? Äo   P  n™’¼Â†Â	 T+  †2 Q    PÑ  ; ÄM UK VQ    R)  á† UWMXS    Sòñññññá?öõõõõõå?òñññññá? †t   U  n™’¼ÂÄ”€	 Y-  Ä”2 Q    UĞ  ; †R ZP [Q    W(  á” Z\R]S    Xòñññññá?öõõõõõå?òñññññá? ”{   Z  n™’¼Â†	 ^+  †2 Q    ZÏ  ; ”W _U `Q    \'  á _aWbS    ]òñññññá?öõõõõõå?òñññññá? €   _  n™’¼Â”œ	 c+  ”œ2 Q    _Î  ; \ dZ eQ    a&  áœ df\gS    bòñññññá?öõõõõõå?òñññññá? œÀ   d  n™’¼Â¡›	 h-  ¡2 Q    dÍ  ; œa i_ jQ    f%  á¡ ikalS    gòñññññá?öõõõõõå?òñññññá? ¡Ã   i  n™’¼Âœ¤ 	 m+  œ¤2 Q    iÌ  ; ¡f nd oQ    k$  á¤ npfqS    lòñññññá?öõõõõõå?òñññññá? ¤Æ   n  n™’¼Â¡§¢	 r-  ¡§2 Q    nË  ; ¤k si tQ    p#  á§ sukvS    qòñññññá?öõõõõõå?òñññññá? §É   s  n™’¼Â¤¬¦	 w+  ¤¬2 Q    sÊ  ; §p xn yQ    u"  á¬ xzp{S    vòñññññá?öõõõõõå?òñññññá? ¬Ì   x  n™’¼Â§|«	 }-  §|2 Q    xÉ  ; ¬u ~s Q    z!  á| ~€uS    {òñññññá?öõõõõõå?òñññññá? |Ï   ~  n™’¼Â¬e‚	 ƒ+  ¬e2 Q    ~È  ; |z „x …Q    €   áe „†z‡S    òñññññá?öõõõõõå?òñññññá? eÓ   „  n™’¼Â|? 	 ˆ-  |2 Q    „Ç  ; e€ ‰~ ŠQ    †  á ‰‹€ŒS    ‡òñññññá?öõõõõõå?òñññññá? Ö   ‰  n™’¼ÂeÎ	 -  eÎ2 Q    ‰Æ  ; † „ Q    ‹  áÎ †‘S    Œòñññññá?öõõõõõå?òñññññá? ÎÚ     n™’¼Â¿Í	 ’+  ¿2 Q    Å  ; Î‹ “‰ ”Q      á¿ “•‹–S    ‘òñññññá?öõõõõõå?òñññññá? ¿Ü   “  n™’¼ÂÎ¾	 —-  Î2 Q    “Ä  ; ¿ ˜ ™Q    •  á ˜š›S    –òñññññá?öõõõõõå?òñññññá? ß   ˜  n™’¼Â¿“	 - +  ¿“2 Q    ˜Ã  ; • œ“ Q    š  á“ œ•ŸS    ›òñññññá?öõõõõõå?òñññññá? “â   œ  n™’¼Â™½ 	  +  ™2 Q    œÂ  ; “š ¡˜ ¢Q      á™ ¡£š¤S    Ÿòñññññá?öõõõõõå?òñññññá? ™æ   ¡  n™’¼Â“ìĞ 	 ¥+  “ì2 Q    ¡Á  ; ™ ¦œ §Q    £  áì ¦¨©S    ¤òñññññá?öõõõõõå?òñññññá? ìé   ¦  n™’¼Â™ºç	 ª-  ™º2 Q    ¦À  ; ì£ «¡ ¬Q    ¨  áº «­£®S    ©òñññññá?öõõõõõå?òñññññá? ºì   «  n™’¼ÂìÛ¹	 ¯+  ìÛ2 Q    «¿  ; º¨ °¦ ±Q    ­  áÛ °²¨³S    ®òñññññá?öõõõõõå?òñññññá? Ûï   °  n™’¼Âº{ù 	 ´+  º{2 Q    °¾  ; Û­ µ« ¶Q    ²  á{ µ·­¸S    ³òñññññá?öõõõõõå?òñññññá? {ò   µ  n™’¼ÂÛjz	 ¹+  Ûj2 Q    µ½  ; {² º° »Q    ·  áj º¼²½S    ¸òñññññá?öõõõõõå?òñññññá? jö   º  n™’¼Â{vi	 ¾+  {v2 Q    º¼  ; j· ¿µ ÀQ    ¼  áv ¿Á·ÂS    ½òñññññá?öõõõõõå?òñññññá? vú   ¿  n™’¼Âj`t	 Ã-  j`2 Q    ¿»  ; v¼ Äº ÅQ    Á  á` ÄÆ¼ÇS    Âòñññññá?öõõõõõå?òñññññá? `ı   Ä  n™’¼Âvó_	 È+  vó2 Q    Äº  ; `Á É¿ ÊQ    Æ  áó ÉËÁÌS    Çòñññññá?öõõõõõå?òñññññá? ó   É  n™’¼Â`±ğ	 Í+  `±2 Q    É¹  ; óÆ ÎÄ ÏQ    Ë  á± ÎĞÆÑS    Ìòñññññá?öõõõõõå?òñññññá? ±  Î  n™’¼Âó¯	 Ò+  ó2 Q    Î¸  ; ±Ë ÓÉ ÔQ    Ğ  á ÓÕËÖS    Ñòñññññá?öõõõõõå?òñññññá?   Ó  n™’¼Â±, 	 ×+  ±, 2 Q    Ó·  ; Ğ ØÎ ÙQ    Õ  á,  ØÚĞÛS    Öòñññññá?öõõõõõå?òñññññá? , 
+  Ø  n™’¼ÂŠ‘	 
+ -  Š2 Q    Ø¶  ; , Õ ÜÓ İQ    Ú  áŠ ÜŞÕßS    Ûòñññññá?öõõõõõå?òñññññá? Š  Ü  n™’¼Â, ¶‰	 à-  , ¶2 Q    Üµ  ; ŠÚ áØ âQ    Ş  á¶ áãÚäS    ßòñññññá?öõõõõõå?òñññññá? ¶  á  n™’¼ÂŠ–´	 å-  Š–2 Q    á´  ; ¶Ş æÜ çQ    ã  á– æèŞéS    äòñññññá?öõõõõõå?òñññññá? –  æ  n™’¼Â¶sÈ 	 ê-  ¶s2 Q    æ³  ; –ã ëá ìQ    è  ás ëíãîS    éòñññññá?öõõõõõå?òñññññá? s  ë  n™’¼Â–or	 ï+  –o2 Q    ë²  ; sè ğæ ñQ    í
+  áo ğòèóS    îòñññññá?öõõõõõå?òñññññá? o  ğ  n™’¼Âscn	 ô-  sc2 Q    ğ±  ; oí õë öQ    ò	  ác õ÷íøS    óòñññññá?öõõõõõå?òñññññá? c  õ  n™’¼Âob	 ù+  o2 Q    õ°  ; cò úğ ûQ    ÷  á úüòıS    øòñññññá?öõõõõõå?òñññññá?   ú  n™’¼Âch	 ş-  ch2 Q    ú¯  ; ÷ ÿõ  Q    ü  áh ÿ÷S    ıòñññññá?öõõõõõå?òñññññá? h  ÿ  n™’¼Â* g	 +  * 2 Q    ÿ®  ; hü ú Q      á*   üS    òñññññá?öõõõõõå?òñññññá? *     n™’¼Âh ~	 -  h 2 Q    ­  ; *  ÿ 	S    òñññññá?öõõõõõå?òñññññá?Q    ¬  ;  
+  R    	Ü   Q    
+ª     Q    Ÿ  ß '    R    ²   P    ß (#                     Q    '          R        ÿÿÿÿëëè€   T 	   HEAT_SINKO    AEDT_BODYFlagGroupColor_V1P    Q             Q    ©   
+  T 	   HEAT_SINKP     (#            Q          R        P    áh                      S    í?}}}}}}í?}}}}}}í?O    SDL/TYSA_COLOUR_2O    AttGS_PS_LayerO    SDL/TYSA_NAME2 %   * r¹ +Ãõ(\Âå¿^üo%;Ò?Ñ"Ûù~jÌ¿                      ğ?      ğ?                 2           * 2 r$   ¤ +·Ö	m9·¿^üo%;Ò?Âõ(\Ú¿                      ğ¿              ğ¿        2 ¹&   {× +šğKı¼©Ø¿^üo%;Ò?ö(\ÂõØ¿       €      ğ?              ğ?                2 ×'   ¹Y +šğKı¼©Ø¿&Ñ:ªš°?ö(\ÂõØ¿       €      ğ?              ğ?                2 Y(   †×à +·Ö	m9·¿^üo%;Ò?²ï§ÆK×¿                      ğ¿              ğ¿        2 à)   ŠYå +Ãõ(\Âå¿^üo%;Ò?F¶óıÔxÑ¿                      ğ?      ğ?                2 å*   ¶àm +·Ö	m9·¿^üo%;Ò?mçû©ñÒİ¿                      ğ¿              ğ¿        2 m+   ¡å} +šğKı¼©Ø¿&Ñ:ªš°?ö(\ÂõØ¿       €      ğ?              ğ?                2 },   ¬m  +Ãõ(\Âå¿^üo%;Ò?Ş$•CÛ¿                      ğ?      ğ?                2  -   “}È +šğKı¼©Ø¿^üo%;Ò?ö(\ÂõØ¿       €      ğ?              ğ?                2 È.   ` J +·Ö	m9·¿a«‹Ã™Ÿ?)\Âõ(ä¿                      ğ¿              ğ¿        2 J/   ÈT +Ãõ(\Âå¿a«‹Ã™Ÿ?)\Âõ(ä¿      ğ¿                                      ğ?2 T0   ÄJÍ +šğKı¼©Ø¿&Ñ:ªš°?ö(\ÂõØ¿       €      ğ?              ğ?                2 Í1   óTˆ +šğKı¼©Ø¿^üo%;Ò?ö(\ÂõØ¿       €      ğ?              ğ?                2 ˆ2   eÍ@ +·Ö	m9·¿^üo%;Ò?+‡ÙÎã¿                      ğ¿              ğ¿        2 @3   ÊˆÒ +·Ö	m9·¿^üo%;Ò?%•C‹à¿                      ğ¿              ğ¿        2 Ò4   ±@ê +šğKı¼©Ø¿&Ñ:ªš°?ö(\ÂõØ¿       €      ğ?              ğ?                2 ê5   –Òô +Ãõ(\Âå¿^üo%;Ò?#Ûù~j¼Ô¿                      ğ?      ğ?                2 ô6   oê— +Ãõ(\Âå¿^üo%;Ò?ÙÎ÷SãÅ¿                      ğ?      ğ?                2 —7   ¿ôù +Ãõ(\Âå¿^üo%;Ò?»I+‡Ş¿                      ğ?      ğ?                2 ù8   c—ş +šğKı¼©Ø¿^üo%;Ò?ö(\ÂõØ¿       €      ğ?              ğ?                2 ş9   ù¯ +Ãõ(\Âå¿^üo%;Ò?ºI+‡â¿                      ğ?      ğ?                2 ¯:   ºşw +šğKı¼©Ø¿^üo%;Ò?ö(\ÂõØ¿       €      ğ?              ğ?                2 w;   §¯´ +šğKı¼©Ø¿^üo%;Ò?ö(\ÂõØ¿       €      ğ?              ğ?                2 ´<   Ûw¥ +šğKı¼©Ø¿^üo%;Ò?ö(\ÂõØ¿       €      ğ?              ğ?                2 ¥=   ™´¾ +šğKı¼©Ø¿&Ñ:ªš°?ö(\ÂõØ¿       €      ğ?              ğ?                2 ¾>   j¥Ã +šğKı¼©Ø¿^üo%;Ò?ö(\ÂõØ¿       €      ğ?              ğ?                2 Ã?   v¾ +·Ö	m9·¿^üo%;Ò?6^ºIË¿                      ğ¿              ğ¿        2 @   Ãc +Ãõ(\Âå¿^üo%;Ò?L7‰A`åà¿                      ğ?      ğ?                2 cA   ’ +·Ö	m9·¿a«‹Ã™Ÿ?333333Ã¿      ğ?                              ğ?        2 ’B   ÎcE +šğKı¼©Ø¿^üo%;Ò?ö(\ÂõØ¿       €      ğ?              ğ?                2 EC   …’h +·Ö	m9·¿^üo%;Ò?øSã¥›ÄĞ¿                      ğ¿              ğ¿        2 hD   œE; +Ãõ(\Âå¿^üo%;Ò?      Ø¿                      ğ?      ğ?                2 ;E   ^hO +šğKı¼©Ø¿a«‹Ã™Ÿ?ö(\ÂõØ¿       €      ğ?              ğ?                2 OF   ;ª +šğKı¼©Ø¿&Ñ:ªš°?ö(\ÂõØ¿       €      ğ?              ğ?                2 ªG   ìOƒ +·Ö	m9·¿^üo%;Ò?”V-â¿                      ğ¿              ğ¿        2 ƒH   |ª-  +šğKı¼©Ø¿&Ñ:ªš°?ö(\ÂõØ¿       €      ğ?              ğ?                2 - I   ƒ
+  +šğKı¼©Ø¿&Ñ:ªš°?ö(\ÂõØ¿       €      ğ?              ğ?                2 #   h^r +Ãõ(\Âå¿a«‹Ã™Ÿ?333333Ã¿                      ğ?      ğ?                2 ^"   ”ï +šğKı¼©Ø¿^üo%;Ò?ö(\ÂõØ¿       €      ğ?              ğ?                2 ï!   s ^ +šğKı¼©Ø¿&Ñ:ªš°?ö(\ÂõØ¿       €      ğ?              ğ?                R    Û   R     Ú   R    ûÙ   R    öØ   R    ñ×   R    ìÖ   R    çÕ   R    âÔ   R    İÓ   R    ÙÒ   R    ÔÑ   R    ÏĞ   R    ÊÏ   R    ÅÎ   R    ÀÍ   R    »Ì   R    ¶Ë   R    ±Ê   R    ¬É   R    §È   R    ¢Ç   R    Æ   R    ™Å   R    ”Ä   R    Ã   R    ŠÂ   R    …Á    ‚Ğ    |   ‚D æ # d+ D  ‚B  dí +  ‚B ÖÓ õ- B  ‚D R 8 C  Ö+R    À   R    y¿   R    t¾   R    o½   R    j¼   R    e»   R    `º   R    [¹   R    V¸   R    Q·   R    L¶   R    Gµ   R    B´   R    =³   R    8T  R    4S  R    1R  R    .Q  R    +P  R    (O  R    %N  R    "M  R    L  R    K  R    J  R    I  R    H  R    F  R    E  R    	D  R    C  R    B  R     A  R    ı@  R    ú?  R    ÷>  R    ô=  R    ñ<  R    î;  R    ë:  R    è9  R    å8  R    â7  R    ß6  R    Ü5  R    Ù4  R    Ö3  R    Ó2  R    Ğ1  R    Í0  R    Ê/  R    Ç.  R    Ä-  R    Á,  R    ¾+  R    »*  R    ¶(  R    ´'  R    ±&  R    ®%  R    «$  R    ¨#  R    ¥"  R    ¢!  R    Ÿ   R    ™  R    —  R    ”  R      R      R    Š  R    ‡  R    „  R      R    ~  R    {  R    x  R    u  R    r  R    o  R    l  R    g  R    c	  R    a  R    ^  R    [  R    X  R    U  R    R  R    O  R    L  R    I   R    Fÿ   R    Cş   R    @ı   R    =ü   S    6òñññññá?öõõõõõå?òñññññá?S    3òñññññá?öõõõõõå?òñññññá?S    0òñññññá?öõõõõõå?òñññññá?S    -òñññññá?öõõõõõå?òñññññá?S    *òñññññá?öõõõõõå?òñññññá?S    'òñññññá?öõõõõõå?òñññññá?S    $òñññññá?öõõõõõå?òñññññá?S    !òñññññá?öõõõõõå?òñññññá?S    òñññññá?öõõõõõå?òñññññá?S    òñññññá?öõõõõõå?òñññññá?S    òñññññá?öõõõõõå?òñññññá?S    òñññññá?öõõõõõå?òñññññá?S    òñññññá?öõõõõõå?òñññññá?S    òñññññá?öõõõõõå?òñññññá?S    òñññññá?öõõõõõå?òñññññá?S    	òñññññá?öõõõõõå?òñññññá?S    òñññññá?öõõõõõå?òñññññá?S    äòñññññá?öõõõõõå?òñññññá?O    àAEDT_EntityID_V1 v  ù ô Hs ^ ! †+  }Pj ” Ú- } |_ Z„  - | ¥}0 ‚  - ¥ q| uƒ  + 0 ¯   w _    n™’¼Â Q    V  ; 0   eP Q    eU  ;     Q    PW  ; _   ]  R      Q    ] X  ; [   P  R    œ  Q    Y  ; `   ] º  !R     ›  Q    º Z  ; ¹   ·  "R    !š  R    "™  Q    T  ;   e #R      Q    S  ;   y $R    #Ÿ  Q    yR  ; 9  7 %R    $   Q    7Q  ; F   = y &R    %¡  Q    = P  ; 9   7 7 'R    &¢  R    '£   q p¥Å5  - u t“ f0 ¥ƒ |- p Zq30  - Z ¦ p9Ÿ4  - Ÿ iTzZ4 p+R    Ú)  R    Õ  R    Ò   ® ­³Hfc  - “   (²H$   n™’¼Â  µ ´p ²$³g ¼-Q    (c  ;   Jl )Q    Jb  ; H  o( *Q    ld  ; $  (" +R    )  Q    "e  ; }   l{  ,R    +  Q    { f  ; y   " -R    ,  R    -  Q    oa  ; ,  *J .R    *‘  Q    *`  ; (  .o /R    .’  Q    ._  ; ›   ˜ * 0R    /“  Q    ˜ ^  ; –   Æ . 1R    0”  R    1•   ­ ¥®,Âú  - ¥ ­(øõ  -  š¥› £ù  + ø ¦Ü +,¥õ ­+Q    Èš  ; f   c < 2Q    c ™  ; a   È 3Q    <›  ; §   È¥  4R    2Y  Q    ¥ œ  ; £   <ç  5R    4X  Q    ç   ; ¨   ¥ ¯  6R    5W  Q    ¯   ; ­   ç   7R    6U  R    7V  Q    ˜  ; e   ÷ c  8R    3Z  Q    ÷ —  ; õ   ì  9R    8[  R    9\  Q    ˜ƒ  ; @  s? :Q    s‚  ; q  }˜ ;Q    ?„  ; 
+  ˜	 <R    :p  Q    	…  ;   ?& =R    <o  Q    &†  ;   	_ >R    =n  Q    _‡  ; w   &u  ?R    >m  Q    u ˆ  ; s   _Ù  @R    ?l  Q    Ù ‰  ; x   u b AR    @k  Q    bŠ  ; ”   Ù ’  BR    Aj  Q    ’ ‹  ;    b1 CR    Bi  Q    1Œ  ; •   ’  DR    Ch  Q      ;   1S ER    Dg  Q    S  ; ‰   ‡  FR    Ef  Q    ‡   ; …   Sœ  GR    Fe  Q    œ   ; U   ‡ T  HR    Gd  Q    T ‘  ; R   œ ‹  IR    Hc  Q    ‹ ’  ; V   T   JR    Ia  Q     “  ; k   ‹ i  KR    Jb  Q    i ”  ; g    é  LR    K`  R    L_  R    ;q    ïd´ —ÿ  - — å æ ÿ  + ï oÈq  - È ğDê´ ïq +R    VŞ    Y  øQ í¿ è+ í çéèY ¿ -R    !  Q    h  ;    MR    Œ  Q    i  ;    NR    M‹  Q    j  ; æ   ä  OR    NŠ  Q    ä k  ; ´   ²  PR    Oˆ  Q    ² l  ; ±   ä V QR    P‰  Q    Vm  ; µ   ² 5 RR    Q‡  Q    5n  ; 3  Vv SR    R†  Q    vo  ; 6  5Y TR    S…  Q    Yp  ;   v UR    T„  Q    q  ;   Y VR    Uƒ  R    V‚  Q    N s  ; L   X  WR      Q    X t  ; Q   N ª  XR    W€  Q    ª u  ; Z   X E YR    X  Q    Ev  ; ¬   ª M ZR    Y~  Q    Mw  ; G  E\ [R    Z}  Q    \x  ; q   Mo  \R    [|  Q    o y  ; m   \B ]R    \{  Q    Bz  ; r   o { ^R    ]z  Q    {{  ; İ   BÛ  _R    ^y  Q    Û |  ; ¢   {   `R    _x  Q      }  ; ƒ   Û   aR    `w  Q     ~  ;      à  bR    av  Q    à   ; „    h cR    bu  Q    h€  ; â   à } dR    ct  R    ds  R      R    ü
+  R    æG  R    ¤û   R    r  R    ø ]  R    í ^  R    Ï –  R    Ç —  R    ¼ ˜  R    > ¤   +       	  S J    )         
+¯ '              P    & ; e(#                        T    ( Al-ExtrudedO    eAEDT_MaterialName_V1  $end 'x_b'
+$begin 'x_b'
+Design_0.setup/NativeGeometryFiles/0000422.x_b
+BIN000000008376
+**ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz**************************
+**PARASOLID !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~0123456789**************************
+**PART1;
+MC=unknown;
+MC_MODEL=unknown;
+MC_ID=unknown;
+OS=unknown;
+OS_RELEASE=unknown;
+FRU=sdl_parasolid_customer_support;
+APPL=Electronics Desktop;
+SITE=unknown;
+USER=unknown;
+FORMAT=binary;
+GUISE=transmit;
+KEY=D:/temp/Gra69E77084169962831510.setup/Design_0.setup/NativeGeometryFiles/0000422.x_b;
+FILE=D:/temp/Gra69E77084169962831510.setup/Design_0.setup/NativeGeometryFiles/0000422.x_b;
+DATE=unknown;
+**PART2;
+SCH=SCH_3401241_34101;
+USFLD_SIZE=0;
+**PART3;
+**END_OF_HEADER*****************************************************************
+B3   : TRANSMIT FILE created by modeller version 3401241   SCH_3401241_34101_13006ç     ° PART_XMT_BLOCK	Part list	n_entries   dindex_map_offset   d	index_mapR  schema_embedding_mapR  mesh_offset_dataÎ  entriesí                  $CCCIlatticeŞ  CCCImeshî Ipolylineğ CCCCCCCDIowner CCCIboundary_latticeŞ  CCCIboundary_meshî Iboundary_polylineğ CCCAindex_map_offset   dA	index_mapR  Anode_id_index_mapR  Aschema_embedding_mapR  Achild  Alowest_node_id   dAmesh_offset_dataÎ  Z                 @@:Œ0âyE>    	  
+                                       @@:Œ0âyE>                           Q ÿ               F CI	list_type   uI
+notransmit   lCCCDCCDIfinger_index   dIfinger_blockô CZ                    ÿ             ÿ                                 	CCCCCCIframeæ  CAowner  Z          V  ÿ           n™’¼Â J CIindex_map_offset   dCCZ                                Q                Q                P CCCCCDIlegal_owners   lCZ      ! D                        S ÿ         @@O ÿ   ! SDL/TYSA_DENSITYP     " # (#                     T ÿ    UNIT=mmO    # AEDT_EntityName_V1P     $ % (#                     S     {®Gáz„?O    % AEDT_ExtentScale_V1Q        &  '     ( F                  ) )  	 $      *   +  2 ÿ
+ *    * ,   +áz®GáÊ¿ü©ñÒMb?áz®Gáâ¿                      ğ¿              ğ¿         ÿ >    - .   +ö(\Âõà¿a«‹Ã™Ÿ?áz®Gáâ¿                      ğ?  2    / 0  ö(\Âõà¿ü©ñÒMb?áz®Gáâ¿       +  1  V  ÿ     2   n™’¼Â3  4 5         6 7  8 0   n™’¼Â Q    6 ƒ   9    : ;  <  ÿ7  = > ?  @ 4  A + 8    ; 3  B C   n™’¼Â  0 1     D  ö(\Âõà¿a«‹Ã™Ÿ?áz®Gáâ¿ D 0    E C 0 áz®GáÊ¿ü©ñÒMb?Ház®GÑ¿ E    F G H I D   n™’¼Â  C /    8 J D áz®GáÊ¿a«‹Ã™Ÿ?áz®Gáâ¿ J .    K L C ö(\Âõà¿ü©ñÒMb?Ház®GÑ¿ K    M N I / J   n™’¼Â  L -    B O J ö(\Âõà¿a«‹Ã™Ÿ?Ház®GÑ¿ B    P Q 8 H L   n™’¼Â  O ,    I R L áz®GáÊ¿ü©ñÒMb?áz®Gáâ¿ I 	   S T E K O   n™’¼Â  R +    H  O áz®GáÊ¿a«‹Ã™Ÿ?Ház®GÑ¿ H    U V B E R   n™’¼Â Q    U †   9 H   P F  W  V  X G 3 H Y Z  [ - ÿX     3 \   G  X ] V E ^ _  ` - 3  X V ] 8 T   > + Y  a b [ 8 V Z   + Z    c   n™’¼ÂY d e f     [  a Y Q H g h  ^ + a     Y i   Q  a [ b B A -  j + g  k N ^ B [ h   - h    l   n™’¼Â[ e _ m     ^  k g ` H G _   + k     ^ n   `  k ^ N E o p  q + _    r   n™’¼Â^ h p s    Q    r ~   9 _ t  l u  v  p    u   n™’¼Â` _ w x     s <    _ y .  +áz®GáÊ¿ü©ñÒMb?Ház®GÑ¿              ğ?         y ;    z { s  +áz®GáÊ¿ü©ñÒMb?áz®Gáâ¿      ğ¿                 . =    e s   +ö(\Âõà¿ü©ñÒMb?Ház®GÑ¿              ğ?         e    |   n™’¼Âj Z h .    Q    | |   9 e }  c l  ~  j   A € B N e  g +      j    A   @ j  Q -  b - €   j @ K ‚ ƒ   + N  k ` g K j e  o - o  „ ‚ q K ` p  € - „     ‚ …   ‚  „ † o / € ƒ   - q  „ o † E ] w   - †  „ q ‚ I ? z   - ]  X 3 G I q w  † + w 
+   ‡   n™’¼Â] p z ˆ    Q    ‡ €   9 w ‰  u Š  ‹  z    Š   n™’¼Â? w ƒ y     ˆ 9    w Œ {  +áz®GáÊ¿ü©ñÒMb?Ház®GÑ¿                      ğ¿ Œ 8    d  ˆ  +áz®GáÊ¿a«‹Ã™Ÿ?áz®Gáâ¿      ğ¿                 { :    4 ˆ y  +ö(\Âõà¿ü©ñÒMb?áz®Gáâ¿              ğ?         4       n™’¼Â7  - {    Q     x   9 4   2   ‘  -       n™’¼ÂQ 4 d     Q     y   9 - ’   “  ”  d    “   n™’¼Âb - Z Œ    Q    “ z   9 d •   c  –  b  a Q Y  > d   + >  = T 7 8 b d  Y - = "    7 *   T  = ? > I 3   ] - ?  = 7 T / † z  ‚ + /    — @ K     n™’¼Â Q    — Š   9 /   M   ˜  @   € A / 7 4  ? -P    9 ™ š (#                     Q    M ‰   9 K   S —  › R ÿ   ˜ º  Q    S ˆ   9 I   F M  œ R    › ¹  Q    F ‡   9 E   U S   R    œ »  R     ¼  O    š AEDT_EntityID_V1 ÿ* !      n™’¼Â\  = 	 
+ +  \  1 Q     q   9 * Ÿ    ¡  ¢  \    ¡   n™’¼Â * X 	 £ +   * 1  1           * Q    ¡ r   9 \ ¤   ¥  ¦      ¥   n™’¼Âi \  	 § +  i \ 1 2 £ (    \ ¨ ,  +áz®GáÊ¿ü©ñÒMb?Ház®GÑ¿      ğ?                              ğ?        2 ¨ '    i § £  +®Gáz®×¿a«‹Ã™Ÿ?…ëQ¸…Û¿       €      ğ?              ğ?                2 , )    … £ 
+  +®Gáz®×¿ü©ñÒMb?…ëQ¸…Û¿       €      ğ?              ğ?                 …    ©   n™’¼Â n „ 	 , -   n 1 Q    © v   9 … ª  « 2  ¬  n    «   n™’¼Â… i k 	 ­ +  … i 1 Q    « u   9 n ®  ¯ ©  °  i    ¯   n™’¼Ân  a 	 ¨ +  n  1 2 ­ %    n  §  +ö(\Âõà¿ü©ñÒMb?Ház®GÑ¿                      ğ?      ğ?                2 § &     ­ ¨  +ö(\Âõà¿ü©ñÒMb?áz®Gáâ¿      ğ¿                                      ğ?Q    ¯ t   9 i ±  ¥ «  ² Q    ± ]   ³ i  ¯ ´ ® µ Q    ¥ s   9  ´  ¡ ¯  ¶ R    ² ©  Q    ´ \   ³   ¥ ¤ ± · R    ¶ ª  P    ³  ¸ A                       Q    ¤ [   ³ \  ¡ Ÿ ´ ¹ S    · òñññññá?öõõõõõå?òñññññá?Q    Ÿ Z   ³ *    ¤ º S    ¹ òñññññá?öõõõõõå?òñññññá?S    º òñññññá?öõõõõõå?òñññññá?O    ¸ SDL/TYSA_COLOURQ    ® ^   ³ n  « ± ª » S    µ òñññññá?öõõõõõå?òñññññá?Q    ª _   ³ …  © ® ¼ ½ S    » òñññññá?öõõõõõå?òñññññá?Q    ¼ `   ³   2 ª  ¾ S    ½ òñññññá?öõõõõõå?òñññññá?Q    2 w   9  ¼  ©   ¿ Q     a   ³ 4   ¼ ’ À S    ¾ òñññññá?öõõõõõå?òñññññá?Q    ’ b   ³ -    • Á S    À òñññññá?öõõõõõå?òñññññá?Q    • c   ³ d  “ ’ Â Ã S    Á òñññññá?öõõõõõå?òñññññá?Q    Â d   ³ Z  c • } Ä S    Ã òñññññá?öõõõõõå?òñññññá?Q    c {   9 Z Â  “ |  Å Q    } e   ³ e  | Â Æ Ç S    Ä òñññññá?öõõõõõå?òñññññá?Q    Æ f   ³ h  l } t È S    Ç òñññññá?öõõõõõå?òñññññá?Q    l }   9 h Æ  | r  É Q    t g   ³ _  r Æ Ê Ë S    È òñññññá?öõõõõõå?òñññññá?Q    Ê h   ³ p  u t ‰ Ì S    Ë òñññññá?öõõõõõå?òñññññá?Q    u    9 p Ê  r ‡  Í Q    ‰ i   ³ w  ‡ Ê Î Ï S    Ì òñññññá?öõõõõõå?òñññññá?Q    Î j   ³ z  Š ‰ Ğ Ñ S    Ï òñññññá?öõõõõõå?òñññññá?Q    Š    9 z Î  ‡ :  Ò Q    Ğ k   ³ ƒ  : Î  Ó S    Ñ òñññññá?öõõõõõå?òñññññá? ƒ    :   n™’¼Â€ z      Q    : ‚   9 ƒ Ğ  Š 6  Ô S    Ó òñññññá?öõõõõõå?òñññññá?R    Ô ­    7    ƒ m Œ  +ö(\Âõà¿ü©ñÒMb?áz®Gáâ¿                      ğ? m 6    h x   +ö(\Âõà¿a«‹Ã™Ÿ?Ház®GÑ¿      ğ?                 x 5    p 5 m  +ö(\Âõà¿ü©ñÒMb?Ház®GÑ¿      ğ?                 5 4     f x  +áz®GáÊ¿ü©ñÒMb?áz®Gáâ¿              ğ?         f 3    Z  5  +áz®GáÊ¿a«‹Ã™Ÿ?Ház®GÑ¿                      ğ¿R    Ò ®  R    Í °  R    É ²  R    Å ´  R    ¿ ¸  R    ° ¨  R    ¬ §  R    ¦ «  Q      p   9  Õ Ö    × R    ¢ ¬  Q    Õ n   Ø  Ù     Ú Q    Ö ‹   ™    '    Û R    × ¦  P    ™  Ü (#                     Q    ' Œ     Ö     İ R    Û     ÿÿÿÿ   €   T    İ CPUO    Ü AEDT_BODYFlagGroupColor_V1P    Ø Ş ß Q             Q    Ù m   à  á Õ   â T    Ú CPUP    à  ã (#            Q    á Y   ä   Ù   å R    â     P    ä ³ æ h                      S    å                         O    æ SDL/TYSA_COLOUR_2O    ã AttGS_PS_LayerO    ß SDL/TYSA_NAMER    – µ  R    ” ¶  R    ‘ ·  R    ‹ ¯  R    ~ ³  R    v ±  Q    P …   9 B   ; U  ç R    W ½  Q    ; „   9 8   6 P  è R    ç ¾  R    è ¿  R    < À   + #       	  S J    )         á Ğ Ù Õ — Ö '              P    & 9 é (#                        T    ( Ceramic_materialO    é AEDT_MaterialName_V1  $end 'x_b'
+$begin 'x_b'
+Design_0.setup/NativeGeometryFiles/0000450.x_b
+BIN000000008394
+**ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz**************************
+**PARASOLID !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~0123456789**************************
+**PART1;
+MC=unknown;
+MC_MODEL=unknown;
+MC_ID=unknown;
+OS=unknown;
+OS_RELEASE=unknown;
+FRU=sdl_parasolid_customer_support;
+APPL=Electronics Desktop;
+SITE=unknown;
+USER=unknown;
+FORMAT=binary;
+GUISE=transmit;
+KEY=D:/temp/Gra69E77084169962831510.setup/Design_0.setup/NativeGeometryFiles/0000450.x_b;
+FILE=D:/temp/Gra69E77084169962831510.setup/Design_0.setup/NativeGeometryFiles/0000450.x_b;
+DATE=unknown;
+**PART2;
+SCH=SCH_3401241_34101;
+USFLD_SIZE=0;
+**PART3;
+**END_OF_HEADER*****************************************************************
+B3   : TRANSMIT FILE created by modeller version 3401241   SCH_3401241_34101_13006ç     ° PART_XMT_BLOCK	Part list	n_entries   dindex_map_offset   d	index_mapR  schema_embedding_mapR  mesh_offset_dataÎ  entriesí                  $CCCIlatticeŞ  CCCImeshî Ipolylineğ CCCCCCCDIowner CCCIboundary_latticeŞ  CCCIboundary_meshî Iboundary_polylineğ CCCAindex_map_offset   dA	index_mapR  Anode_id_index_mapR  Aschema_embedding_mapR  Achild  Alowest_node_id   dAmesh_offset_dataÎ  Z                 @@:Œ0âyE>    	  
+                                       @@:Œ0âyE>                           Q ÿ               F CI	list_type   uI
+notransmit   lCCCDCCDIfinger_index   dIfinger_blockô CZ                    ÿ             ÿ                                 	CCCCCCIframeæ  CAowner  Z          V  ÿ           n™’¼Â J CIindex_map_offset   dCCZ                                Q                Q                P CCCCCDIlegal_owners   lCZ      ! D                        S ÿ         @@O ÿ   ! SDL/TYSA_DENSITYP     " # (#                     T ÿ    UNIT=mmO    # AEDT_EntityName_V1P     $ % (#                     S     {®Gáz„?O    % AEDT_ExtentScale_V1Q        &  '     ( F                  ) )  	 $      *   +  2 ÿ
+ *    , -   +                               €      ğ?              ğ?                 ÿ >    . /   +š™™™™™ù¿        š™™™™™ñ¿                      ğ?  2    0 1  š™™™™™ù¿        š™™™™™ñ¿       +  2  V  ÿ     3   n™’¼Â4  5 6         7 8  9 :   n™’¼Â Q    7 ƒ   ;    < =  >  ÿ8  ? @ A  4   B - 9    = C  D E   n™’¼Â  : 0     F 1         ü©ñÒMb?š™™™™™ñ¿ F /    G H : š™™™™™ù¿ü©ñÒMb?š™™™™™ñ¿ 1 1    D :  š™™™™™ù¿ü©ñÒMb?         D    I J 9 G 1   n™’¼Â Q    I …   ; D   = K  L  J  M N O D P Q  R - G    K 4 D S F   n™’¼Â Q    K †   ; G   I T  U  4  V W B G 8   A + S    T @ G 0 X   n™’¼Â Q    T ‡   ; S   K Y  Z  @  ? [ 8 S \ ]  ^ - 0 	   Y _ S `    n™’¼Â  X ,    S E a                 š™™™™™ñ¿ E +    9  X         ü©ñÒMb?         a -    b X H š™™™™™ù¿                 b    c N `  a   n™’¼Â  H .    ` a F                          `    d e 0 b H   n™’¼Â Q    d ‰   ; `   Y c  f  e  g ^ C ` O h  i - ÿg     \ j   ^  g \ e S i k  l + C  g e \ 9 B 5  O - O  M J m 9 e h  P + h    n   n™’¼ÂO ] Q o     i  p q l ` ^ k  m - p     q ,   q  p r i b m s   - l  p i r S [ t   - k    u   n™’¼Â^ v t w     m  M O N ` q s   + M     J x   N  M m J b R y  z + s    <   n™’¼Âm .  /    Q    < ‚   ; s {  | 7  }  .    |   n™’¼Âz t s      / =    s ~   +q=
+×£pÍ¿                      ğ?                 ~ <     6 /  +š™™™™™ù¿        š™™™™™ñ¿              ğ?             €   n™’¼ÂA y v ~     6 ;      ~  +        ü©ñÒMb?š™™™™™ñ¿      ğ¿                  :    5 ‚ 6  +        ü©ñÒMb?                              ğ¿ 5    ƒ   n™’¼ÂB  ]      ‚ 9    v „   +š™™™™™ù¿ü©ñÒMb?š™™™™™ñ¿                      ğ? v    …   n™’¼ÂW  k ‚     „ 8    ] † ‚  +                š™™™™™ñ¿              ğ?         ]    ‡   n™’¼Â\ 5 h „     † 7    y o „  +š™™™™™ù¿                              ğ¿         y    ˆ   n™’¼ÂN Q  †     o 6    h ‰ †  +                                      ğ?         ‰ 5    Q w o  +×£p=
+×ó¿ü©ñÒMb?              ğ?                 Q    Š   n™’¼ÂP h y ‰     w 4    k ‹ ‰  +                                              ğ¿ ‹ 3    t  w  +                š™™™™™ñ¿      ğ¿                 t 
+   Œ   n™’¼Â[ k . ‹    Q    Œ €   ; t   u |    [  ? A @ 0 l t  r + ? "    A *   A  ? 8 [ G _    + r  p l q 0 z .   - z   R _ b r .  q +       ‘   R    z D N y  W - _   z  0 A   [ -    _ R G W v   - W  V P 4 D  v   + V     W ’   P  V B W 9 J Q   + B  V 4 P  C 5  \ + \  g C ^  @ ]   + ÿ’    “   n™’¼Âj * V 	 ” +  j * 2 Q    “ r   ; ’ •  – —  ˜  j    —   n™’¼Âx ’ g 	 ™ +  x ’ 2  * !   –   n™’¼Â’  ? 	 - +  ’  2 2 ” &    ’ š ›  +gfffffö¿ü©ñÒMb?333333Ã¿       €      ğ?              ğ?                 2           * 2 š %    ‘  ”  +š™™™™™ù¿        š™™™™™ñ¿      ğ¿                                      ğ?2 › '    x ” ™  +š™™™™™ù¿                                      ğ?      ğ?                 x    œ   n™’¼Â‘ j M 	 › +  ‘ j 2 2 ™ (    j › -  +                              ğ?                              ğ?        2 - )    * ™ 
+  +                š™™™™™ñ¿                      ğ¿              ğ¿        Q    œ t   ; x   —   Ÿ  ‘       n™’¼Â, x  	 š +  , x 2 Q     u   ; ‘    œ ¡  ¢  ,    ¡   n™’¼Â ‘ p 	 
+ -   ‘ 2 Q    ¡ v   ; , £   3  ¤ P    ; ¥ ¦ (#                     Q    £ _   § ,  ¡   ¨ © Q    3 w   ;  ¨  ¡ ƒ  ª R ÿ   ¤ Ã  Q    ¨ `   §   3 £ « ¬ Q    ƒ x   ; 5 «  3 ‡  ­ R    ª Ô  Q    « a   § 5  ƒ ¨ ® ¯ Q    ‡ y   ; ] ®  ƒ n  ° R    ­ Ó  Q    ® b   § ]  ‡ « ± ² Q    n z   ; h ±  ‡ Š  ³ R    ° Ò  Q    ± c   § h  n ® ´ µ Q    Š {   ; Q ´  n ˆ  ¶ R    ³ Ñ  Q    ´ d   § Q  Š ± · ¸ Q    ˆ |   ; y ·  Š €  ¹ R    ¶ Ğ  Q    · e   § y  ˆ ´ º » Q    € }   ;  º  ˆ …  ¼ R    ¹ Ï  Q    º f   §   € · ½ ¾ Q    … ~   ; v ½  € u  ¿ R    ¼ Î  Q    ½ g   § v  … º À Á Q    u    ; k À  … Œ  Â R    ¿ Í  Q    À h   § k  u ½  Ã R    Â Ì  P    §  Ä A                       Q     i   § t  Œ À Å Æ S    Ã òñññññá?öõõõõõå?òñññññá?Q    Å j   § .  |  { Ç S    Æ òñññññá?öõõõõõå?òñññññá?Q    |    ; . Å  Œ <  È Q    { k   § s  < Å  É S    Ç òñññññá?öõõõõõå?òñññññá?S    É òñññññá?öõõõõõå?òñññññá?R    È Ê  O    Ä SDL/TYSA_COLOURS    Á òñññññá?öõõõõõå?òñññññá?S    ¾ òñññññá?öõõõõõå?òñññññá?S    » òñññññá?öõõõõõå?òñññññá?S    ¸ òñññññá?öõõõõõå?òñññññá?S    µ òñññññá?öõõõõõå?òñññññá?S    ² òñññññá?öõõõõõå?òñññññá?S    ¯ òñññññá?öõõõõõå?òñññññá?S    ¬ òñññññá?öõõõõõå?òñññññá?Q      ^   § ‘    £ Ê S    © òñññññá?öõõõõõå?òñññññá?Q     ]   § x  œ Ë   Ì S    Ê òñññññá?öõõõõõå?òñññññá?Q    Ë \   § j  — •  Í S    Ì òñññññá?öõõõõõå?òñññññá?Q    — s   ; j Ë  “ œ  Î Q    • [   § ’  “ Ï Ë Ğ S    Í òñññññá?öõõõõõå?òñññññá?Q    Ï Z   § *  –  • Ñ S    Ğ òñññññá?öõõõõõå?òñññññá?Q    – q   ; * Ï  Ò “  Ó S    Ñ òñññññá?öõõõõõå?òñññññá?Q    Ò p   ;  Ô Õ  –  Ö R    Ó È  Q    Ô n   ×  Ø Ò   Ù Q    Õ ‹   ¥  Ò '    Ú R    Ö Â  P    ¥  Û (#                     Q    ' Œ     Õ     Ü R    Ú     ÿÿÿÿ¯€   T    Ü ALPHA_MAIN_PCBO    Û AEDT_BODYFlagGroupColor_V1P    × İ Ş Q             Q    Ø m   ß  à Ô   á T    Ù ALPHA_MAIN_PCBP    ß  â (#            Q    à Y   ã   Ø   ä R    á     P    ã § å h                      S    ä òñññññá?öõõõõõå?òñññññá?O    å SDL/TYSA_COLOUR_2O    â AttGS_PS_LayerO    Ş SDL/TYSA_NAMER    Î Æ  O    ¦ AEDT_EntityID_V1R    ¢ Ä  R    Ÿ Å  R    ˜ Ç  R     Ë  R    } É  Q    Y ˆ   ; 0   T d  æ Q    c Š   ; b   d   ç R    f Õ  R    ç Ö  R    æ ×  R    Z Ø  R    U Ú  Q    = „   ; 9   7 I  è R    L Ù  R    è Û  R    > Ü   + #       	  S J    )         à { Ø Ô c Õ '              P    & ; é (#                        T    ( PCB_MaterialO    é AEDT_MaterialName_V1  $end 'x_b'
+$end 'Design_0.setup/NativeGeometryFiles'
+$end 'AllReferencedFilesForProject'
+$begin 'ProjectPreview'
+	IsEncrypted=false
+	Thumbnail64='/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQE\
+BAQICAQECAQEBAgICAgICAgICAQICAgICAgICAgL/2wBDAQEBAQEBAQEBAQECAQEBAgICAgICAgICAg\
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgL/wAARCABgAGADASIAAhEBAxEB/\
+8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQR\
+BRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUp\
+TVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5us\
+LDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAA\
+AECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHB\
+CSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ\
+3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4u\
+Pk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD+/iiiigAooqOWWK3ilnnljhghjeWaaV1jiiijU\
+vJLLI5AjjVFJZiQAASTigCSiv4JfjZrPxy+PvxM/aV/4Lj/AAzv7248G/sxftk/CPwn8KNHKSx2eu/C\
+PwLLFoU2ovhS9tp7Q3nwmW/giSS3nHxH1+Sd82r+Z/UF+3j/AMFSPDH7Hf7HXwS/bH8FfDEfHfwh8c/\
+F3w70Lwxon/Cep8O2h0L4jfDPxp8StL8RS6yng7XhNPFZ+E4raSy+yxnfqbOblDbmKYA/Viivwn+LP/\
+BZ3xz+z9rXws8Y/H39gH40/CH9lb4yeJ9O8PeCfj34n+IvgO48U+Rq1u2oWOo+J/grolrdXXg64bRI7\
+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\
+'
+	$begin 'DesignInfo'
+		DesignName='IcepakDesign1'
+		Notes=''
+		Factory='Icepak'
+		IsSolved=false
+		'Nominal Setups'[1: 'Setup1']
+		'Nominal Setup Types'[1: '']
+		'Optimetrics Setups'[0:]
+		'Optimetrics Experiment Types'[0:]
+		Image64='/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQE\
+BAQICAQECAQEBAgICAgICAgICAQICAgICAgICAgL/2wBDAQEBAQEBAQEBAQECAQEBAgICAgICAgICAg\
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgL/wAARCADIAMgDASIAAhEBAxEB/\
+8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQR\
+BRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUp\
+TVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5us\
+LDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAA\
+AECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHB\
+CSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ\
+3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4u\
+Pk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD+/iiiigAooooAKKKKACiiigAooooAKKKKACiii\
+gAooooAKKwfFXifQvBPhjxH4z8Uajb6P4Z8I6DrHifxFq92xW10rQtA0+41XV9RuWAO23g0+0uJXPZY\
+jX8WH7Pn7dP7avhz9pb4D/8ABRr4x/Fv4rD9h/8Aaq/a9+LvwTg+E3iH4g+ML34Y/D7wdqQstJ8MapF\
+4RvNYfR9O07SptY1d7OW0txcmf4Nay0hb7SfPAP7baK/P/wDba/4KS/s9/sB+KPgB4c+Pdh8RRbftDa\
+94l0TQPFPg3w/omveHfBkHhDUfAdh4g1/x6t54os9QttFgj+IOlXGNI0/WL2SDTrzy7N50t4LnyL4cf\
+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\
+CTx38SNR0j+0HtPEPxR+IF8Jdb+KHi1rnWNaubjWPEGoalqt5ea5fXt3eT3d7dTTej7fNsTpQwUMvg9\
+HPEzjUqRa1uqGHnKE4SXupvF0pRlzSdNxjFVPjP7K8Psm9/NOJ8RxhiI+8sPkmHq4PC1YS9xQqZtnOH\
+o4rC4ilLmrThT4dx9CpTjSpQxUKlerPB+S/wDC/PjJ495+BH7MPi3U9Jb/AEux+IH7S3iOf9lzwLrun\
+W3+hapY6T4Uu/B3ij4o6P4ti1xzDBa+JPhj4d0q+s9Jv9UtNdktH0I68f8ACl/2jfG3+ifGD9qr7D4f\
+j/0afw9+y78IrX4Bf8Jdo+o/uvEWjeOfGPxF8f8AxK8Tab5llDDBpmp+Atd8A67pH9o6hdRatPqDaRe\
+aJ9Z0Uf2W62uPx1fFt68sZvD0ot/HGNPDunKdOWiUMTUxDjFcvO+ao5n+vcMt/d8J8K5Xw9Tj7vt6uF\
+p5vmFWMNKFWris2ji6WGxlNc054jJcJk9OrWm6n1eEaWEpYbw/4afs2/A/4R67d+MfBPw80mL4janpM\
++ga98XvFFzq3xC+OHirQp7ywvRovjP44/EHUdU8XeNNJhfSNDitbbVtavIbO08O6ZY2qQ2Wm2EFv7hR\
+RXfh8NhsJTVHC4eGGopt8lOEYRu93yxSV31dj5POM8zriHGyzHP83xWeZhKMYOvjMRVxNZwgrQi6tac\
+5uMVpGPNaK2SCiiitzywooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAC\
+iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA\
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK\
+ACiiigAooooAKKKKAP/Z'
+	$end 'DesignInfo'
+$end 'ProjectPreview'
